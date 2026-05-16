@@ -2,8 +2,6 @@ import streamlit as st
 import random
 import json
 import os
-import base64
-from pathlib import Path
 
 st.set_page_config(
     page_title="Ultimate Year 7 Revision Guide",
@@ -12,19 +10,6 @@ st.set_page_config(
 )
 
 QUESTIONS_FOLDER = "questions"
-
-LEARNING_MATERIALS = {
-    "Religious Education": [
-        {
-            "title": "Full RE KAT Learning",
-            "path": "materials/religious_education/1_re_full_kat_learning.pdf"
-        },
-        {
-            "title": "RE Summer KAT Learning",
-            "path": "materials/religious_education/2_re_summer_kat_learning.pdf"
-        }
-    ]
-}
 
 st.markdown("""
 <style>
@@ -107,16 +92,6 @@ st.markdown("""
         overflow-wrap: anywhere;
     }
 
-    .material-card {
-        background: #ecfeff;
-        padding: 1.2rem;
-        border-radius: 22px;
-        border: 3px solid #111827;
-        box-shadow: 5px 5px 0px #111827;
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
-    }
-
     .question-text {
         font-family: 'Patrick Hand', cursive;
         font-size: 2rem;
@@ -172,6 +147,7 @@ st.markdown("""
         font-weight: 900;
     }
 
+    /* ALL BUTTONS */
     div.stButton > button {
         border-radius: 18px !important;
         border: 3px solid #111827 !important;
@@ -188,11 +164,13 @@ st.markdown("""
         box-shadow: 2px 2px 0px #111827 !important;
     }
 
+    /* Secondary buttons */
     div.stButton > button:not([kind="primary"]) {
         background: #ffffff !important;
         color: #111827 !important;
     }
 
+    /* Radio container */
     .stRadio > div {
         background: #ffffff;
         padding: 1rem;
@@ -201,6 +179,7 @@ st.markdown("""
         width: 100%;
     }
 
+    /* Force radio text visible */
     .stRadio label,
     .stRadio label span,
     .stRadio label div,
@@ -216,14 +195,6 @@ st.markdown("""
         padding: 0.45rem 0 !important;
     }
 
-    iframe {
-        width: 100%;
-        height: 650px;
-        border: 3px solid #111827;
-        border-radius: 18px;
-        background: white;
-    }
-
     .footer-note {
         font-family: 'Patrick Hand', cursive;
         color: #4b5563;
@@ -232,6 +203,7 @@ st.markdown("""
         margin-top: 1.5rem;
     }
 
+    /* Secret pencil button */
     div[data-testid="stButton"] button[kind="secondary"] {
         min-height: 48px;
     }
@@ -266,12 +238,6 @@ st.markdown("""
             box-shadow: 4px 4px 0px #111827;
         }
 
-        .material-card {
-            padding: 1rem;
-            border-radius: 18px;
-            box-shadow: 4px 4px 0px #111827;
-        }
-
         .question-text {
             font-size: 1.55rem;
             line-height: 1.15;
@@ -295,10 +261,6 @@ st.markdown("""
         div.stButton > button {
             width: 100%;
             min-height: 48px;
-        }
-
-        iframe {
-            height: 520px;
         }
 
         .easter-egg-card {
@@ -356,8 +318,7 @@ defaults = {
     "score": 0,
     "answered": False,
     "results": [],
-    "show_easter_egg": False,
-    "show_learning_materials": False
+    "show_easter_egg": False
 }
 
 for key, value in defaults.items():
@@ -438,62 +399,6 @@ def next_question():
 def toggle_easter_egg():
     st.session_state.show_easter_egg = not st.session_state.show_easter_egg
 
-def toggle_learning_materials():
-    st.session_state.show_learning_materials = not st.session_state.show_learning_materials
-
-def show_pdf(file_path):
-    path = Path(file_path)
-
-    if not path.exists():
-        st.warning(f"I cannot find this file yet: {file_path}")
-        return
-
-    with open(path, "rb") as pdf_file:
-        encoded_pdf = base64.b64encode(pdf_file.read()).decode("utf-8")
-
-    st.markdown(
-        f"""
-        <iframe
-            src="data:application/pdf;base64,{encoded_pdf}"
-            type="application/pdf">
-        </iframe>
-        """,
-        unsafe_allow_html=True
-    )
-
-    with open(path, "rb") as file:
-        st.download_button(
-            label="⬇ Download this material",
-            data=file,
-            file_name=path.name,
-            mime="application/pdf"
-        )
-
-def show_learning_materials(subject):
-    materials = LEARNING_MATERIALS.get(subject, [])
-
-    if not materials:
-        return
-
-    st.markdown('<div class="material-card">', unsafe_allow_html=True)
-    st.subheader("📘 Learning material available")
-    st.write("Use these before the quiz, after the quiz, or during the quiz if your brain is pretending it has never seen RE before.")
-
-    if st.button("View learning material"):
-        toggle_learning_materials()
-        st.rerun()
-
-    if st.session_state.show_learning_materials:
-        selected_material = st.selectbox(
-            "Choose a document",
-            materials,
-            format_func=lambda item: item["title"]
-        )
-
-        show_pdf(selected_material["path"])
-
-    st.markdown('</div>', unsafe_allow_html=True)
-
 st.button("✏️", key="secret_pencil", on_click=toggle_easter_egg)
 
 st.markdown("""
@@ -546,8 +451,6 @@ if not st.session_state.quiz_started:
         unsafe_allow_html=True
     )
 
-    show_learning_materials(selected_subject)
-
     st.write(f"Available questions: **{len(available_questions)}**")
 
     if len(available_questions) > 0:
@@ -597,8 +500,6 @@ else:
         )
 
         st.markdown('</div>', unsafe_allow_html=True)
-
-        show_learning_materials(question["subject"])
 
         selected_answer = st.radio(
             "Choose your answer:",
