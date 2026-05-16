@@ -1,0 +1,813 @@
+{
+  "subject": "History",
+  "topics": {
+    "Henry Tudor": [
+      {
+        "question": "Who became King of England after the Battle of Bosworth?",
+        "options": [
+          "Henry Tudor",
+          "Richard III",
+          "Edward IV",
+          "Henry VIII"
+        ],
+        "answer": "Henry Tudor"
+      },
+      {
+        "question": "In which year was the Battle of Bosworth?",
+        "options": [
+          "1485",
+          "1066",
+          "1348",
+          "871"
+        ],
+        "answer": "1485"
+      },
+      {
+        "question": "Which king did Henry Tudor defeat at Bosworth?",
+        "options": [
+          "Richard III",
+          "William I",
+          "Alfred the Great",
+          "Henry VIII"
+        ],
+        "answer": "Richard III"
+      },
+      {
+        "question": "What royal house did Henry Tudor begin?",
+        "options": [
+          "The Tudor dynasty",
+          "The Norman dynasty",
+          "The Stuart dynasty",
+          "The Plantagenet dynasty"
+        ],
+        "answer": "The Tudor dynasty"
+      },
+      {
+        "question": "What name did Henry Tudor use as king?",
+        "options": [
+          "Henry VII",
+          "Henry VI",
+          "Henry VIII",
+          "Edward VII"
+        ],
+        "answer": "Henry VII"
+      },
+      {
+        "question": "Why was Henry's claim to the throne seen as weak?",
+        "options": [
+          "It came through a distant family line",
+          "He was not from England at all",
+          "He refused to be crowned",
+          "He was already king of France"
+        ],
+        "answer": "It came through a distant family line"
+      },
+      {
+        "question": "Who did Henry VII marry to unite rival houses?",
+        "options": [
+          "Elizabeth of York",
+          "Catherine of Aragon",
+          "Mary Tudor",
+          "Anne Boleyn"
+        ],
+        "answer": "Elizabeth of York"
+      },
+      {
+        "question": "Which two houses were symbolically united by Henry's marriage?",
+        "options": [
+          "Lancaster and York",
+          "Normandy and Wessex",
+          "Stuart and Hanover",
+          "Rome and Saxony"
+        ],
+        "answer": "Lancaster and York"
+      },
+      {
+        "question": "What symbol represented the new Tudor dynasty?",
+        "options": [
+          "The Tudor rose",
+          "The red dragon only",
+          "The white horse",
+          "The golden lion only"
+        ],
+        "answer": "The Tudor rose"
+      },
+      {
+        "question": "Why did Henry VII use propaganda?",
+        "options": [
+          "To strengthen his image as rightful king",
+          "To teach farming",
+          "To end all taxes",
+          "To build castles only"
+        ],
+        "answer": "To strengthen his image as rightful king"
+      },
+      {
+        "question": "What was one challenge Henry VII faced after becoming king?",
+        "options": [
+          "Rebellions and pretenders",
+          "A Roman invasion",
+          "The Black Death starting",
+          "Viking longships attacking London"
+        ],
+        "answer": "Rebellions and pretenders"
+      },
+      {
+        "question": "What is a pretender in Tudor history?",
+        "options": [
+          "Someone claiming to be the rightful monarch",
+          "A tax collector",
+          "A church builder",
+          "A medieval doctor"
+        ],
+        "answer": "Someone claiming to be the rightful monarch"
+      },
+      {
+        "question": "Why did Henry VII want strong finances?",
+        "options": [
+          "To make the monarchy more secure",
+          "To avoid having a court",
+          "To give up power",
+          "To stop trade completely"
+        ],
+        "answer": "To make the monarchy more secure"
+      },
+      {
+        "question": "How did Henry VII try to control powerful nobles?",
+        "options": [
+          "By limiting their private armies and power",
+          "By making them all kings",
+          "By banning castles from England",
+          "By moving them to France"
+        ],
+        "answer": "By limiting their private armies and power"
+      },
+      {
+        "question": "What were the Wars of the Roses?",
+        "options": [
+          "A conflict between the houses of Lancaster and York",
+          "A war against Vikings",
+          "A religious war led by Henry VIII",
+          "A battle between England and Spain in 1588"
+        ],
+        "answer": "A conflict between the houses of Lancaster and York"
+      },
+      {
+        "question": "Which side was Henry Tudor linked to?",
+        "options": [
+          "Lancaster",
+          "York",
+          "Normandy",
+          "Wessex"
+        ],
+        "answer": "Lancaster"
+      },
+      {
+        "question": "Why was Bosworth important?",
+        "options": [
+          "It ended Richard III's reign and began Tudor rule",
+          "It began the Black Death",
+          "It made Alfred king",
+          "It caused the Norman Conquest"
+        ],
+        "answer": "It ended Richard III's reign and began Tudor rule"
+      },
+      {
+        "question": "What did Henry VII want most after 1485?",
+        "options": [
+          "Stability and security",
+          "Constant war with every neighbour",
+          "To abolish the monarchy",
+          "To become a Viking"
+        ],
+        "answer": "Stability and security"
+      },
+      {
+        "question": "What is a dynasty?",
+        "options": [
+          "A line of rulers from the same family",
+          "A type of tax",
+          "A medieval weapon",
+          "A church court"
+        ],
+        "answer": "A line of rulers from the same family"
+      },
+      {
+        "question": "Why is Henry Tudor significant in English history?",
+        "options": [
+          "He founded the Tudor dynasty",
+          "He created the Domesday Book",
+          "He led the Peasants' Revolt",
+          "He discovered America"
+        ],
+        "answer": "He founded the Tudor dynasty"
+      }
+    ],
+    "Norman Conquests": [
+      {
+        "question": "In which year was the Norman Conquest of England?",
+        "options": [
+          "1066",
+          "1485",
+          "1348",
+          "871"
+        ],
+        "answer": "1066"
+      },
+      {
+        "question": "Who led the Norman invasion of England?",
+        "options": [
+          "William of Normandy",
+          "Harold Godwinson",
+          "Alfred the Great",
+          "Henry Tudor"
+        ],
+        "answer": "William of Normandy"
+      },
+      {
+        "question": "Who was King of England at the Battle of Hastings?",
+        "options": [
+          "Harold Godwinson",
+          "William I",
+          "Edward I",
+          "Richard III"
+        ],
+        "answer": "Harold Godwinson"
+      },
+      {
+        "question": "What battle decided the Norman Conquest?",
+        "options": [
+          "Battle of Hastings",
+          "Battle of Bosworth",
+          "Battle of Stamford Bridge",
+          "Battle of Agincourt"
+        ],
+        "answer": "Battle of Hastings"
+      },
+      {
+        "question": "Why did William claim the English throne?",
+        "options": [
+          "He said Edward the Confessor had promised it to him",
+          "He had been elected by Parliament",
+          "He was Harold's son",
+          "He already ruled Scotland"
+        ],
+        "answer": "He said Edward the Confessor had promised it to him"
+      },
+      {
+        "question": "What happened to Harold Godwinson at Hastings?",
+        "options": [
+          "He was killed",
+          "He became Duke of Normandy",
+          "He escaped to Ireland",
+          "He crowned William"
+        ],
+        "answer": "He was killed"
+      },
+      {
+        "question": "What title did William receive after conquest?",
+        "options": [
+          "King of England",
+          "Emperor of Rome",
+          "King of Spain",
+          "Pope"
+        ],
+        "answer": "King of England"
+      },
+      {
+        "question": "What were motte-and-bailey castles used for?",
+        "options": [
+          "Controlling local areas",
+          "Growing crops",
+          "Holding markets only",
+          "Storing fishing boats"
+        ],
+        "answer": "Controlling local areas"
+      },
+      {
+        "question": "What was the Domesday Book?",
+        "options": [
+          "A survey of land, people and resources",
+          "A religious prayer book only",
+          "A battle plan",
+          "A Viking saga"
+        ],
+        "answer": "A survey of land, people and resources"
+      },
+      {
+        "question": "Why did William order the Domesday survey?",
+        "options": [
+          "To know what people owned and what tax could be collected",
+          "To count stars",
+          "To plan a crusade",
+          "To record school lessons"
+        ],
+        "answer": "To know what people owned and what tax could be collected"
+      },
+      {
+        "question": "What language did Norman rulers bring to England's elite?",
+        "options": [
+          "French",
+          "Spanish",
+          "German",
+          "Greek"
+        ],
+        "answer": "French"
+      },
+      {
+        "question": "What happened to many Anglo-Saxon nobles after the conquest?",
+        "options": [
+          "They lost land and power",
+          "They all became kings",
+          "They moved to Normandy as rulers",
+          "They were made popes"
+        ],
+        "answer": "They lost land and power"
+      },
+      {
+        "question": "What is feudalism?",
+        "options": [
+          "A system of landholding and loyalty",
+          "A type of church window",
+          "A farming tool",
+          "A Viking ship"
+        ],
+        "answer": "A system of landholding and loyalty"
+      },
+      {
+        "question": "Who was at the top of Norman feudal society?",
+        "options": [
+          "The king",
+          "Peasants",
+          "Knights",
+          "Monks"
+        ],
+        "answer": "The king"
+      },
+      {
+        "question": "Why did William build castles quickly?",
+        "options": [
+          "To show power and defend control",
+          "To house every peasant",
+          "To make churches unnecessary",
+          "To stop farming"
+        ],
+        "answer": "To show power and defend control"
+      },
+      {
+        "question": "What was the Harrying of the North?",
+        "options": [
+          "William's brutal punishment of northern rebellion",
+          "A Viking festival",
+          "A peaceful tax reform",
+          "A battle in France"
+        ],
+        "answer": "William's brutal punishment of northern rebellion"
+      },
+      {
+        "question": "Which group invaded England shortly before Hastings and fought at Stamford Bridge?",
+        "options": [
+          "Vikings",
+          "Romans",
+          "Spanish Armada",
+          "Aztecs"
+        ],
+        "answer": "Vikings"
+      },
+      {
+        "question": "Why was Harold's army tired before Hastings?",
+        "options": [
+          "They had marched south after fighting in the north",
+          "They had crossed the Atlantic",
+          "They had been farming for years",
+          "They were all children"
+        ],
+        "answer": "They had marched south after fighting in the north"
+      },
+      {
+        "question": "What was one long-term impact of the Norman Conquest?",
+        "options": [
+          "Changes to land ownership, language and government",
+          "England stopped having kings",
+          "The Black Death ended",
+          "All castles were destroyed immediately"
+        ],
+        "answer": "Changes to land ownership, language and government"
+      },
+      {
+        "question": "What does conquest mean?",
+        "options": [
+          "Taking control of a place by force",
+          "A peaceful election",
+          "A religious festival",
+          "A type of farming"
+        ],
+        "answer": "Taking control of a place by force"
+      }
+    ],
+    "Alfred the Great": [
+      {
+        "question": "Alfred the Great was king of which Anglo-Saxon kingdom?",
+        "options": [
+          "Wessex",
+          "Normandy",
+          "Mercia only",
+          "Northumbria only"
+        ],
+        "answer": "Wessex"
+      },
+      {
+        "question": "Who were Alfred's major enemies?",
+        "options": [
+          "Vikings",
+          "Normans",
+          "Romans",
+          "Tudors"
+        ],
+        "answer": "Vikings"
+      },
+      {
+        "question": "In which century did Alfred rule?",
+        "options": [
+          "9th century",
+          "11th century",
+          "15th century",
+          "14th century"
+        ],
+        "answer": "9th century"
+      },
+      {
+        "question": "Why is Alfred called 'the Great'?",
+        "options": [
+          "He defended Wessex and encouraged learning and reform",
+          "He conquered the whole world",
+          "He built the pyramids",
+          "He was the first Tudor king"
+        ],
+        "answer": "He defended Wessex and encouraged learning and reform"
+      },
+      {
+        "question": "What was the Danelaw?",
+        "options": [
+          "An area of England under Viking control and law",
+          "A Norman castle tax",
+          "A church book",
+          "A Tudor court"
+        ],
+        "answer": "An area of England under Viking control and law"
+      },
+      {
+        "question": "What treaty helped divide land between Alfred and Viking control?",
+        "options": [
+          "Treaty of Wedmore",
+          "Treaty of Versailles",
+          "Magna Carta",
+          "Act of Union"
+        ],
+        "answer": "Treaty of Wedmore"
+      },
+      {
+        "question": "What did Alfred improve to defend his kingdom?",
+        "options": [
+          "Fortified towns called burhs",
+          "Railways",
+          "Stonehenge",
+          "Roman roads only"
+        ],
+        "answer": "Fortified towns called burhs"
+      },
+      {
+        "question": "What is a burh?",
+        "options": [
+          "A fortified settlement",
+          "A Viking ship",
+          "A type of tax",
+          "A royal crown"
+        ],
+        "answer": "A fortified settlement"
+      },
+      {
+        "question": "Why were burhs useful?",
+        "options": [
+          "They helped defend against Viking attacks",
+          "They made crops grow faster",
+          "They replaced all churches",
+          "They stopped trade"
+        ],
+        "answer": "They helped defend against Viking attacks"
+      },
+      {
+        "question": "What did Alfred encourage besides military defence?",
+        "options": [
+          "Education and learning",
+          "The end of books",
+          "Only Viking law",
+          "No religion"
+        ],
+        "answer": "Education and learning"
+      },
+      {
+        "question": "What religion was Alfred?",
+        "options": [
+          "Christianity",
+          "Islam",
+          "Buddhism",
+          "Humanism"
+        ],
+        "answer": "Christianity"
+      },
+      {
+        "question": "What did Vikings often arrive in?",
+        "options": [
+          "Longships",
+          "Steam trains",
+          "Cars",
+          "Hot air balloons"
+        ],
+        "answer": "Longships"
+      },
+      {
+        "question": "What was one reason Viking raids were difficult to stop?",
+        "options": [
+          "They could attack quickly by sea and river",
+          "They only attacked in winter",
+          "They had modern tanks",
+          "They never moved"
+        ],
+        "answer": "They could attack quickly by sea and river"
+      },
+      {
+        "question": "What is a chronicle?",
+        "options": [
+          "A written record of events",
+          "A type of sword",
+          "A Viking helmet",
+          "A tax coin"
+        ],
+        "answer": "A written record of events"
+      },
+      {
+        "question": "What did Alfred want more people to be able to do?",
+        "options": [
+          "Read and learn",
+          "Forget laws",
+          "Stop farming",
+          "Leave England"
+        ],
+        "answer": "Read and learn"
+      },
+      {
+        "question": "What was Wessex?",
+        "options": [
+          "An Anglo-Saxon kingdom in southern England",
+          "A Viking god",
+          "A Norman castle",
+          "A Tudor ship"
+        ],
+        "answer": "An Anglo-Saxon kingdom in southern England"
+      },
+      {
+        "question": "Which word best describes Alfred's response to Viking threats?",
+        "options": [
+          "Organised",
+          "Careless",
+          "Imaginary",
+          "Uninterested"
+        ],
+        "answer": "Organised"
+      },
+      {
+        "question": "Why were laws important to Alfred's rule?",
+        "options": [
+          "They helped create order and justice",
+          "They made farming impossible",
+          "They ended religion",
+          "They removed all kings"
+        ],
+        "answer": "They helped create order and justice"
+      },
+      {
+        "question": "What did Alfred help preserve in Anglo-Saxon England?",
+        "options": [
+          "Wessex and Christian learning",
+          "Roman emperors",
+          "The Tudor dynasty",
+          "The Spanish Armada"
+        ],
+        "answer": "Wessex and Christian learning"
+      },
+      {
+        "question": "Why is Alfred important in British history?",
+        "options": [
+          "He helped resist Viking control and strengthened his kingdom",
+          "He caused the Black Death",
+          "He founded the Norman dynasty",
+          "He defeated Henry Tudor"
+        ],
+        "answer": "He helped resist Viking control and strengthened his kingdom"
+      }
+    ],
+    "Black Death": [
+      {
+        "question": "What was the Black Death?",
+        "options": [
+          "A deadly plague pandemic",
+          "A Norman invasion",
+          "A Tudor rebellion",
+          "A Viking law code"
+        ],
+        "answer": "A deadly plague pandemic"
+      },
+      {
+        "question": "When did the Black Death reach England?",
+        "options": [
+          "1348",
+          "1066",
+          "1485",
+          "871"
+        ],
+        "answer": "1348"
+      },
+      {
+        "question": "What caused the Black Death?",
+        "options": [
+          "Bacteria spread by fleas on rats and through people",
+          "Bad weather only",
+          "A lack of castles",
+          "Too much sunlight"
+        ],
+        "answer": "Bacteria spread by fleas on rats and through people"
+      },
+      {
+        "question": "What was one common symptom of the Black Death?",
+        "options": [
+          "Painful swellings called buboes",
+          "Green hair",
+          "Broken bones only",
+          "Instant blindness only"
+        ],
+        "answer": "Painful swellings called buboes"
+      },
+      {
+        "question": "What did many medieval people think caused the plague?",
+        "options": [
+          "God's punishment, bad air or unusual planets",
+          "Television",
+          "Electricity",
+          "Vaccines"
+        ],
+        "answer": "God's punishment, bad air or unusual planets"
+      },
+      {
+        "question": "Why did plague spread quickly in towns?",
+        "options": [
+          "Crowded, dirty conditions helped disease spread",
+          "Everyone had modern medicine",
+          "Streets were completely empty",
+          "Rats avoided towns"
+        ],
+        "answer": "Crowded, dirty conditions helped disease spread"
+      },
+      {
+        "question": "What were buboes?",
+        "options": [
+          "Painful swollen lumps",
+          "Medieval coins",
+          "Viking ships",
+          "Church towers"
+        ],
+        "answer": "Painful swollen lumps"
+      },
+      {
+        "question": "How did some people try to avoid the plague?",
+        "options": [
+          "By leaving infected areas",
+          "By building railways",
+          "By using antibiotics",
+          "By banning all food"
+        ],
+        "answer": "By leaving infected areas"
+      },
+      {
+        "question": "Why were medieval treatments often ineffective?",
+        "options": [
+          "People did not understand germs",
+          "Doctors knew about bacteria fully",
+          "Hospitals had modern equipment",
+          "Medicine was always tested scientifically"
+        ],
+        "answer": "People did not understand germs"
+      },
+      {
+        "question": "What happened to the population after the Black Death?",
+        "options": [
+          "It fell dramatically",
+          "It doubled instantly",
+          "It stayed exactly the same",
+          "It only affected kings"
+        ],
+        "answer": "It fell dramatically"
+      },
+      {
+        "question": "How did the Black Death affect workers?",
+        "options": [
+          "Workers became more valuable because there were fewer of them",
+          "Workers disappeared from history",
+          "Wages were never discussed",
+          "Only nobles worked"
+        ],
+        "answer": "Workers became more valuable because there were fewer of them"
+      },
+      {
+        "question": "Why did some peasants demand higher wages?",
+        "options": [
+          "Labour was in short supply",
+          "They had become kings",
+          "Money had been invented for the first time",
+          "Castles were free"
+        ],
+        "answer": "Labour was in short supply"
+      },
+      {
+        "question": "What law tried to keep wages low after the plague?",
+        "options": [
+          "Statute of Labourers",
+          "Domesday Book",
+          "Magna Carta",
+          "Treaty of Wedmore"
+        ],
+        "answer": "Statute of Labourers"
+      },
+      {
+        "question": "What was one social impact of the Black Death?",
+        "options": [
+          "It weakened parts of the feudal system",
+          "It made all people nobles",
+          "It ended farming completely",
+          "It made England part of Rome"
+        ],
+        "answer": "It weakened parts of the feudal system"
+      },
+      {
+        "question": "What is a pandemic?",
+        "options": [
+          "A disease outbreak across many countries or large areas",
+          "A small local argument",
+          "A castle tax",
+          "A religious building"
+        ],
+        "answer": "A disease outbreak across many countries or large areas"
+      },
+      {
+        "question": "Why were priests affected badly?",
+        "options": [
+          "They often cared for the sick and became infected",
+          "They were immune",
+          "They lived on the Moon",
+          "They never met people"
+        ],
+        "answer": "They often cared for the sick and became infected"
+      },
+      {
+        "question": "What did flagellants believe?",
+        "options": [
+          "Punishing themselves might please God and stop plague",
+          "Castles cured disease",
+          "Reading maps caused plague",
+          "Rats were kings"
+        ],
+        "answer": "Punishing themselves might please God and stop plague"
+      },
+      {
+        "question": "Why is the Black Death significant?",
+        "options": [
+          "It changed population, work, society and beliefs",
+          "It started the Norman Conquest",
+          "It founded Buddhism",
+          "It made Alfred king"
+        ],
+        "answer": "It changed population, work, society and beliefs"
+      },
+      {
+        "question": "Which type of source could help historians study the Black Death?",
+        "options": [
+          "Chronicles, letters and records from the time",
+          "Only modern cartoons",
+          "Only science fiction",
+          "Only weather forecasts from today"
+        ],
+        "answer": "Chronicles, letters and records from the time"
+      },
+      {
+        "question": "What does mortality mean?",
+        "options": [
+          "Death rate",
+          "Birthplace",
+          "Tax level",
+          "Castle height"
+        ],
+        "answer": "Death rate"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "subject": "Religious Education",
+  "topics": {
+    "Key Words": [
+      {
+        "question": "What is an atheist?",
+        "options": [
+          "A person who believes in God",
+          "A person who does not believe in God",
+          "A person who is unsure whether God exists",
+          "A person who believes in many gods"
+        ],
+        "answer": "A person who does not believe in God"
+      }
+    ],
+    "Christianity": [],
+    "Sikhi": [],
+    "Holy Week": [],
+    "Church Features": [],
+    "Problem of Evil": [],
+    "Worldviews": []
+  }
+}

@@ -1,0 +1,1217 @@
+{
+  "subject": "Science",
+  "topics": {
+    "Energy": [
+      {
+        "question": "What is energy?",
+        "options": [
+          "The ability to do work or cause change",
+          "A type of force only found in batteries",
+          "The weight of an object",
+          "The speed of a moving object"
+        ],
+        "answer": "The ability to do work or cause change"
+      },
+      {
+        "question": "Which store of energy is found in food and fuels?",
+        "options": [
+          "Chemical energy store",
+          "Kinetic energy store",
+          "Thermal energy store",
+          "Elastic energy store"
+        ],
+        "answer": "Chemical energy store"
+      },
+      {
+        "question": "Which energy store increases when an object is lifted higher?",
+        "options": [
+          "Gravitational potential energy store",
+          "Chemical energy store",
+          "Magnetic energy store",
+          "Nuclear energy store"
+        ],
+        "answer": "Gravitational potential energy store"
+      },
+      {
+        "question": "Which energy store does a moving car have?",
+        "options": [
+          "Kinetic energy store",
+          "Elastic energy store",
+          "Chemical energy store",
+          "Electrostatic energy store"
+        ],
+        "answer": "Kinetic energy store"
+      },
+      {
+        "question": "What happens to energy in a closed system?",
+        "options": [
+          "It is conserved",
+          "It disappears",
+          "It is created from nothing",
+          "It always turns into sound"
+        ],
+        "answer": "It is conserved"
+      },
+      {
+        "question": "Which unit is used to measure energy?",
+        "options": [
+          "Joule",
+          "Newton",
+          "Watt",
+          "Volt"
+        ],
+        "answer": "Joule"
+      },
+      {
+        "question": "What is a useful energy transfer in a lamp?",
+        "options": [
+          "Electrical energy transferred to light",
+          "Light transferred to chemical energy",
+          "Sound transferred to thermal energy",
+          "Nuclear energy transferred to electricity"
+        ],
+        "answer": "Electrical energy transferred to light"
+      },
+      {
+        "question": "What is wasted energy often transferred as?",
+        "options": [
+          "Thermal energy to the surroundings",
+          "Mass",
+          "Gravity",
+          "Atoms"
+        ],
+        "answer": "Thermal energy to the surroundings"
+      },
+      {
+        "question": "Which device transfers electrical energy to kinetic energy?",
+        "options": [
+          "Electric motor",
+          "Light bulb",
+          "Battery",
+          "Thermometer"
+        ],
+        "answer": "Electric motor"
+      },
+      {
+        "question": "What does power measure?",
+        "options": [
+          "The rate at which energy is transferred",
+          "The amount of gravity",
+          "The size of a force only",
+          "The temperature of a material"
+        ],
+        "answer": "The rate at which energy is transferred"
+      },
+      {
+        "question": "Which unit is used to measure power?",
+        "options": [
+          "Watt",
+          "Joule",
+          "Newton",
+          "Metre"
+        ],
+        "answer": "Watt"
+      },
+      {
+        "question": "Which is a renewable energy resource?",
+        "options": [
+          "Wind",
+          "Coal",
+          "Oil",
+          "Natural gas"
+        ],
+        "answer": "Wind"
+      },
+      {
+        "question": "Which is a non-renewable energy resource?",
+        "options": [
+          "Coal",
+          "Solar",
+          "Wind",
+          "Tidal"
+        ],
+        "answer": "Coal"
+      },
+      {
+        "question": "Why are fossil fuels described as non-renewable?",
+        "options": [
+          "They take millions of years to form",
+          "They are made every day",
+          "They never run out",
+          "They only work at night"
+        ],
+        "answer": "They take millions of years to form"
+      },
+      {
+        "question": "What is the main energy transfer in a kettle?",
+        "options": [
+          "Electrical energy to thermal energy",
+          "Thermal energy to sound energy",
+          "Light energy to chemical energy",
+          "Kinetic energy to nuclear energy"
+        ],
+        "answer": "Electrical energy to thermal energy"
+      },
+      {
+        "question": "What does insulation reduce?",
+        "options": [
+          "Unwanted thermal energy transfer",
+          "The mass of an object",
+          "The number of atoms",
+          "The force of gravity"
+        ],
+        "answer": "Unwanted thermal energy transfer"
+      },
+      {
+        "question": "Which material is usually a good thermal insulator?",
+        "options": [
+          "Plastic foam",
+          "Copper",
+          "Aluminium",
+          "Steel"
+        ],
+        "answer": "Plastic foam"
+      },
+      {
+        "question": "What happens when energy is transferred by heating?",
+        "options": [
+          "Particles gain energy and move more",
+          "Particles disappear",
+          "Gravity increases",
+          "Mass turns into light"
+        ],
+        "answer": "Particles gain energy and move more"
+      },
+      {
+        "question": "Why are Sankey diagrams useful?",
+        "options": [
+          "They show useful and wasted energy transfers",
+          "They show food chains",
+          "They measure speed directly",
+          "They identify elements"
+        ],
+        "answer": "They show useful and wasted energy transfers"
+      },
+      {
+        "question": "What is efficiency?",
+        "options": [
+          "How much input energy is usefully transferred",
+          "How heavy an object is",
+          "How loud a sound is",
+          "How many atoms are in a liquid"
+        ],
+        "answer": "How much input energy is usefully transferred"
+      }
+    ],
+    "Forces": [
+      {
+        "question": "What is a force?",
+        "options": [
+          "A push or pull",
+          "A type of energy store",
+          "A chemical reaction",
+          "A unit of distance"
+        ],
+        "answer": "A push or pull"
+      },
+      {
+        "question": "What unit is force measured in?",
+        "options": [
+          "Newton",
+          "Joule",
+          "Watt",
+          "Kilogram"
+        ],
+        "answer": "Newton"
+      },
+      {
+        "question": "Which force pulls objects towards Earth?",
+        "options": [
+          "Gravity",
+          "Friction",
+          "Magnetism",
+          "Upthrust"
+        ],
+        "answer": "Gravity"
+      },
+      {
+        "question": "What is friction?",
+        "options": [
+          "A force that opposes motion",
+          "A force that only acts in water",
+          "Stored chemical energy",
+          "The speed of an object"
+        ],
+        "answer": "A force that opposes motion"
+      },
+      {
+        "question": "What is air resistance?",
+        "options": [
+          "Friction caused by moving through air",
+          "A force that pulls objects underground",
+          "Energy stored in stretched objects",
+          "A type of magnet"
+        ],
+        "answer": "Friction caused by moving through air"
+      },
+      {
+        "question": "What is upthrust?",
+        "options": [
+          "An upward force from a fluid",
+          "A downward force from gravity",
+          "A sideways force from friction",
+          "A chemical force"
+        ],
+        "answer": "An upward force from a fluid"
+      },
+      {
+        "question": "What happens when forces are balanced?",
+        "options": [
+          "The object stays still or moves at constant speed",
+          "The object must speed up",
+          "The object must explode",
+          "The object loses all mass"
+        ],
+        "answer": "The object stays still or moves at constant speed"
+      },
+      {
+        "question": "What happens when forces are unbalanced?",
+        "options": [
+          "The object's motion changes",
+          "Nothing can change",
+          "Gravity stops acting",
+          "The object becomes weightless"
+        ],
+        "answer": "The object's motion changes"
+      },
+      {
+        "question": "What is weight?",
+        "options": [
+          "The force of gravity on an object",
+          "The amount of matter in an object",
+          "The same as volume",
+          "A measure of temperature"
+        ],
+        "answer": "The force of gravity on an object"
+      },
+      {
+        "question": "What is mass?",
+        "options": [
+          "The amount of matter in an object",
+          "The force of gravity on an object",
+          "The speed of an object",
+          "The shape of an object"
+        ],
+        "answer": "The amount of matter in an object"
+      },
+      {
+        "question": "Which instrument measures force?",
+        "options": [
+          "Newton meter",
+          "Thermometer",
+          "Voltmeter",
+          "Measuring cylinder"
+        ],
+        "answer": "Newton meter"
+      },
+      {
+        "question": "What is speed?",
+        "options": [
+          "Distance travelled per unit time",
+          "Mass divided by volume",
+          "Force multiplied by area",
+          "Energy stored in food"
+        ],
+        "answer": "Distance travelled per unit time"
+      },
+      {
+        "question": "What is the formula for speed?",
+        "options": [
+          "speed = distance ÷ time",
+          "speed = mass ÷ volume",
+          "speed = force × distance",
+          "speed = time ÷ distance"
+        ],
+        "answer": "speed = distance ÷ time"
+      },
+      {
+        "question": "What does a larger resultant force usually cause?",
+        "options": [
+          "Greater acceleration",
+          "Lower mass",
+          "Less motion always",
+          "A lower temperature"
+        ],
+        "answer": "Greater acceleration"
+      },
+      {
+        "question": "What is a contact force?",
+        "options": [
+          "A force that acts when objects touch",
+          "A force acting only from space",
+          "A force with no objects involved",
+          "A force caused by atoms splitting"
+        ],
+        "answer": "A force that acts when objects touch"
+      },
+      {
+        "question": "Which is a non-contact force?",
+        "options": [
+          "Magnetism",
+          "Friction",
+          "Air resistance",
+          "Tension"
+        ],
+        "answer": "Magnetism"
+      },
+      {
+        "question": "What force acts in a stretched rope?",
+        "options": [
+          "Tension",
+          "Gravity only",
+          "Magnetism",
+          "Upthrust only"
+        ],
+        "answer": "Tension"
+      },
+      {
+        "question": "What does pressure depend on?",
+        "options": [
+          "Force and area",
+          "Mass and colour",
+          "Temperature and brightness",
+          "Sound and light"
+        ],
+        "answer": "Force and area"
+      },
+      {
+        "question": "How can pressure be increased?",
+        "options": [
+          "Increase force or decrease area",
+          "Decrease force and increase area",
+          "Remove all gravity",
+          "Make the object colder"
+        ],
+        "answer": "Increase force or decrease area"
+      },
+      {
+        "question": "Why do snowshoes stop people sinking easily?",
+        "options": [
+          "They spread weight over a larger area",
+          "They remove gravity",
+          "They make people lighter",
+          "They create heat"
+        ],
+        "answer": "They spread weight over a larger area"
+      }
+    ],
+    "Science skills": [
+      {
+        "question": "What is a hypothesis?",
+        "options": [
+          "A testable prediction",
+          "A final answer that cannot change",
+          "A list of equipment only",
+          "A type of graph"
+        ],
+        "answer": "A testable prediction"
+      },
+      {
+        "question": "What is the independent variable?",
+        "options": [
+          "The variable you change",
+          "The variable you measure",
+          "The variable you keep the same",
+          "The final conclusion"
+        ],
+        "answer": "The variable you change"
+      },
+      {
+        "question": "What is the dependent variable?",
+        "options": [
+          "The variable you measure",
+          "The variable you change",
+          "The variable you ignore",
+          "The safety rule"
+        ],
+        "answer": "The variable you measure"
+      },
+      {
+        "question": "What are control variables?",
+        "options": [
+          "Variables kept the same to make a test fair",
+          "Variables that are always measured in grams",
+          "Variables that change randomly",
+          "Variables that are not important"
+        ],
+        "answer": "Variables kept the same to make a test fair"
+      },
+      {
+        "question": "Why should results be repeated?",
+        "options": [
+          "To check reliability",
+          "To make the experiment longer only",
+          "To avoid writing a conclusion",
+          "To change every variable"
+        ],
+        "answer": "To check reliability"
+      },
+      {
+        "question": "What is an anomaly?",
+        "options": [
+          "A result that does not fit the pattern",
+          "The most common result",
+          "The equipment list",
+          "A perfect prediction"
+        ],
+        "answer": "A result that does not fit the pattern"
+      },
+      {
+        "question": "What type of graph is best for continuous data?",
+        "options": [
+          "Line graph",
+          "Pictogram",
+          "Pie chart only",
+          "Tally chart only"
+        ],
+        "answer": "Line graph"
+      },
+      {
+        "question": "What type of graph is useful for comparing categories?",
+        "options": [
+          "Bar chart",
+          "Line graph only",
+          "Scatter graph only",
+          "No graph"
+        ],
+        "answer": "Bar chart"
+      },
+      {
+        "question": "What should a graph axis have?",
+        "options": [
+          "A label and unit",
+          "A colour only",
+          "A title but no numbers",
+          "Only arrows"
+        ],
+        "answer": "A label and unit"
+      },
+      {
+        "question": "What does accuracy mean?",
+        "options": [
+          "How close a measurement is to the true value",
+          "How colourful a graph is",
+          "How many people did the experiment",
+          "How quickly the result was taken"
+        ],
+        "answer": "How close a measurement is to the true value"
+      },
+      {
+        "question": "What does precision mean?",
+        "options": [
+          "How close repeated measurements are to each other",
+          "How correct the conclusion sounds",
+          "How expensive the equipment is",
+          "How safe the experiment is"
+        ],
+        "answer": "How close repeated measurements are to each other"
+      },
+      {
+        "question": "What is a conclusion?",
+        "options": [
+          "A summary of what the results show",
+          "The equipment list",
+          "A random guess",
+          "The title of a graph"
+        ],
+        "answer": "A summary of what the results show"
+      },
+      {
+        "question": "Why should scientists identify risks?",
+        "options": [
+          "To make practical work safer",
+          "To make results look better",
+          "To avoid collecting data",
+          "To change the hypothesis"
+        ],
+        "answer": "To make practical work safer"
+      },
+      {
+        "question": "Which equipment measures temperature?",
+        "options": [
+          "Thermometer",
+          "Measuring cylinder",
+          "Newton meter",
+          "Stopwatch"
+        ],
+        "answer": "Thermometer"
+      },
+      {
+        "question": "Which equipment measures volume of a liquid?",
+        "options": [
+          "Measuring cylinder",
+          "Ruler",
+          "Balance",
+          "Force meter"
+        ],
+        "answer": "Measuring cylinder"
+      },
+      {
+        "question": "Which equipment measures mass?",
+        "options": [
+          "Balance",
+          "Thermometer",
+          "Stopwatch",
+          "Voltmeter"
+        ],
+        "answer": "Balance"
+      },
+      {
+        "question": "Which equipment measures time?",
+        "options": [
+          "Stopwatch",
+          "Balance",
+          "Ruler",
+          "Measuring cylinder"
+        ],
+        "answer": "Stopwatch"
+      },
+      {
+        "question": "What is a fair test?",
+        "options": [
+          "An investigation where only one variable is changed",
+          "A test where all variables change",
+          "A test with no measurements",
+          "A test that always proves your idea"
+        ],
+        "answer": "An investigation where only one variable is changed"
+      },
+      {
+        "question": "What is evidence?",
+        "options": [
+          "Data or observations used to support an idea",
+          "A guess without results",
+          "Only the title",
+          "The colour of equipment"
+        ],
+        "answer": "Data or observations used to support an idea"
+      },
+      {
+        "question": "Why is a method written clearly?",
+        "options": [
+          "So someone else could repeat the investigation",
+          "So it looks longer",
+          "So variables are hidden",
+          "So results are not needed"
+        ],
+        "answer": "So someone else could repeat the investigation"
+      }
+    ],
+    "Cells": [
+      {
+        "question": "What are cells?",
+        "options": [
+          "The basic building blocks of living things",
+          "Tiny rocks",
+          "Types of energy",
+          "Only parts of plants"
+        ],
+        "answer": "The basic building blocks of living things"
+      },
+      {
+        "question": "What does the nucleus do?",
+        "options": [
+          "Controls the cell",
+          "Makes food by photosynthesis",
+          "Stores only water",
+          "Protects the outside of the cell"
+        ],
+        "answer": "Controls the cell"
+      },
+      {
+        "question": "What is the function of the cell membrane?",
+        "options": [
+          "Controls what enters and leaves the cell",
+          "Controls the whole organism",
+          "Makes proteins only",
+          "Stores genetic material in plants only"
+        ],
+        "answer": "Controls what enters and leaves the cell"
+      },
+      {
+        "question": "What is cytoplasm?",
+        "options": [
+          "A jelly-like substance where many reactions happen",
+          "A hard outer wall",
+          "The green pigment in plants",
+          "A type of tissue"
+        ],
+        "answer": "A jelly-like substance where many reactions happen"
+      },
+      {
+        "question": "Which cell part is found in plant cells but not animal cells?",
+        "options": [
+          "Cell wall",
+          "Cell membrane",
+          "Nucleus",
+          "Cytoplasm"
+        ],
+        "answer": "Cell wall"
+      },
+      {
+        "question": "What do chloroplasts contain?",
+        "options": [
+          "Chlorophyll",
+          "Blood",
+          "Calcium",
+          "Air"
+        ],
+        "answer": "Chlorophyll"
+      },
+      {
+        "question": "What is the role of chloroplasts?",
+        "options": [
+          "They absorb light for photosynthesis",
+          "They control the cell",
+          "They make animal cells move",
+          "They pump blood"
+        ],
+        "answer": "They absorb light for photosynthesis"
+      },
+      {
+        "question": "What does a vacuole do in a plant cell?",
+        "options": [
+          "Stores cell sap and helps keep the cell firm",
+          "Controls movement",
+          "Carries oxygen",
+          "Makes bones strong"
+        ],
+        "answer": "Stores cell sap and helps keep the cell firm"
+      },
+      {
+        "question": "What is a tissue?",
+        "options": [
+          "A group of similar cells working together",
+          "A group of organs",
+          "A single organism",
+          "A type of microscope"
+        ],
+        "answer": "A group of similar cells working together"
+      },
+      {
+        "question": "What is an organ?",
+        "options": [
+          "A group of tissues working together",
+          "A single cell",
+          "A type of chemical",
+          "A group of atoms"
+        ],
+        "answer": "A group of tissues working together"
+      },
+      {
+        "question": "Which is an example of an organ?",
+        "options": [
+          "Heart",
+          "Red blood cell",
+          "Chloroplast",
+          "Cytoplasm"
+        ],
+        "answer": "Heart"
+      },
+      {
+        "question": "What is an organ system?",
+        "options": [
+          "A group of organs working together",
+          "A group of atoms",
+          "Only one tissue",
+          "A microscope slide"
+        ],
+        "answer": "A group of organs working together"
+      },
+      {
+        "question": "Which organ system moves blood around the body?",
+        "options": [
+          "Circulatory system",
+          "Digestive system",
+          "Respiratory system",
+          "Skeletal system"
+        ],
+        "answer": "Circulatory system"
+      },
+      {
+        "question": "What is the job of red blood cells?",
+        "options": [
+          "Carry oxygen",
+          "Fight all diseases only",
+          "Make food",
+          "Digest starch"
+        ],
+        "answer": "Carry oxygen"
+      },
+      {
+        "question": "What are sperm cells adapted for?",
+        "options": [
+          "Swimming to an egg cell",
+          "Carrying oxygen",
+          "Absorbing water from soil",
+          "Making glucose"
+        ],
+        "answer": "Swimming to an egg cell"
+      },
+      {
+        "question": "What are root hair cells adapted for?",
+        "options": [
+          "Absorbing water and minerals",
+          "Carrying nerve signals",
+          "Pumping blood",
+          "Digesting food"
+        ],
+        "answer": "Absorbing water and minerals"
+      },
+      {
+        "question": "What is diffusion?",
+        "options": [
+          "Movement of particles from high to low concentration",
+          "Movement of water only uphill",
+          "A type of cell division only",
+          "A force pulling objects down"
+        ],
+        "answer": "Movement of particles from high to low concentration"
+      },
+      {
+        "question": "What is a microscope used for?",
+        "options": [
+          "Viewing small objects such as cells",
+          "Measuring force",
+          "Measuring speed",
+          "Separating mixtures"
+        ],
+        "answer": "Viewing small objects such as cells"
+      },
+      {
+        "question": "Why are specialised cells useful?",
+        "options": [
+          "They are adapted to do particular jobs",
+          "They all do exactly the same job",
+          "They are not living",
+          "They contain no cytoplasm"
+        ],
+        "answer": "They are adapted to do particular jobs"
+      },
+      {
+        "question": "What do mitochondria release energy for?",
+        "options": [
+          "Cell activities",
+          "Making the cell wall",
+          "Changing cell colour",
+          "Stopping diffusion"
+        ],
+        "answer": "Cell activities"
+      }
+    ],
+    "Atoms and Elements": [
+      {
+        "question": "What is an atom?",
+        "options": [
+          "A tiny particle that makes up substances",
+          "A living cell",
+          "A type of force",
+          "A form of energy only"
+        ],
+        "answer": "A tiny particle that makes up substances"
+      },
+      {
+        "question": "What is an element?",
+        "options": [
+          "A substance made from one type of atom",
+          "A mixture of many compounds",
+          "A type of cell",
+          "A force that attracts objects"
+        ],
+        "answer": "A substance made from one type of atom"
+      },
+      {
+        "question": "What is a compound?",
+        "options": [
+          "A substance made from two or more elements chemically joined",
+          "Two substances physically mixed",
+          "Only one type of atom",
+          "A type of energy transfer"
+        ],
+        "answer": "A substance made from two or more elements chemically joined"
+      },
+      {
+        "question": "What is a molecule?",
+        "options": [
+          "Two or more atoms joined together",
+          "A single cell",
+          "A large organ",
+          "A type of graph"
+        ],
+        "answer": "Two or more atoms joined together"
+      },
+      {
+        "question": "What does the chemical symbol O represent?",
+        "options": [
+          "Oxygen",
+          "Gold",
+          "Iron",
+          "Hydrogen"
+        ],
+        "answer": "Oxygen"
+      },
+      {
+        "question": "What does the chemical symbol H represent?",
+        "options": [
+          "Hydrogen",
+          "Helium only",
+          "Mercury",
+          "Carbon"
+        ],
+        "answer": "Hydrogen"
+      },
+      {
+        "question": "What does the chemical symbol C represent?",
+        "options": [
+          "Carbon",
+          "Calcium only",
+          "Copper only",
+          "Chlorine only"
+        ],
+        "answer": "Carbon"
+      },
+      {
+        "question": "What is the chemical formula for water?",
+        "options": [
+          "H₂O",
+          "CO₂",
+          "O₂",
+          "NaCl"
+        ],
+        "answer": "H₂O"
+      },
+      {
+        "question": "What is the chemical formula for carbon dioxide?",
+        "options": [
+          "CO₂",
+          "H₂O",
+          "O₂",
+          "CH₄"
+        ],
+        "answer": "CO₂"
+      },
+      {
+        "question": "What is a mixture?",
+        "options": [
+          "Substances together but not chemically joined",
+          "Atoms chemically joined in fixed amounts",
+          "One type of atom only",
+          "A single element only"
+        ],
+        "answer": "Substances together but not chemically joined"
+      },
+      {
+        "question": "How can sand and water be separated?",
+        "options": [
+          "Filtration",
+          "Evaporation only",
+          "Chromatography only",
+          "Freezing only"
+        ],
+        "answer": "Filtration"
+      },
+      {
+        "question": "How can salt be obtained from salt water?",
+        "options": [
+          "Evaporation",
+          "Using a magnet",
+          "Filtering only",
+          "Melting the beaker"
+        ],
+        "answer": "Evaporation"
+      },
+      {
+        "question": "Which state of matter has a fixed shape and volume?",
+        "options": [
+          "Solid",
+          "Liquid",
+          "Gas",
+          "Plasma only"
+        ],
+        "answer": "Solid"
+      },
+      {
+        "question": "Which state of matter has a fixed volume but no fixed shape?",
+        "options": [
+          "Liquid",
+          "Solid",
+          "Gas",
+          "Element"
+        ],
+        "answer": "Liquid"
+      },
+      {
+        "question": "Which state of matter has no fixed shape or volume?",
+        "options": [
+          "Gas",
+          "Solid",
+          "Liquid",
+          "Compound"
+        ],
+        "answer": "Gas"
+      },
+      {
+        "question": "What happens to particles when a substance is heated?",
+        "options": [
+          "They gain energy and move more",
+          "They disappear",
+          "They become atoms for the first time",
+          "They stop vibrating"
+        ],
+        "answer": "They gain energy and move more"
+      },
+      {
+        "question": "What is melting?",
+        "options": [
+          "Changing from solid to liquid",
+          "Liquid to gas",
+          "Gas to liquid",
+          "Liquid to solid"
+        ],
+        "answer": "Changing from solid to liquid"
+      },
+      {
+        "question": "What is freezing?",
+        "options": [
+          "Changing from liquid to solid",
+          "Solid to gas",
+          "Gas to liquid",
+          "Solid to liquid"
+        ],
+        "answer": "Changing from liquid to solid"
+      },
+      {
+        "question": "What is boiling?",
+        "options": [
+          "Changing from liquid to gas throughout the liquid",
+          "Gas to liquid",
+          "Solid to liquid",
+          "Liquid to solid"
+        ],
+        "answer": "Changing from liquid to gas throughout the liquid"
+      },
+      {
+        "question": "What is condensation?",
+        "options": [
+          "Changing from gas to liquid",
+          "Liquid to gas",
+          "Solid to liquid",
+          "Liquid to solid"
+        ],
+        "answer": "Changing from gas to liquid"
+      }
+    ],
+    "The Body": [
+      {
+        "question": "What is the main function of the skeleton?",
+        "options": [
+          "Support, protection and movement",
+          "To digest food only",
+          "To pump blood only",
+          "To make oxygen"
+        ],
+        "answer": "Support, protection and movement"
+      },
+      {
+        "question": "Which organ pumps blood around the body?",
+        "options": [
+          "Heart",
+          "Lung",
+          "Stomach",
+          "Brain only"
+        ],
+        "answer": "Heart"
+      },
+      {
+        "question": "What do lungs help the body do?",
+        "options": [
+          "Take in oxygen and remove carbon dioxide",
+          "Digest proteins",
+          "Pump blood",
+          "Store urine"
+        ],
+        "answer": "Take in oxygen and remove carbon dioxide"
+      },
+      {
+        "question": "What is breathing in called?",
+        "options": [
+          "Inhalation",
+          "Exhalation",
+          "Digestion",
+          "Circulation"
+        ],
+        "answer": "Inhalation"
+      },
+      {
+        "question": "What is breathing out called?",
+        "options": [
+          "Exhalation",
+          "Inhalation",
+          "Absorption",
+          "Respiration only"
+        ],
+        "answer": "Exhalation"
+      },
+      {
+        "question": "What does the digestive system do?",
+        "options": [
+          "Breaks food into useful nutrients",
+          "Carries oxygen only",
+          "Controls all movement",
+          "Makes bones"
+        ],
+        "answer": "Breaks food into useful nutrients"
+      },
+      {
+        "question": "Where does most digestion and absorption happen?",
+        "options": [
+          "Small intestine",
+          "Large intestine",
+          "Lungs",
+          "Heart"
+        ],
+        "answer": "Small intestine"
+      },
+      {
+        "question": "What is the function of the stomach?",
+        "options": [
+          "Churns food and uses acid and enzymes",
+          "Pumps blood",
+          "Takes in oxygen",
+          "Controls body temperature only"
+        ],
+        "answer": "Churns food and uses acid and enzymes"
+      },
+      {
+        "question": "What are enzymes?",
+        "options": [
+          "Substances that speed up digestion and other reactions",
+          "Bones in the arm",
+          "Types of blood cell",
+          "Stores of energy only"
+        ],
+        "answer": "Substances that speed up digestion and other reactions"
+      },
+      {
+        "question": "What nutrient is mainly used for growth and repair?",
+        "options": [
+          "Protein",
+          "Fibre",
+          "Water",
+          "Salt only"
+        ],
+        "answer": "Protein"
+      },
+      {
+        "question": "What nutrient is a main source of energy?",
+        "options": [
+          "Carbohydrate",
+          "Vitamin C only",
+          "Calcium only",
+          "Water"
+        ],
+        "answer": "Carbohydrate"
+      },
+      {
+        "question": "Why is fibre important?",
+        "options": [
+          "It helps food move through the digestive system",
+          "It carries oxygen",
+          "It builds bones directly",
+          "It controls breathing"
+        ],
+        "answer": "It helps food move through the digestive system"
+      },
+      {
+        "question": "What is a balanced diet?",
+        "options": [
+          "Eating the right amounts of different nutrients",
+          "Eating only fruit",
+          "Avoiding all fats",
+          "Eating the same meal every day"
+        ],
+        "answer": "Eating the right amounts of different nutrients"
+      },
+      {
+        "question": "What does the brain do?",
+        "options": [
+          "Controls the body and processes information",
+          "Pumps blood",
+          "Filters urine",
+          "Absorbs minerals from soil"
+        ],
+        "answer": "Controls the body and processes information"
+      },
+      {
+        "question": "What is the role of nerves?",
+        "options": [
+          "Carry messages around the body",
+          "Make bones",
+          "Digest fats",
+          "Store oxygen"
+        ],
+        "answer": "Carry messages around the body"
+      },
+      {
+        "question": "What are muscles used for?",
+        "options": [
+          "Movement",
+          "Making blood",
+          "Filtering air",
+          "Producing sunlight"
+        ],
+        "answer": "Movement"
+      },
+      {
+        "question": "What happens to muscles when they contract?",
+        "options": [
+          "They get shorter and pull",
+          "They turn into bone",
+          "They disappear",
+          "They become liquids"
+        ],
+        "answer": "They get shorter and pull"
+      },
+      {
+        "question": "What is the function of the kidneys?",
+        "options": [
+          "Filter blood and produce urine",
+          "Pump blood",
+          "Absorb light",
+          "Break bones down"
+        ],
+        "answer": "Filter blood and produce urine"
+      },
+      {
+        "question": "Why does the body need oxygen?",
+        "options": [
+          "For respiration to release energy",
+          "To make bones heavier",
+          "To turn blood blue",
+          "To digest fibre only"
+        ],
+        "answer": "For respiration to release energy"
+      },
+      {
+        "question": "What is respiration?",
+        "options": [
+          "A process that releases energy from food",
+          "Breathing only",
+          "Eating only",
+          "A type of bone movement"
+        ],
+        "answer": "A process that releases energy from food"
+      }
+    ]
+  }
+}
