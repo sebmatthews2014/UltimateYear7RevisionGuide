@@ -1,174 +1,18 @@
 import streamlit as st
+import random
+import json
+import os
 import base64
 from pathlib import Path
-import random
 
 st.set_page_config(
-    page_title="Revision Quiz",
+    page_title="Ultimate Year 7 Revision Guide",
     page_icon="✏️",
     layout="centered"
 )
 
-# ---------------------------------------------------
-# Styling
-# ---------------------------------------------------
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background: #f7f9fc;
-    }
+QUESTIONS_FOLDER = "questions"
 
-    h1, h2, h3 {
-        color: #1f2937;
-    }
-
-    .main-card {
-        background: white;
-        padding: 1.2rem;
-        border-radius: 18px;
-        box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-        margin-bottom: 1rem;
-    }
-
-    .question-box {
-        background: #ffffff;
-        border: 2px solid #dbeafe;
-        padding: 1rem;
-        border-radius: 16px;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    div[role="radiogroup"] label {
-        color: #111827 !important;
-        font-size: 1rem !important;
-        background: #ffffff;
-        padding: 0.55rem;
-        border-radius: 10px;
-        margin-bottom: 0.35rem;
-    }
-
-    .stButton button {
-        background-color: #2563eb;
-        color: white;
-        border-radius: 12px;
-        border: none;
-        padding: 0.6rem 1rem;
-        font-weight: 600;
-    }
-
-    .stButton button:hover {
-        background-color: #1d4ed8;
-        color: white;
-    }
-
-    .restart button {
-        background-color: #f97316 !important;
-        color: white !important;
-    }
-
-    iframe {
-        border-radius: 14px;
-        border: 1px solid #d1d5db;
-        margin-top: 1rem;
-    }
-
-    @media only screen and (max-width: 600px) {
-
-        .main-card {
-            padding: 1rem;
-        }
-
-        div[role="radiogroup"] label {
-            font-size: 1.05rem !important;
-            line-height: 1.4 !important;
-            white-space: normal !important;
-        }
-
-        .stButton button {
-            width: 100%;
-        }
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-# ---------------------------------------------------
-# Quiz Data
-# ---------------------------------------------------
-QUIZ_DATA = {
-    "Religious Education": [
-        {
-            "question": "What does atheist mean?",
-            "options": [
-                "Someone who believes in many gods",
-                "Someone who does not believe in God",
-                "Someone who is not sure whether God exists",
-                "Someone who believes in one God"
-            ],
-            "answer": "Someone who does not believe in God"
-        },
-        {
-            "question": "What does agnostic mean?",
-            "options": [
-                "Someone who is not sure whether God exists",
-                "Someone who believes God exists",
-                "Someone who believes in many gods",
-                "Someone who worships in a church"
-            ],
-            "answer": "Someone who is not sure whether God exists"
-        },
-        {
-            "question": "What does monotheism mean?",
-            "options": [
-                "Belief in no gods",
-                "Belief in many gods",
-                "Belief in one God",
-                "Belief that God is all-loving"
-            ],
-            "answer": "Belief in one God"
-        },
-        {
-            "question": "Who founded Sikhi?",
-            "options": [
-                "Jesus",
-                "Muhammad",
-                "Guru Nanak",
-                "Abraham"
-            ],
-            "answer": "Guru Nanak"
-        },
-        {
-            "question": "What is the Sikh holy book called?",
-            "options": [
-                "The Bible",
-                "The Qur’an",
-                "The Torah",
-                "The Guru Granth Sahib"
-            ],
-            "answer": "The Guru Granth Sahib"
-        }
-    ],
-
-    "Science": [
-        {
-            "question": "What planet do we live on?",
-            "options": [
-                "Mars",
-                "Earth",
-                "Venus",
-                "Jupiter"
-            ],
-            "answer": "Earth"
-        }
-    ]
-}
-
-# ---------------------------------------------------
-# Learning Materials
-# ---------------------------------------------------
 LEARNING_MATERIALS = {
     "Religious Education": [
         {
@@ -179,251 +23,673 @@ LEARNING_MATERIALS = {
             "title": "RE Summer KAT Learning",
             "path": "materials/religious_education/2_re_summer_kat_learning.pdf"
         }
-    ],
-
-    "Science": []
+    ]
 }
 
-# ---------------------------------------------------
-# Session State
-# ---------------------------------------------------
-def initialise_state():
+st.markdown("""
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Nunito:wght@500;700;900&display=swap');
 
-    if "subject" not in st.session_state:
-        st.session_state.subject = None
+    .stApp {
+        background:
+            linear-gradient(rgba(255,255,255,0.78), rgba(255,255,255,0.78)),
+            repeating-linear-gradient(
+                0deg,
+                #fffdf5,
+                #fffdf5 28px,
+                #dbeafe 29px
+            );
+        color: #1f2937;
+        font-family: 'Nunito', sans-serif;
+        overflow-x: hidden;
+    }
 
-    if "questions" not in st.session_state:
-        st.session_state.questions = []
+    .main .block-container {
+        max-width: 920px;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        overflow-x: hidden;
+    }
 
-    if "question_index" not in st.session_state:
-        st.session_state.question_index = 0
+    .hero-card {
+        background: #fffaf0;
+        padding: 2rem 2.2rem;
+        border-radius: 26px;
+        border: 3px solid #111827;
+        box-shadow: 8px 8px 0px #111827;
+        margin-bottom: 1.5rem;
+    }
 
-    if "score" not in st.session_state:
-        st.session_state.score = 0
+    .hero-title {
+        font-family: 'Patrick Hand', cursive;
+        font-size: clamp(2.1rem, 7vw, 3.2rem);
+        font-weight: 900;
+        color: #1e3a8a;
+        margin-bottom: 0.8rem;
+        line-height: 1.05;
+        overflow-wrap: anywhere;
+    }
 
-    if "answered" not in st.session_state:
-        st.session_state.answered = False
+    .hero-subtitle {
+        font-size: 1.08rem;
+        color: #374151;
+        line-height: 1.5;
+        max-width: 720px;
+    }
 
-    if "show_material" not in st.session_state:
-        st.session_state.show_material = False
+    .easter-egg-card {
+        background: #fef3c7;
+        padding: 1.4rem;
+        border-radius: 22px;
+        border: 3px dashed #111827;
+        box-shadow: 6px 6px 0px #111827;
+        margin-bottom: 1.5rem;
+        font-size: 1.1rem;
+    }
 
+    .easter-title {
+        font-family: 'Patrick Hand', cursive;
+        font-size: 2rem;
+        color: #7c2d12;
+        font-weight: 900;
+        margin-bottom: 0.4rem;
+    }
 
-# ---------------------------------------------------
-# Quiz Functions
-# ---------------------------------------------------
-def start_quiz(subject):
+    .question-card {
+        background: #ffffff;
+        padding: 1.8rem;
+        border-radius: 24px;
+        border: 3px solid #111827;
+        box-shadow: 7px 7px 0px #111827;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        overflow-wrap: anywhere;
+    }
 
-    questions = QUIZ_DATA.get(subject, []).copy()
-    random.shuffle(questions)
+    .material-card {
+        background: #ecfeff;
+        padding: 1.2rem;
+        border-radius: 22px;
+        border: 3px solid #111827;
+        box-shadow: 5px 5px 0px #111827;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
 
-    st.session_state.subject = subject
-    st.session_state.questions = questions
-    st.session_state.question_index = 0
+    .question-text {
+        font-family: 'Patrick Hand', cursive;
+        font-size: 2rem;
+        color: #111827;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+        overflow-wrap: anywhere;
+    }
+
+    .subject-pill {
+        display: inline-block;
+        background: #bfdbfe;
+        color: #1e3a8a;
+        padding: 0.4rem 0.8rem;
+        border-radius: 999px;
+        font-weight: 900;
+        border: 2px solid #111827;
+        box-shadow: 3px 3px 0px #111827;
+        font-size: 0.9rem;
+        max-width: 100%;
+        white-space: normal;
+    }
+
+    .score-box {
+        background: #fef3c7;
+        padding: 1rem;
+        border-radius: 18px;
+        border: 2px dashed #92400e;
+        font-weight: 900;
+        color: #78350f;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .result-good {
+        background: #dcfce7;
+        color: #14532d;
+        padding: 1rem;
+        border-radius: 18px;
+        border: 2px solid #14532d;
+        box-shadow: 4px 4px 0px #14532d;
+        font-weight: 900;
+    }
+
+    .result-bad {
+        background: #ffe4e6;
+        color: #9f1239;
+        padding: 1rem;
+        border-radius: 18px;
+        border: 2px solid #9f1239;
+        box-shadow: 4px 4px 0px #9f1239;
+        font-weight: 900;
+    }
+
+    div.stButton > button {
+        border-radius: 18px !important;
+        border: 3px solid #111827 !important;
+        box-shadow: 4px 4px 0px #111827 !important;
+        font-weight: 900 !important;
+        font-size: 1rem !important;
+        transition: all 0.1s ease-in-out !important;
+        background: #facc15 !important;
+        color: #111827 !important;
+    }
+
+    div.stButton > button:hover {
+        transform: translate(2px, 2px);
+        box-shadow: 2px 2px 0px #111827 !important;
+    }
+
+    div.stButton > button:not([kind="primary"]) {
+        background: #ffffff !important;
+        color: #111827 !important;
+    }
+
+    .stRadio > div {
+        background: #ffffff;
+        padding: 1rem;
+        border-radius: 18px;
+        border: 2px dashed #94a3b8;
+        width: 100%;
+    }
+
+    .stRadio label,
+    .stRadio label span,
+    .stRadio label div,
+    .stRadio [data-testid="stMarkdownContainer"] p {
+        color: #111827 !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        font-size: 1rem !important;
+        line-height: 1.35 !important;
+    }
+
+    .stRadio label {
+        padding: 0.45rem 0 !important;
+    }
+
+    iframe {
+        width: 100%;
+        height: 650px;
+        border: 3px solid #111827;
+        border-radius: 18px;
+        background: white;
+    }
+
+    .footer-note {
+        font-family: 'Patrick Hand', cursive;
+        color: #4b5563;
+        font-size: 1.15rem;
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+
+    div[data-testid="stButton"] button[kind="secondary"] {
+        min-height: 48px;
+    }
+
+    @media (max-width: 700px) {
+
+        .main .block-container {
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+            padding-top: 0.75rem;
+        }
+
+        .hero-card {
+            padding: 1.2rem;
+            border-radius: 20px;
+            box-shadow: 5px 5px 0px #111827;
+            margin-bottom: 1rem;
+        }
+
+        .hero-title {
+            font-size: 2rem;
+            line-height: 1.05;
+        }
+
+        .hero-subtitle {
+            font-size: 0.95rem;
+        }
+
+        .question-card {
+            padding: 1rem;
+            border-radius: 18px;
+            box-shadow: 4px 4px 0px #111827;
+        }
+
+        .material-card {
+            padding: 1rem;
+            border-radius: 18px;
+            box-shadow: 4px 4px 0px #111827;
+        }
+
+        .question-text {
+            font-size: 1.55rem;
+            line-height: 1.15;
+        }
+
+        .stRadio > div {
+            padding: 0.75rem;
+            background: #ffffff !important;
+        }
+
+        .stRadio label,
+        .stRadio label span,
+        .stRadio label div,
+        .stRadio [data-testid="stMarkdownContainer"] p {
+            color: #111827 !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+            font-size: 1rem !important;
+        }
+
+        div.stButton > button {
+            width: 100%;
+            min-height: 48px;
+        }
+
+        iframe {
+            height: 520px;
+        }
+
+        .easter-egg-card {
+            padding: 1rem;
+            font-size: 0.95rem;
+            box-shadow: 4px 4px 0px #111827;
+        }
+    }
+</style>
+""", unsafe_allow_html=True)
+
+SUBJECT_EMOJIS = {
+    "Religious Education": "🕊️",
+    "Maths": "➗",
+    "Science": "🔬",
+    "History": "🏰",
+    "Geography": "🌍",
+    "IT": "💻",
+    "Spanish": "🇪🇸",
+    "All Subjects": "🎯"
+}
+
+def load_question_bank():
+    question_bank = {}
+
+    if not os.path.exists(QUESTIONS_FOLDER):
+        st.error("I cannot find the 'questions' folder.")
+        return {}
+
+    for filename in os.listdir(QUESTIONS_FOLDER):
+        if filename.endswith(".json"):
+            file_path = os.path.join(QUESTIONS_FOLDER, filename)
+
+            try:
+                with open(file_path, "r", encoding="utf-8") as file:
+                    data = json.load(file)
+
+                subject = data.get("subject")
+                topics = data.get("topics", {})
+
+                if subject:
+                    question_bank[subject] = topics
+
+            except Exception as error:
+                st.error(f"Problem loading {filename}: {error}")
+
+    return question_bank
+
+QUESTION_BANK = load_question_bank()
+
+defaults = {
+    "quiz_started": False,
+    "questions": [],
+    "current_question": 0,
+    "score": 0,
+    "answered": False,
+    "results": [],
+    "show_easter_egg": False,
+    "show_learning_materials": False
+}
+
+for key, value in defaults.items():
+    if key not in st.session_state:
+        st.session_state[key] = value
+
+def get_questions(subject):
+    questions = []
+
+    if subject == "All Subjects":
+        for subject_name, topics in QUESTION_BANK.items():
+            for topic_name, topic_questions in topics.items():
+                for question in topic_questions:
+                    new_question = question.copy()
+                    new_question["subject"] = subject_name
+                    new_question["topic"] = topic_name
+                    questions.append(new_question)
+    else:
+        for topic_name, topic_questions in QUESTION_BANK[subject].items():
+            for question in topic_questions:
+                new_question = question.copy()
+                new_question["subject"] = subject
+                new_question["topic"] = topic_name
+                questions.append(new_question)
+
+    return questions
+
+def prepare_question(question):
+    prepared = question.copy()
+    options = prepared.get("options", []).copy()
+    random.shuffle(options)
+    prepared["shuffled_options"] = options
+    return prepared
+
+def start_quiz(subject, number_of_questions):
+    available_questions = get_questions(subject)
+    random.shuffle(available_questions)
+
+    selected_questions = available_questions[:number_of_questions]
+    prepared_questions = [prepare_question(q) for q in selected_questions]
+
+    st.session_state.questions = prepared_questions
+    st.session_state.quiz_started = True
+    st.session_state.current_question = 0
     st.session_state.score = 0
     st.session_state.answered = False
-    st.session_state.show_material = False
+    st.session_state.results = []
 
+def reset_quiz():
+    keep_easter_egg = st.session_state.show_easter_egg
 
-def restart_quiz():
+    for key, value in defaults.items():
+        st.session_state[key] = value
 
-    if st.session_state.subject:
-        start_quiz(st.session_state.subject)
+    st.session_state.show_easter_egg = keep_easter_egg
 
+def check_answer(question, selected_answer):
+    correct = selected_answer == question["answer"]
 
-# ---------------------------------------------------
-# PDF Viewer
-# ---------------------------------------------------
+    if correct:
+        st.session_state.score += 1
+
+    st.session_state.results.append({
+        "subject": question["subject"],
+        "topic": question["topic"],
+        "question": question["question"],
+        "selected": selected_answer,
+        "correct_answer": question["answer"],
+        "was_correct": correct
+    })
+
+    st.session_state.answered = True
+
+def next_question():
+    st.session_state.current_question += 1
+    st.session_state.answered = False
+
+def toggle_easter_egg():
+    st.session_state.show_easter_egg = not st.session_state.show_easter_egg
+
+def toggle_learning_materials():
+    st.session_state.show_learning_materials = not st.session_state.show_learning_materials
+
 def show_pdf(file_path):
-
     path = Path(file_path)
 
     if not path.exists():
-        st.error(f"File not found: {file_path}")
+        st.warning(f"I cannot find this file yet: {file_path}")
         return
 
     with open(path, "rb") as pdf_file:
-        base64_pdf = base64.b64encode(pdf_file.read()).decode("utf-8")
+        encoded_pdf = base64.b64encode(pdf_file.read()).decode("utf-8")
 
-    pdf_display = f"""
+    st.markdown(
+        f"""
         <iframe
-            src="data:application/pdf;base64,{base64_pdf}"
-            width="100%"
-            height="700px"
+            src="data:application/pdf;base64,{encoded_pdf}"
             type="application/pdf">
         </iframe>
-    """
-
-    st.markdown(pdf_display, unsafe_allow_html=True)
+        """,
+        unsafe_allow_html=True
+    )
 
     with open(path, "rb") as file:
         st.download_button(
-            label="⬇ Download PDF",
+            label="⬇ Download this material",
             data=file,
             file_name=path.name,
             mime="application/pdf"
         )
 
-
-# ---------------------------------------------------
-# Learning Material Section
-# ---------------------------------------------------
-def show_learning_material(subject):
-
+def show_learning_materials(subject):
     materials = LEARNING_MATERIALS.get(subject, [])
 
     if not materials:
         return
 
-    if st.button("📘 View learning material"):
-        st.session_state.show_material = not st.session_state.show_material
+    st.markdown('<div class="material-card">', unsafe_allow_html=True)
+    st.subheader("📘 Learning material available")
+    st.write("Use these before the quiz, after the quiz, or during the quiz if your brain is pretending it has never seen RE before.")
 
-    if st.session_state.show_material:
+    if st.button("View learning material"):
+        toggle_learning_materials()
+        st.rerun()
 
-        st.markdown("### Learning Material")
-
+    if st.session_state.show_learning_materials:
         selected_material = st.selectbox(
             "Choose a document",
             materials,
-            format_func=lambda x: x["title"]
+            format_func=lambda item: item["title"]
         )
 
         show_pdf(selected_material["path"])
 
-
-# ---------------------------------------------------
-# Main App
-# ---------------------------------------------------
-initialise_state()
-
-st.title("✏️ Revision Quiz")
-st.write("Choose a subject, revise the material, then test yourself.")
-
-subjects = list(QUIZ_DATA.keys())
-
-selected_subject = st.selectbox(
-    "Choose your subject",
-    subjects
-)
-
-# Reset if subject changes
-if selected_subject != st.session_state.subject:
-    start_quiz(selected_subject)
-
-# Show learning material
-show_learning_material(selected_subject)
-
-questions = st.session_state.questions
-
-if not questions:
-    st.warning("No questions available yet.")
-    st.stop()
-
-current_index = st.session_state.question_index
-total_questions = len(questions)
-
-# ---------------------------------------------------
-# Quiz Complete
-# ---------------------------------------------------
-if current_index >= total_questions:
-
-    st.markdown('<div class="main-card">', unsafe_allow_html=True)
-
-    st.subheader("Quiz complete 🎉")
-
-    st.write(
-        f"You scored **{st.session_state.score} out of {total_questions}**."
-    )
-
-    percentage = round(
-        (st.session_state.score / total_questions) * 100
-    )
-
-    if percentage == 100:
-        st.success("Perfect score. Slightly suspicious.")
-    elif percentage >= 70:
-        st.success("Great job. Revision wizard detected.")
-    elif percentage >= 40:
-        st.info("Good effort. A little more revision and you’re flying.")
-    else:
-        st.warning("Keep going. Even Einstein probably failed a quiz once. Maybe.")
-
-    st.markdown('<div class="restart">', unsafe_allow_html=True)
-
-    if st.button("Restart quiz"):
-        restart_quiz()
-        st.rerun()
-
     st.markdown('</div>', unsafe_allow_html=True)
 
-    st.markdown('</div>', unsafe_allow_html=True)
+st.button("✏️", key="secret_pencil", on_click=toggle_easter_egg)
 
+st.markdown("""
+<div class="hero-card">
+    <div class="hero-title">
+        Ultimate Year 7 Revision Guide
+    </div>
+    <div class="hero-subtitle">
+        Pick a subject, answer quick questions, and slowly defeat the revision goblin.
+        Hand-drawn vibes. Serious learning. Minimal panic.
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
+if st.session_state.show_easter_egg:
+    st.markdown("""
+    <div class="easter-egg-card">
+        <div class="easter-title">✨ Secret unlocked ✨</div>
+        <p>This app was built by <strong>Seb Matthews</strong>.</p>
+        <p>
+            Certified absolute legend behaviour.<br>
+            Peak coder energy.<br>
+            Zero cringe detected.
+        </p>
+        <p>The revision goblin got absolutely cooked. 💀</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+if not QUESTION_BANK:
+    st.warning("No questions loaded.")
     st.stop()
 
-# ---------------------------------------------------
-# Current Question
-# ---------------------------------------------------
-current_question = questions[current_index]
+if not st.session_state.quiz_started:
 
-st.markdown('<div class="question-box">', unsafe_allow_html=True)
+    st.subheader("Start a new quiz")
 
-st.write(f"**Question {current_index + 1} of {total_questions}**")
+    subject_options = ["All Subjects"] + list(QUESTION_BANK.keys())
+    selected_subject = st.selectbox("Choose a subject", subject_options)
 
-st.subheader(current_question["question"])
+    available_questions = get_questions(selected_subject)
 
-selected_answer = st.radio(
-    "Choose your answer",
-    current_question["options"],
-    index=None,
-    key=f"question_{current_index}"
-)
+    emoji = SUBJECT_EMOJIS.get(selected_subject, "📘")
 
-st.markdown('</div>', unsafe_allow_html=True)
+    st.markdown(
+        f"""
+        <p>
+            <span class="subject-pill">{emoji} {selected_subject}</span>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
 
-# ---------------------------------------------------
-# Submit Answer
-# ---------------------------------------------------
-if selected_answer and not st.session_state.answered:
+    show_learning_materials(selected_subject)
 
-    if st.button("Submit answer"):
+    st.write(f"Available questions: **{len(available_questions)}**")
 
-        st.session_state.answered = True
+    if len(available_questions) > 0:
 
-        if selected_answer == current_question["answer"]:
+        number_of_questions = st.slider(
+            "How many questions?",
+            min_value=1,
+            max_value=len(available_questions),
+            value=min(10, len(available_questions))
+        )
 
-            st.session_state.score += 1
+        st.info("Best move: short quiz, quick review, repeat later. Basically gym reps, but for your brain.")
 
-            st.success("Correct ✅")
+        if st.button("Start Quiz", type="primary"):
+            start_quiz(selected_subject, number_of_questions)
+            st.rerun()
+
+else:
+
+    total_questions = len(st.session_state.questions)
+    current_index = st.session_state.current_question
+
+    if current_index < total_questions:
+
+        question = st.session_state.questions[current_index]
+
+        st.markdown('<div class="question-card">', unsafe_allow_html=True)
+
+        st.progress(current_index / total_questions)
+
+        st.caption(f"Question {current_index + 1} of {total_questions}")
+
+        subject_emoji = SUBJECT_EMOJIS.get(question["subject"], "📘")
+
+        st.markdown(
+            f"""
+            <p>
+                <span class="subject-pill">{subject_emoji} {question['subject']}</span>
+            </p>
+            """,
+            unsafe_allow_html=True
+        )
+
+        st.markdown(
+            f'<div class="question-text">{question["question"]}</div>',
+            unsafe_allow_html=True
+        )
+
+        st.markdown('</div>', unsafe_allow_html=True)
+
+        show_learning_materials(question["subject"])
+
+        selected_answer = st.radio(
+            "Choose your answer:",
+            question["shuffled_options"],
+            key=f"question_{current_index}",
+            disabled=st.session_state.answered
+        )
+
+        if not st.session_state.answered:
+
+            if st.button("Check Answer", type="primary"):
+                check_answer(question, selected_answer)
+                st.rerun()
 
         else:
 
-            st.error(
-                f"Incorrect ❌\n\nCorrect answer: **{current_question['answer']}**"
-            )
+            latest_result = st.session_state.results[-1]
 
-# ---------------------------------------------------
-# Next Question
-# ---------------------------------------------------
-if st.session_state.answered:
+            if latest_result["was_correct"]:
+                st.markdown(
+                    '<div class="result-good">✅ Correct! That one has entered the brain vault.</div>',
+                    unsafe_allow_html=True
+                )
+            else:
+                st.markdown(
+                    f"""
+                    <div class="result-bad">
+                        ❌ Not quite. Correct answer: {question['answer']}
+                    </div>
+                    """,
+                    unsafe_allow_html=True
+                )
 
-    if st.button("Next question"):
+            if st.button("Next Question"):
+                next_question()
+                st.rerun()
 
-        st.session_state.question_index += 1
-        st.session_state.answered = False
+        answered_count = current_index + (1 if st.session_state.answered else 0)
 
-        st.rerun()
+        st.markdown(
+            f'<div class="score-box">Current score: {st.session_state.score} / {answered_count}</div>',
+            unsafe_allow_html=True
+        )
 
-# ---------------------------------------------------
-# Footer
-# ---------------------------------------------------
-st.markdown("---")
+        if st.button("Restart Quiz"):
+            reset_quiz()
+            st.rerun()
 
-st.write(f"Current Score: **{st.session_state.score}**")
+    else:
 
-st.markdown('<div class="restart">', unsafe_allow_html=True)
+        score = st.session_state.score
+        percentage = round((score / total_questions) * 100)
 
-if st.button("Restart quiz"):
+        st.markdown('<div class="question-card">', unsafe_allow_html=True)
 
-    restart_quiz()
-    st.rerun()
+        st.progress(1.0)
 
-st.markdown('</div>', unsafe_allow_html=True)
+        st.header("Quiz complete!")
+
+        st.subheader(f"Final score: {score} / {total_questions}")
+        st.subheader(f"Percentage: {percentage}%")
+
+        if percentage >= 80:
+            st.success("Excellent work. The exam goblin has backed away slowly.")
+        elif percentage >= 60:
+            st.info("Good effort. A few more rounds and you’ll be dangerous.")
+        else:
+            st.warning("Keep going. The knowledge is loading... like school Wi-Fi.")
+
+        st.markdown('</div>', unsafe_allow_html=True)
+
+        st.subheader("Review your answers")
+
+        for i, result in enumerate(st.session_state.results, start=1):
+
+            if result["was_correct"]:
+                st.write(f"✅ **{i}. {result['question']}**")
+                st.write(f"Your answer: {result['selected']}")
+            else:
+                st.write(f"❌ **{i}. {result['question']}**")
+                st.write(f"Your answer: {result['selected']}")
+                st.write(f"Correct answer: **{result['correct_answer']}**")
+
+            st.caption(f"{result['subject']} | {result['topic']}")
+            st.divider()
+
+        if st.button("Take another quiz", type="primary"):
+            reset_quiz()
+            st.rerun()
+
+st.markdown(
+    '<div class="footer-note">Built for short, focused revision. No panic-cramming goblins were harmed.</div>',
+    unsafe_allow_html=True
+)
