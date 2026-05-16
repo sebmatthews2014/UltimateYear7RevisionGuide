@@ -147,42 +147,52 @@ st.markdown("""
         font-weight: 900;
     }
 
+    /* ALL BUTTONS */
     div.stButton > button {
-        border-radius: 18px;
-        border: 3px solid #111827;
-        box-shadow: 4px 4px 0px #111827;
-        font-weight: 900;
-        font-size: 1rem;
-        transition: all 0.1s ease-in-out;
+        border-radius: 18px !important;
+        border: 3px solid #111827 !important;
+        box-shadow: 4px 4px 0px #111827 !important;
+        font-weight: 900 !important;
+        font-size: 1rem !important;
+        transition: all 0.1s ease-in-out !important;
+        background: #facc15 !important;
+        color: #111827 !important;
     }
 
     div.stButton > button:hover {
         transform: translate(2px, 2px);
-        box-shadow: 2px 2px 0px #111827;
+        box-shadow: 2px 2px 0px #111827 !important;
     }
 
-    div.stButton > button[kind="primary"] {
-        background: #facc15;
-        color: #111827;
+    /* Secondary buttons */
+    div.stButton > button:not([kind="primary"]) {
+        background: #ffffff !important;
+        color: #111827 !important;
     }
 
+    /* Radio container */
     .stRadio > div {
-        background: #f9fafb;
+        background: #ffffff;
         padding: 1rem;
         border-radius: 18px;
         border: 2px dashed #94a3b8;
         width: 100%;
     }
 
-    label[data-baseweb="radio"] {
-        white-space: normal !important;
-        align-items: flex-start !important;
+    /* Force radio text visible */
+    .stRadio label,
+    .stRadio label span,
+    .stRadio label div,
+    .stRadio [data-testid="stMarkdownContainer"] p {
+        color: #111827 !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        font-size: 1rem !important;
+        line-height: 1.35 !important;
     }
 
-    label[data-baseweb="radio"] div {
-        white-space: normal !important;
-        overflow-wrap: anywhere !important;
-        word-break: normal !important;
+    .stRadio label {
+        padding: 0.45rem 0 !important;
     }
 
     .footer-note {
@@ -193,7 +203,13 @@ st.markdown("""
         margin-top: 1.5rem;
     }
 
+    /* Secret pencil button */
+    div[data-testid="stButton"] button[kind="secondary"] {
+        min-height: 48px;
+    }
+
     @media (max-width: 700px) {
+
         .main .block-container {
             padding-left: 0.75rem;
             padding-right: 0.75rem;
@@ -208,7 +224,7 @@ st.markdown("""
         }
 
         .hero-title {
-            font-size: 2.15rem;
+            font-size: 2rem;
             line-height: 1.05;
         }
 
@@ -229,6 +245,17 @@ st.markdown("""
 
         .stRadio > div {
             padding: 0.75rem;
+            background: #ffffff !important;
+        }
+
+        .stRadio label,
+        .stRadio label span,
+        .stRadio label div,
+        .stRadio [data-testid="stMarkdownContainer"] p {
+            color: #111827 !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+            font-size: 1rem !important;
         }
 
         div.stButton > button {
@@ -256,12 +283,11 @@ SUBJECT_EMOJIS = {
     "All Subjects": "🎯"
 }
 
-
 def load_question_bank():
     question_bank = {}
 
     if not os.path.exists(QUESTIONS_FOLDER):
-        st.error("I cannot find the 'questions' folder. Make sure it is in the same folder as app.py.")
+        st.error("I cannot find the 'questions' folder.")
         return {}
 
     for filename in os.listdir(QUESTIONS_FOLDER):
@@ -283,7 +309,6 @@ def load_question_bank():
 
     return question_bank
 
-
 QUESTION_BANK = load_question_bank()
 
 defaults = {
@@ -299,7 +324,6 @@ defaults = {
 for key, value in defaults.items():
     if key not in st.session_state:
         st.session_state[key] = value
-
 
 def get_questions(subject):
     questions = []
@@ -322,7 +346,6 @@ def get_questions(subject):
 
     return questions
 
-
 def prepare_question(question):
     prepared = question.copy()
     options = prepared.get("options", []).copy()
@@ -330,13 +353,12 @@ def prepare_question(question):
     prepared["shuffled_options"] = options
     return prepared
 
-
 def start_quiz(subject, number_of_questions):
     available_questions = get_questions(subject)
     random.shuffle(available_questions)
 
     selected_questions = available_questions[:number_of_questions]
-    prepared_questions = [prepare_question(question) for question in selected_questions]
+    prepared_questions = [prepare_question(q) for q in selected_questions]
 
     st.session_state.questions = prepared_questions
     st.session_state.quiz_started = True
@@ -345,7 +367,6 @@ def start_quiz(subject, number_of_questions):
     st.session_state.answered = False
     st.session_state.results = []
 
-
 def reset_quiz():
     keep_easter_egg = st.session_state.show_easter_egg
 
@@ -353,7 +374,6 @@ def reset_quiz():
         st.session_state[key] = value
 
     st.session_state.show_easter_egg = keep_easter_egg
-
 
 def check_answer(question, selected_answer):
     correct = selected_answer == question["answer"]
@@ -372,15 +392,12 @@ def check_answer(question, selected_answer):
 
     st.session_state.answered = True
 
-
 def next_question():
     st.session_state.current_question += 1
     st.session_state.answered = False
 
-
 def toggle_easter_egg():
     st.session_state.show_easter_egg = not st.session_state.show_easter_egg
-
 
 st.button("✏️", key="secret_pencil", on_click=toggle_easter_egg)
 
@@ -397,26 +414,22 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 if st.session_state.show_easter_egg:
-    st.markdown(
-        """
-        <div class="easter-egg-card">
-            <div class="easter-title">✨ Secret unlocked ✨</div>
-            <p>This app was built by <strong>Seb Matthews</strong>.</p>
-            <p>
-                Certified absolute legend behaviour.<br>
-                Peak coder energy.<br>
-                Zero cringe detected.
-            </p>
-            <p>The revision goblin got absolutely cooked. 💀</p>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    st.markdown("""
+    <div class="easter-egg-card">
+        <div class="easter-title">✨ Secret unlocked ✨</div>
+        <p>This app was built by <strong>Seb Matthews</strong>.</p>
+        <p>
+            Certified absolute legend behaviour.<br>
+            Peak coder energy.<br>
+            Zero cringe detected.
+        </p>
+        <p>The revision goblin got absolutely cooked. 💀</p>
+    </div>
+    """, unsafe_allow_html=True)
 
 if not QUESTION_BANK:
-    st.warning("No questions have loaded yet. Check your questions folder and JSON files.")
+    st.warning("No questions loaded.")
     st.stop()
-
 
 if not st.session_state.quiz_started:
 
@@ -440,18 +453,8 @@ if not st.session_state.quiz_started:
 
     st.write(f"Available questions: **{len(available_questions)}**")
 
-    if len(available_questions) == 0:
-        st.warning("This subject has no questions yet. Tiny quiz cupboard is empty.")
+    if len(available_questions) > 0:
 
-    elif len(available_questions) == 1:
-        st.write("Only 1 question available.")
-        number_of_questions = 1
-
-        if st.button("Start Quiz", type="primary"):
-            start_quiz(selected_subject, number_of_questions)
-            st.rerun()
-
-    else:
         number_of_questions = st.slider(
             "How many questions?",
             min_value=1,
@@ -506,10 +509,13 @@ else:
         )
 
         if not st.session_state.answered:
+
             if st.button("Check Answer", type="primary"):
                 check_answer(question, selected_answer)
                 st.rerun()
+
         else:
+
             latest_result = st.session_state.results[-1]
 
             if latest_result["was_correct"]:
@@ -550,6 +556,7 @@ else:
         st.markdown('<div class="question-card">', unsafe_allow_html=True)
 
         st.progress(1.0)
+
         st.header("Quiz complete!")
 
         st.subheader(f"Final score: {score} / {total_questions}")
@@ -567,6 +574,7 @@ else:
         st.subheader("Review your answers")
 
         for i, result in enumerate(st.session_state.results, start=1):
+
             if result["was_correct"]:
                 st.write(f"✅ **{i}. {result['question']}**")
                 st.write(f"Your answer: {result['selected']}")
