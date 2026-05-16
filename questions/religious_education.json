@@ -5,19 +5,1465 @@
       {
         "question": "What is an atheist?",
         "options": [
-          "A person who believes in God",
           "A person who does not believe in God",
+          "A person who believes in God",
           "A person who is unsure whether God exists",
           "A person who believes in many gods"
         ],
         "answer": "A person who does not believe in God"
+      },
+      {
+        "question": "What is a theist?",
+        "options": [
+          "A person who believes in God",
+          "A person who does not believe in God",
+          "A person who is unsure whether God exists",
+          "A person who follows no religion"
+        ],
+        "answer": "A person who believes in God"
+      },
+      {
+        "question": "What is an agnostic?",
+        "options": [
+          "Someone who is not sure whether God exists",
+          "Someone who believes in God",
+          "Someone who believes in many gods",
+          "Someone who founded a religion"
+        ],
+        "answer": "Someone who is not sure whether God exists"
+      },
+      {
+        "question": "What does monotheism mean?",
+        "options": [
+          "Belief in one God",
+          "Belief in many gods",
+          "Belief in no gods",
+          "Belief in nature only"
+        ],
+        "answer": "Belief in one God"
+      },
+      {
+        "question": "What does polytheism mean?",
+        "options": [
+          "Belief in more than one God",
+          "Belief in one God",
+          "Belief in no gods",
+          "Belief that God is all-powerful"
+        ],
+        "answer": "Belief in more than one God"
+      },
+      {
+        "question": "What does omnipotent mean?",
+        "options": [
+          "All-powerful",
+          "All-knowing",
+          "All-loving",
+          "All-forgiving"
+        ],
+        "answer": "All-powerful"
+      },
+      {
+        "question": "What does omniscient mean?",
+        "options": [
+          "All-knowing",
+          "All-powerful",
+          "All-loving",
+          "All-present"
+        ],
+        "answer": "All-knowing"
+      },
+      {
+        "question": "What does omnibenevolent mean?",
+        "options": [
+          "All-loving",
+          "All-powerful",
+          "All-knowing",
+          "All-seeing"
+        ],
+        "answer": "All-loving"
+      },
+      {
+        "question": "Which word means belief in one God?",
+        "options": [
+          "Monotheism",
+          "Polytheism",
+          "Atheism",
+          "Agnosticism"
+        ],
+        "answer": "Monotheism"
+      },
+      {
+        "question": "Which word means belief in more than one God?",
+        "options": [
+          "Polytheism",
+          "Monotheism",
+          "Atheism",
+          "Omniscience"
+        ],
+        "answer": "Polytheism"
+      },
+      {
+        "question": "Which word means God is all-powerful?",
+        "options": [
+          "Omnipotent",
+          "Omniscient",
+          "Omnibenevolent",
+          "Agnostic"
+        ],
+        "answer": "Omnipotent"
+      },
+      {
+        "question": "Which word means God is all-knowing?",
+        "options": [
+          "Omniscient",
+          "Omnipotent",
+          "Omnibenevolent",
+          "Polytheist"
+        ],
+        "answer": "Omniscient"
+      },
+      {
+        "question": "Which word means God is all-loving?",
+        "options": [
+          "Omnibenevolent",
+          "Omniscient",
+          "Omnipotent",
+          "Theist"
+        ],
+        "answer": "Omnibenevolent"
+      },
+      {
+        "question": "Which person would say, 'I do not believe God exists'?",
+        "options": [
+          "An atheist",
+          "A theist",
+          "An agnostic",
+          "A monotheist"
+        ],
+        "answer": "An atheist"
+      },
+      {
+        "question": "Which person would say, 'I believe God exists'?",
+        "options": [
+          "A theist",
+          "An atheist",
+          "An agnostic",
+          "A humanist only"
+        ],
+        "answer": "A theist"
+      },
+      {
+        "question": "Which person would say, 'I am not sure whether God exists'?",
+        "options": [
+          "An agnostic",
+          "A theist",
+          "An atheist",
+          "A polytheist"
+        ],
+        "answer": "An agnostic"
+      },
+      {
+        "question": "Which of these is a monotheistic religion?",
+        "options": [
+          "Christianity",
+          "Ancient Greek religion",
+          "A belief in many gods",
+          "A belief in no gods"
+        ],
+        "answer": "Christianity"
+      },
+      {
+        "question": "What does 'holy book' mean?",
+        "options": [
+          "A sacred text used by a religion",
+          "A building for worship",
+          "A religious festival",
+          "A person who teaches maths"
+        ],
+        "answer": "A sacred text used by a religion"
+      },
+      {
+        "question": "What does 'place of worship' mean?",
+        "options": [
+          "A place where people practise their religion",
+          "A country where a religion began",
+          "A religious symbol",
+          "A type of holy book"
+        ],
+        "answer": "A place where people practise their religion"
+      },
+      {
+        "question": "What does 'follower' mean in religion?",
+        "options": [
+          "A person who belongs to or follows a religion",
+          "A person who builds churches",
+          "A person who writes laws",
+          "A person who does not study"
+        ],
+        "answer": "A person who belongs to or follows a religion"
       }
     ],
-    "Christianity": [],
-    "Sikhi": [],
-    "Holy Week": [],
-    "Church Features": [],
-    "Problem of Evil": [],
-    "Worldviews": []
+    "Christianity": [
+      {
+        "question": "What is the Christian holy book called?",
+        "options": [
+          "The Bible",
+          "The Qur’an",
+          "The Torah Scroll",
+          "Guru Granth Sahib"
+        ],
+        "answer": "The Bible"
+      },
+      {
+        "question": "What is the Christian place of worship called?",
+        "options": [
+          "Church",
+          "Mosque",
+          "Gurdwara",
+          "Synagogue"
+        ],
+        "answer": "Church"
+      },
+      {
+        "question": "Who began Christianity?",
+        "options": [
+          "Jesus",
+          "Guru Nanak",
+          "Muhammad",
+          "Abraham"
+        ],
+        "answer": "Jesus"
+      },
+      {
+        "question": "Where did Christianity begin?",
+        "options": [
+          "Israel",
+          "India",
+          "Saudi Arabia",
+          "China"
+        ],
+        "answer": "Israel"
+      },
+      {
+        "question": "How long ago did Christianity begin?",
+        "options": [
+          "About 2000 years ago",
+          "About 500 years ago",
+          "About 4000 years ago",
+          "About 100 years ago"
+        ],
+        "answer": "About 2000 years ago"
+      },
+      {
+        "question": "What is a follower of Christianity called?",
+        "options": [
+          "A Christian",
+          "A Sikh",
+          "A Muslim",
+          "A Jew"
+        ],
+        "answer": "A Christian"
+      },
+      {
+        "question": "How many gods do Christians believe in?",
+        "options": [
+          "One God",
+          "Many gods",
+          "No gods",
+          "Two equal gods"
+        ],
+        "answer": "One God"
+      },
+      {
+        "question": "Christianity is an example of what type of religion?",
+        "options": [
+          "Monotheistic",
+          "Polytheistic",
+          "Atheistic",
+          "Non-religious"
+        ],
+        "answer": "Monotheistic"
+      },
+      {
+        "question": "What is the holiest place for Christians in Jerusalem called?",
+        "options": [
+          "Church of the Holy Sepulchre",
+          "The Golden Temple",
+          "The Ka’bah",
+          "The Western Wall"
+        ],
+        "answer": "Church of the Holy Sepulchre"
+      },
+      {
+        "question": "Why is Jesus important to Christians?",
+        "options": [
+          "Christians believe he is the Son of God",
+          "He founded Sikhi",
+          "He wrote the Qur’an",
+          "He built the Golden Temple"
+        ],
+        "answer": "Christians believe he is the Son of God"
+      },
+      {
+        "question": "What festival celebrates the birth of Jesus?",
+        "options": [
+          "Christmas",
+          "Easter",
+          "Vaisakhi",
+          "Diwali"
+        ],
+        "answer": "Christmas"
+      },
+      {
+        "question": "What festival remembers the death and resurrection of Jesus?",
+        "options": [
+          "Easter",
+          "Christmas",
+          "Eid",
+          "Hanukkah"
+        ],
+        "answer": "Easter"
+      },
+      {
+        "question": "What do Christians believe Jesus did at Easter?",
+        "options": [
+          "Died and rose again",
+          "Founded Judaism",
+          "Built a temple",
+          "Wrote the Torah"
+        ],
+        "answer": "Died and rose again"
+      },
+      {
+        "question": "What do Christians often do at Christmas?",
+        "options": [
+          "Attend church services and remember Jesus' birth",
+          "Remember the Black Death",
+          "Celebrate Guru Nanak founding Sikhi",
+          "Pray at the Ka’bah"
+        ],
+        "answer": "Attend church services and remember Jesus' birth"
+      },
+      {
+        "question": "What is a nativity scene about?",
+        "options": [
+          "The birth of Jesus",
+          "The resurrection of Jesus",
+          "The founding of Islam",
+          "The life of Guru Nanak"
+        ],
+        "answer": "The birth of Jesus"
+      },
+      {
+        "question": "Why is Easter important to Christians?",
+        "options": [
+          "They believe Jesus defeated death and offers eternal life",
+          "It is when Jesus was born",
+          "It is when Guru Nanak disappeared in a river",
+          "It is when Abraham founded Judaism"
+        ],
+        "answer": "They believe Jesus defeated death and offers eternal life"
+      },
+      {
+        "question": "Which Christian ceremony welcomes babies into the Church?",
+        "options": [
+          "Baptism",
+          "Holy Week",
+          "Pilgrimage",
+          "Fasting"
+        ],
+        "answer": "Baptism"
+      },
+      {
+        "question": "What is Holy Communion linked to?",
+        "options": [
+          "Bread and wine shared by Jesus at the Last Supper",
+          "The birth of Guru Nanak",
+          "The Five Ks",
+          "The River Ganges"
+        ],
+        "answer": "Bread and wine shared by Jesus at the Last Supper"
+      },
+      {
+        "question": "Where do Christians hear readings from the Bible in church?",
+        "options": [
+          "The lectern",
+          "The font",
+          "The vestry",
+          "The pews"
+        ],
+        "answer": "The lectern"
+      },
+      {
+        "question": "Where are Christians taught how to live their lives during a service?",
+        "options": [
+          "The pulpit",
+          "The font",
+          "The stained glass window",
+          "The porch"
+        ],
+        "answer": "The pulpit"
+      }
+    ],
+    "Sikhi": [
+      {
+        "question": "Who founded Sikhi?",
+        "options": [
+          "Guru Nanak",
+          "Jesus",
+          "Muhammad",
+          "Abraham"
+        ],
+        "answer": "Guru Nanak"
+      },
+      {
+        "question": "Where was Sikhi founded?",
+        "options": [
+          "Punjab, India",
+          "Jerusalem",
+          "Saudi Arabia",
+          "Rome"
+        ],
+        "answer": "Punjab, India"
+      },
+      {
+        "question": "How long ago was Sikhi founded?",
+        "options": [
+          "About 500 years ago",
+          "About 2000 years ago",
+          "About 4000 years ago",
+          "About 100 years ago"
+        ],
+        "answer": "About 500 years ago"
+      },
+      {
+        "question": "What is a follower of Sikhi called?",
+        "options": [
+          "A Sikh",
+          "A Christian",
+          "A Muslim",
+          "A Buddhist"
+        ],
+        "answer": "A Sikh"
+      },
+      {
+        "question": "What is the Sikh holy book called?",
+        "options": [
+          "Guru Granth Sahib",
+          "The Bible",
+          "The Qur’an",
+          "The Torah Scroll"
+        ],
+        "answer": "Guru Granth Sahib"
+      },
+      {
+        "question": "What is the Sikh place of worship called?",
+        "options": [
+          "Gurdwara",
+          "Church",
+          "Mosque",
+          "Synagogue"
+        ],
+        "answer": "Gurdwara"
+      },
+      {
+        "question": "What is the Sikh name for God?",
+        "options": [
+          "Waheguru",
+          "Allah",
+          "Yahweh",
+          "Brahman"
+        ],
+        "answer": "Waheguru"
+      },
+      {
+        "question": "Sikhi is an example of what type of religion?",
+        "options": [
+          "Monotheistic",
+          "Polytheistic",
+          "Atheistic",
+          "Non-religious"
+        ],
+        "answer": "Monotheistic"
+      },
+      {
+        "question": "What is the holiest place for Sikhs?",
+        "options": [
+          "The Golden Temple",
+          "The Church of the Holy Sepulchre",
+          "The Ka’bah",
+          "The Western Wall"
+        ],
+        "answer": "The Golden Temple"
+      },
+      {
+        "question": "What does Guru mean?",
+        "options": [
+          "Teacher",
+          "Learner",
+          "King",
+          "Priest"
+        ],
+        "answer": "Teacher"
+      },
+      {
+        "question": "What does Sikh mean?",
+        "options": [
+          "Learner",
+          "Teacher",
+          "Prophet",
+          "Angel"
+        ],
+        "answer": "Learner"
+      },
+      {
+        "question": "Why was Guru Nanak seen as unusual from a young age?",
+        "options": [
+          "Stories showed special events and kind behaviour",
+          "He became a Roman emperor",
+          "He built the pyramids",
+          "He invented the Bible"
+        ],
+        "answer": "Stories showed special events and kind behaviour"
+      },
+      {
+        "question": "Which animal is said to have protected Guru Nanak from the sun?",
+        "options": [
+          "A cobra",
+          "A lion",
+          "A horse",
+          "An eagle"
+        ],
+        "answer": "A cobra"
+      },
+      {
+        "question": "What did Guru Nanak do with his market profits in one story?",
+        "options": [
+          "Gave them to the poor",
+          "Built a castle",
+          "Bought weapons",
+          "Hid them in a river"
+        ],
+        "answer": "Gave them to the poor"
+      },
+      {
+        "question": "How long did Guru Nanak disappear in a river?",
+        "options": [
+          "Three days",
+          "One hour",
+          "Seven weeks",
+          "Forty years"
+        ],
+        "answer": "Three days"
+      },
+      {
+        "question": "What did Guru Nanak say after returning from the river?",
+        "options": [
+          "He had seen God",
+          "He had become king",
+          "He had written the Bible",
+          "He had found gold"
+        ],
+        "answer": "He had seen God"
+      },
+      {
+        "question": "Why did people think Guru Nanak was chosen by God?",
+        "options": [
+          "Because of special stories about him and his teachings",
+          "Because he conquered England",
+          "Because he was a pharaoh",
+          "Because he owned many castles"
+        ],
+        "answer": "Because of special stories about him and his teachings"
+      },
+      {
+        "question": "What did Guru Nanak go on to do?",
+        "options": [
+          "Teach others",
+          "Found Christianity",
+          "Build the Ka’bah",
+          "Write the Torah"
+        ],
+        "answer": "Teach others"
+      },
+      {
+        "question": "What is a gurdwara used for?",
+        "options": [
+          "Sikh worship and community gathering",
+          "Christian baptism only",
+          "Muslim prayer only",
+          "Jewish festivals only"
+        ],
+        "answer": "Sikh worship and community gathering"
+      },
+      {
+        "question": "Which statement is correct about Sikhs?",
+        "options": [
+          "Sikhs believe in one God known as Waheguru",
+          "Sikhs believe in no God",
+          "Sikhs believe Jesus founded Sikhi",
+          "Sikhs only worship in churches"
+        ],
+        "answer": "Sikhs believe in one God known as Waheguru"
+      }
+    ],
+    "Holy Week": [
+      {
+        "question": "What happened on Palm Sunday?",
+        "options": [
+          "Jesus rode into Jerusalem on a donkey",
+          "Jesus was crucified",
+          "Jesus rose from the dead",
+          "Jesus was born"
+        ],
+        "answer": "Jesus rode into Jerusalem on a donkey"
+      },
+      {
+        "question": "What did people wave on Palm Sunday?",
+        "options": [
+          "Palm branches",
+          "Flags of Rome",
+          "Golden swords",
+          "Scrolls"
+        ],
+        "answer": "Palm branches"
+      },
+      {
+        "question": "What did people shout to welcome Jesus?",
+        "options": [
+          "Hosanna",
+          "Amen only",
+          "Hallelujah only",
+          "Shalom only"
+        ],
+        "answer": "Hosanna"
+      },
+      {
+        "question": "What happened on the Monday of Holy Week?",
+        "options": [
+          "Jesus cleared the Temple",
+          "Jesus rose from the dead",
+          "Jesus was born",
+          "Jesus founded Sikhi"
+        ],
+        "answer": "Jesus cleared the Temple"
+      },
+      {
+        "question": "Why was Jesus angry in the Temple?",
+        "options": [
+          "People were using it to make money unfairly",
+          "People were reading the Bible",
+          "People were praying quietly",
+          "People were helping the poor"
+        ],
+        "answer": "People were using it to make money unfairly"
+      },
+      {
+        "question": "What did Judas agree to do on Wednesday?",
+        "options": [
+          "Betray Jesus for money",
+          "Build a church",
+          "Write the Bible",
+          "Crown Jesus king"
+        ],
+        "answer": "Betray Jesus for money"
+      },
+      {
+        "question": "Who betrayed Jesus?",
+        "options": [
+          "Judas",
+          "Peter",
+          "John",
+          "Paul"
+        ],
+        "answer": "Judas"
+      },
+      {
+        "question": "What happened on Maundy Thursday?",
+        "options": [
+          "Jesus had the Last Supper with his disciples",
+          "Jesus was born",
+          "Jesus rose from the dead",
+          "Jesus founded Christianity in Rome"
+        ],
+        "answer": "Jesus had the Last Supper with his disciples"
+      },
+      {
+        "question": "What did Jesus share at the Last Supper?",
+        "options": [
+          "Bread and wine",
+          "Fish and chips",
+          "Milk and honey",
+          "Water and rice"
+        ],
+        "answer": "Bread and wine"
+      },
+      {
+        "question": "Where did Jesus pray after the Last Supper?",
+        "options": [
+          "In a garden",
+          "In a palace",
+          "In a boat",
+          "In the desert for forty years"
+        ],
+        "answer": "In a garden"
+      },
+      {
+        "question": "What happened to Jesus after Judas betrayed him?",
+        "options": [
+          "He was arrested",
+          "He became emperor",
+          "He left Israel forever",
+          "He built a temple"
+        ],
+        "answer": "He was arrested"
+      },
+      {
+        "question": "What happened on Good Friday?",
+        "options": [
+          "Jesus was crucified and died",
+          "Jesus was born",
+          "Jesus entered Jerusalem",
+          "Jesus rose from the dead"
+        ],
+        "answer": "Jesus was crucified and died"
+      },
+      {
+        "question": "What does crucified mean?",
+        "options": [
+          "Killed on a cross",
+          "Welcomed into a city",
+          "Baptised in water",
+          "Crowned as king"
+        ],
+        "answer": "Killed on a cross"
+      },
+      {
+        "question": "Where was Jesus buried after he died?",
+        "options": [
+          "In a tomb",
+          "In a palace",
+          "In a gurdwara",
+          "In the Golden Temple"
+        ],
+        "answer": "In a tomb"
+      },
+      {
+        "question": "What happened on Holy Saturday?",
+        "options": [
+          "Jesus' body stayed in the tomb",
+          "Jesus rose from the dead",
+          "Jesus was born",
+          "Jesus rode into Jerusalem"
+        ],
+        "answer": "Jesus' body stayed in the tomb"
+      },
+      {
+        "question": "How did Jesus' followers feel on Holy Saturday?",
+        "options": [
+          "Sad and afraid",
+          "Excited and relaxed",
+          "Angry at Christmas",
+          "Confused about Sikhi"
+        ],
+        "answer": "Sad and afraid"
+      },
+      {
+        "question": "What happened on Easter Sunday?",
+        "options": [
+          "Jesus came back to life",
+          "Jesus was crucified",
+          "Judas betrayed Jesus",
+          "Jesus cleared the Temple"
+        ],
+        "answer": "Jesus came back to life"
+      },
+      {
+        "question": "What did Jesus' friends find on Easter Sunday?",
+        "options": [
+          "The tomb was empty",
+          "The Temple was destroyed",
+          "A new Bible",
+          "The Golden Temple"
+        ],
+        "answer": "The tomb was empty"
+      },
+      {
+        "question": "Why is Easter Sunday important to Christians?",
+        "options": [
+          "It shows Jesus had risen from the dead",
+          "It marks Jesus' birth",
+          "It marks Guru Nanak's birth",
+          "It marks the start of Judaism"
+        ],
+        "answer": "It shows Jesus had risen from the dead"
+      },
+      {
+        "question": "Which order is correct?",
+        "options": [
+          "Palm Sunday, Maundy Thursday, Good Friday, Easter Sunday",
+          "Good Friday, Christmas, Palm Sunday, Easter Sunday",
+          "Easter Sunday, Good Friday, Palm Sunday, Monday",
+          "Maundy Thursday, Easter Sunday, Palm Sunday, Wednesday"
+        ],
+        "answer": "Palm Sunday, Maundy Thursday, Good Friday, Easter Sunday"
+      }
+    ],
+    "Church Features": [
+      {
+        "question": "What are pews?",
+        "options": [
+          "Seats people sit on in church",
+          "Windows showing Bible stories",
+          "A place for baptism",
+          "A private changing room"
+        ],
+        "answer": "Seats people sit on in church"
+      },
+      {
+        "question": "What is the font used for?",
+        "options": [
+          "Baptism",
+          "Bible readings",
+          "Changing clothes",
+          "Singing only"
+        ],
+        "answer": "Baptism"
+      },
+      {
+        "question": "What happens at the font?",
+        "options": [
+          "Babies may be baptised and welcomed into the Church",
+          "The priest changes clothes",
+          "The Bible is read",
+          "Candles are stored"
+        ],
+        "answer": "Babies may be baptised and welcomed into the Church"
+      },
+      {
+        "question": "What is the nave?",
+        "options": [
+          "The main aisle or central area of the church",
+          "A small private room",
+          "A holy book",
+          "A church bell"
+        ],
+        "answer": "The main aisle or central area of the church"
+      },
+      {
+        "question": "What is the vestry used for?",
+        "options": [
+          "The priest may get changed there",
+          "Babies are baptised there",
+          "People sit there during the service",
+          "It is where the main sermon is always given"
+        ],
+        "answer": "The priest may get changed there"
+      },
+      {
+        "question": "What is the pulpit used for?",
+        "options": [
+          "Teaching Christians how to live their lives",
+          "Baptising babies",
+          "Changing clothes",
+          "Storing money"
+        ],
+        "answer": "Teaching Christians how to live their lives"
+      },
+      {
+        "question": "What is the lectern used for?",
+        "options": [
+          "Reading religious stories from the Bible",
+          "Baptising babies",
+          "Preparing bread only",
+          "Changing robes"
+        ],
+        "answer": "Reading religious stories from the Bible"
+      },
+      {
+        "question": "What is the altar?",
+        "options": [
+          "A place where important ceremonies take place",
+          "A seat for visitors",
+          "A colourful window",
+          "A church entrance"
+        ],
+        "answer": "A place where important ceremonies take place"
+      },
+      {
+        "question": "What is the chancel?",
+        "options": [
+          "A quiet place for reflection close to the altar",
+          "The church kitchen",
+          "The main door",
+          "A place for sports"
+        ],
+        "answer": "A quiet place for reflection close to the altar"
+      },
+      {
+        "question": "What is the sanctuary?",
+        "options": [
+          "A quiet place where Holy Communion takes place",
+          "The car park",
+          "A school classroom",
+          "A place for changing clothes only"
+        ],
+        "answer": "A quiet place where Holy Communion takes place"
+      },
+      {
+        "question": "What do stained glass windows often show?",
+        "options": [
+          "Stories from the Bible",
+          "Maths equations",
+          "Shopping lists",
+          "Football scores"
+        ],
+        "answer": "Stories from the Bible"
+      },
+      {
+        "question": "Which church feature is linked to baptism?",
+        "options": [
+          "Font",
+          "Pulpit",
+          "Lectern",
+          "Vestry"
+        ],
+        "answer": "Font"
+      },
+      {
+        "question": "Which church feature is linked to sermons or teaching?",
+        "options": [
+          "Pulpit",
+          "Font",
+          "Pews",
+          "Stained glass windows"
+        ],
+        "answer": "Pulpit"
+      },
+      {
+        "question": "Which church feature is linked to Bible readings?",
+        "options": [
+          "Lectern",
+          "Vestry",
+          "Font",
+          "Pews"
+        ],
+        "answer": "Lectern"
+      },
+      {
+        "question": "Which church feature is where people sit?",
+        "options": [
+          "Pews",
+          "Altar",
+          "Chancel",
+          "Vestry"
+        ],
+        "answer": "Pews"
+      },
+      {
+        "question": "Which church feature is usually close to important ceremonies?",
+        "options": [
+          "Altar",
+          "Pews",
+          "Porch",
+          "Noticeboard"
+        ],
+        "answer": "Altar"
+      },
+      {
+        "question": "Why are churches special to Christians?",
+        "options": [
+          "They are places for worship, prayer, learning and community",
+          "They are only used for shopping",
+          "They are only museums",
+          "They are used only once a year"
+        ],
+        "answer": "They are places for worship, prayer, learning and community"
+      },
+      {
+        "question": "Which church feature helps people learn Bible stories through images?",
+        "options": [
+          "Stained glass windows",
+          "Vestry",
+          "Font",
+          "Pews"
+        ],
+        "answer": "Stained glass windows"
+      },
+      {
+        "question": "Which area is similar to the sanctuary and close to the altar?",
+        "options": [
+          "Chancel",
+          "Nave",
+          "Vestry",
+          "Pews"
+        ],
+        "answer": "Chancel"
+      },
+      {
+        "question": "Where may Holy Communion take place?",
+        "options": [
+          "Sanctuary",
+          "Vestry",
+          "Font",
+          "Church porch"
+        ],
+        "answer": "Sanctuary"
+      }
+    ],
+    "Problem of Evil": [
+      {
+        "question": "What is moral evil?",
+        "options": [
+          "Evil caused by human actions",
+          "Evil caused by natural events",
+          "Belief in many gods",
+          "A Christian festival"
+        ],
+        "answer": "Evil caused by human actions"
+      },
+      {
+        "question": "Which is an example of moral evil?",
+        "options": [
+          "Murder",
+          "Hurricane",
+          "Earthquake",
+          "Tsunami"
+        ],
+        "answer": "Murder"
+      },
+      {
+        "question": "What is natural evil?",
+        "options": [
+          "Evil caused by events outside human control",
+          "Evil caused by human choices",
+          "A type of worship",
+          "A holy book"
+        ],
+        "answer": "Evil caused by events outside human control"
+      },
+      {
+        "question": "Which is an example of natural evil?",
+        "options": [
+          "Hurricane",
+          "Murder",
+          "Theft",
+          "Bullying"
+        ],
+        "answer": "Hurricane"
+      },
+      {
+        "question": "What is the Problem of Evil?",
+        "options": [
+          "The question of how evil can exist if God is all-powerful, all-knowing and all-loving",
+          "The question of why churches have windows",
+          "The question of who founded Sikhi",
+          "The question of why people celebrate Christmas"
+        ],
+        "answer": "The question of how evil can exist if God is all-powerful, all-knowing and all-loving"
+      },
+      {
+        "question": "Which three words are often linked to the Problem of Evil?",
+        "options": [
+          "Omnipotent, omniscient and omnibenevolent",
+          "Atheist, Sikh and Christian",
+          "Pews, font and nave",
+          "Bible, Qur’an and Torah"
+        ],
+        "answer": "Omnipotent, omniscient and omnibenevolent"
+      },
+      {
+        "question": "Why might evil make some people question God?",
+        "options": [
+          "They wonder why a loving and powerful God allows suffering",
+          "They dislike church buildings",
+          "They do not know what a font is",
+          "They think all religions began in India"
+        ],
+        "answer": "They wonder why a loving and powerful God allows suffering"
+      },
+      {
+        "question": "What might some atheists argue about evil?",
+        "options": [
+          "Evil means God cannot exist",
+          "Evil proves all gods exist",
+          "Evil only happens in churches",
+          "Evil is the same as Christmas"
+        ],
+        "answer": "Evil means God cannot exist"
+      },
+      {
+        "question": "What might some theists argue about evil?",
+        "options": [
+          "Evil can test faith or be part of God's plan",
+          "Evil proves there is no religion",
+          "Evil was invented by Henry Tudor",
+          "Evil only means bad weather"
+        ],
+        "answer": "Evil can test faith or be part of God's plan"
+      },
+      {
+        "question": "Which explanation might some Christians give for evil?",
+        "options": [
+          "It may be caused by the devil",
+          "It is caused by stained glass windows",
+          "It is caused by the Golden Temple",
+          "It is caused by maps"
+        ],
+        "answer": "It may be caused by the devil"
+      },
+      {
+        "question": "Which explanation might some Christians give for suffering?",
+        "options": [
+          "It may be a test of faith",
+          "It proves churches are not special",
+          "It means no one should help others",
+          "It means all religions are polytheistic"
+        ],
+        "answer": "It may be a test of faith"
+      },
+      {
+        "question": "How might humanists respond to suffering?",
+        "options": [
+          "Try to improve the lives of people who are suffering",
+          "Pray only at the Golden Temple",
+          "Build Norman castles",
+          "Celebrate Holy Week only"
+        ],
+        "answer": "Try to improve the lives of people who are suffering"
+      },
+      {
+        "question": "Which statement best describes moral evil?",
+        "options": [
+          "Humans have a choice and cause the action",
+          "Humans have no control over it",
+          "It is always caused by weather",
+          "It only happens in ancient stories"
+        ],
+        "answer": "Humans have a choice and cause the action"
+      },
+      {
+        "question": "Which statement best describes natural evil?",
+        "options": [
+          "It happens because of events humans cannot directly control",
+          "It is always caused by a human choice",
+          "It means believing in many gods",
+          "It is a church ceremony"
+        ],
+        "answer": "It happens because of events humans cannot directly control"
+      },
+      {
+        "question": "Why is theft an example of moral evil?",
+        "options": [
+          "A person chooses to do it",
+          "It is caused by weather",
+          "It is caused by earthquakes",
+          "It is a natural disaster"
+        ],
+        "answer": "A person chooses to do it"
+      },
+      {
+        "question": "Why is an earthquake an example of natural evil?",
+        "options": [
+          "It is not caused by a person's choice",
+          "It is always caused by murder",
+          "It is a Christian festival",
+          "It is a holy book"
+        ],
+        "answer": "It is not caused by a person's choice"
+      },
+      {
+        "question": "What does omnibenevolent suggest God should want to do?",
+        "options": [
+          "Love people and want good for them",
+          "Ignore all suffering",
+          "Be unsure whether he exists",
+          "Believe in many gods"
+        ],
+        "answer": "Love people and want good for them"
+      },
+      {
+        "question": "What does omnipotent suggest God should be able to do?",
+        "options": [
+          "Stop evil because he is all-powerful",
+          "Be unsure if evil exists",
+          "Become a learner",
+          "Read from the lectern"
+        ],
+        "answer": "Stop evil because he is all-powerful"
+      },
+      {
+        "question": "What does omniscient suggest God would know?",
+        "options": [
+          "That evil and suffering are happening",
+          "Only what happens in churches",
+          "Only what happens at Christmas",
+          "Nothing about people"
+        ],
+        "answer": "That evil and suffering are happening"
+      },
+      {
+        "question": "Why is the Problem of Evil difficult for some believers?",
+        "options": [
+          "It challenges belief in a loving, powerful and knowing God",
+          "It is only about church furniture",
+          "It proves all religions are the same",
+          "It is about learning Spanish"
+        ],
+        "answer": "It challenges belief in a loving, powerful and knowing God"
+      }
+    ],
+    "Worldviews": [
+      {
+        "question": "What is the Buddhist place of worship called?",
+        "options": [
+          "Temple",
+          "Church",
+          "Mosque",
+          "Synagogue"
+        ],
+        "answer": "Temple"
+      },
+      {
+        "question": "Who started teaching Buddhism?",
+        "options": [
+          "Siddhartha Gautama",
+          "Jesus",
+          "Guru Nanak",
+          "Abraham"
+        ],
+        "answer": "Siddhartha Gautama"
+      },
+      {
+        "question": "Do Buddhists believe the Buddha was a God?",
+        "options": [
+          "No, but they deeply respect him",
+          "Yes, all Buddhists believe he was the only God",
+          "Yes, he founded Christianity",
+          "No, Buddhists have no respect for him"
+        ],
+        "answer": "No, but they deeply respect him"
+      },
+      {
+        "question": "What is one Buddhist holy text?",
+        "options": [
+          "Tipitaka",
+          "The Bible",
+          "The Qur’an",
+          "Guru Granth Sahib"
+        ],
+        "answer": "Tipitaka"
+      },
+      {
+        "question": "Where is the holiest place for Buddhists listed in the organiser?",
+        "options": [
+          "Lumbini",
+          "Mecca",
+          "Jerusalem",
+          "The Golden Temple"
+        ],
+        "answer": "Lumbini"
+      },
+      {
+        "question": "What is the Hindu place of worship called?",
+        "options": [
+          "Mandir or Temple",
+          "Church",
+          "Gurdwara",
+          "Synagogue"
+        ],
+        "answer": "Mandir or Temple"
+      },
+      {
+        "question": "What is a follower of Hinduism called?",
+        "options": [
+          "A Hindu",
+          "A Buddhist",
+          "A Sikh",
+          "A Muslim"
+        ],
+        "answer": "A Hindu"
+      },
+      {
+        "question": "What is one important Hindu text?",
+        "options": [
+          "The Vedas",
+          "The Bible",
+          "The Qur’an",
+          "The Torah Scroll"
+        ],
+        "answer": "The Vedas"
+      },
+      {
+        "question": "What is Brahman in Hinduism?",
+        "options": [
+          "One supreme force that takes many forms",
+          "A Christian holy book",
+          "A Sikh place of worship",
+          "A Jewish festival"
+        ],
+        "answer": "One supreme force that takes many forms"
+      },
+      {
+        "question": "Which river is a special place in Hinduism?",
+        "options": [
+          "The River Ganges",
+          "The River Thames",
+          "The River Nile only",
+          "The River Severn"
+        ],
+        "answer": "The River Ganges"
+      },
+      {
+        "question": "What is Humanism?",
+        "options": [
+          "A belief system with no belief in God",
+          "A branch of Christianity",
+          "A type of polytheism",
+          "A Sikh ceremony"
+        ],
+        "answer": "A belief system with no belief in God"
+      },
+      {
+        "question": "What do many humanists look to for guidance?",
+        "options": [
+          "Science",
+          "The Guru Granth Sahib",
+          "The Torah Scroll only",
+          "The Ka’bah"
+        ],
+        "answer": "Science"
+      },
+      {
+        "question": "What is the Muslim place of worship called?",
+        "options": [
+          "Mosque",
+          "Church",
+          "Gurdwara",
+          "Synagogue"
+        ],
+        "answer": "Mosque"
+      },
+      {
+        "question": "What is the Islamic holy book called?",
+        "options": [
+          "The Qur’an",
+          "The Bible",
+          "The Torah Scroll",
+          "The Vedas"
+        ],
+        "answer": "The Qur’an"
+      },
+      {
+        "question": "Who founded Islam according to the organiser?",
+        "options": [
+          "Muhammad, Peace be upon Him",
+          "Jesus",
+          "Guru Nanak",
+          "Siddhartha Gautama"
+        ],
+        "answer": "Muhammad, Peace be upon Him"
+      },
+      {
+        "question": "What is the Muslim name for God?",
+        "options": [
+          "Allah",
+          "Waheguru",
+          "Brahman",
+          "Zeus"
+        ],
+        "answer": "Allah"
+      },
+      {
+        "question": "What is the holiest place for Muslims listed in the organiser?",
+        "options": [
+          "The Ka’bah in Mecca",
+          "The Golden Temple",
+          "The Western Wall",
+          "Lumbini"
+        ],
+        "answer": "The Ka’bah in Mecca"
+      },
+      {
+        "question": "What is the Jewish place of worship called?",
+        "options": [
+          "Synagogue",
+          "Church",
+          "Mosque",
+          "Mandir"
+        ],
+        "answer": "Synagogue"
+      },
+      {
+        "question": "What is the Jewish holy book called?",
+        "options": [
+          "Torah Scroll",
+          "Bible",
+          "Qur’an",
+          "Tipitaka"
+        ],
+        "answer": "Torah Scroll"
+      },
+      {
+        "question": "Who founded Judaism according to the organiser?",
+        "options": [
+          "Abraham",
+          "Jesus",
+          "Guru Nanak",
+          "Muhammad"
+        ],
+        "answer": "Abraham"
+      },
+      {
+        "question": "What is the holiest place for Jews listed in the organiser?",
+        "options": [
+          "The Western Wall in Jerusalem",
+          "The Golden Temple",
+          "The Ka’bah",
+          "Lumbini"
+        ],
+        "answer": "The Western Wall in Jerusalem"
+      },
+      {
+        "question": "Which religions are Abrahamic faiths?",
+        "options": [
+          "Christianity, Judaism and Islam",
+          "Sikhi, Hinduism and Buddhism",
+          "Humanism, Christianity and Buddhism",
+          "Hinduism, Islam and Humanism"
+        ],
+        "answer": "Christianity, Judaism and Islam"
+      },
+      {
+        "question": "Which religions are Dharmic faiths?",
+        "options": [
+          "Sikhi, Hinduism and Buddhism",
+          "Christianity, Judaism and Islam",
+          "Humanism, Judaism and Christianity",
+          "Islam, Judaism and Humanism"
+        ],
+        "answer": "Sikhi, Hinduism and Buddhism"
+      },
+      {
+        "question": "What does dharma broadly mean in the preparation material?",
+        "options": [
+          "Living a good and fair life based on laws",
+          "Believing in no God",
+          "Reading only the Bible",
+          "Building churches"
+        ],
+        "answer": "Living a good and fair life based on laws"
+      },
+      {
+        "question": "Which worldview has no place of worship in the organiser?",
+        "options": [
+          "Humanism",
+          "Christianity",
+          "Islam",
+          "Sikhi"
+        ],
+        "answer": "Humanism"
+      }
+    ]
   }
 }
