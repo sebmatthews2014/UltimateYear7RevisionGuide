@@ -63,7 +63,7 @@ st.markdown("""
         max-width: 720px;
     }
 
-    .easter-egg-card {
+    .easter-egg-card, .empty-card {
         background: #fef3c7;
         padding: 1.4rem;
         border-radius: 22px;
@@ -73,7 +73,7 @@ st.markdown("""
         font-size: 1.1rem;
     }
 
-    .easter-title {
+    .easter-title, .empty-title {
         font-family: 'Patrick Hand', cursive;
         font-size: 2rem;
         color: #7c2d12;
@@ -147,7 +147,6 @@ st.markdown("""
         font-weight: 900;
     }
 
-    /* ALL BUTTONS */
     div.stButton > button {
         border-radius: 18px !important;
         border: 3px solid #111827 !important;
@@ -164,13 +163,11 @@ st.markdown("""
         box-shadow: 2px 2px 0px #111827 !important;
     }
 
-    /* Secondary buttons */
     div.stButton > button:not([kind="primary"]) {
         background: #ffffff !important;
         color: #111827 !important;
     }
 
-    /* Radio container */
     .stRadio > div {
         background: #ffffff;
         padding: 1rem;
@@ -179,7 +176,6 @@ st.markdown("""
         width: 100%;
     }
 
-    /* Force radio text visible */
     .stRadio label,
     .stRadio label span,
     .stRadio label div,
@@ -203,13 +199,7 @@ st.markdown("""
         margin-top: 1.5rem;
     }
 
-    /* Secret pencil button */
-    div[data-testid="stButton"] button[kind="secondary"] {
-        min-height: 48px;
-    }
-
     @media (max-width: 700px) {
-
         .main .block-container {
             padding-left: 0.75rem;
             padding-right: 0.75rem;
@@ -248,22 +238,12 @@ st.markdown("""
             background: #ffffff !important;
         }
 
-        .stRadio label,
-        .stRadio label span,
-        .stRadio label div,
-        .stRadio [data-testid="stMarkdownContainer"] p {
-            color: #111827 !important;
-            opacity: 1 !important;
-            visibility: visible !important;
-            font-size: 1rem !important;
-        }
-
         div.stButton > button {
             width: 100%;
             min-height: 48px;
         }
 
-        .easter-egg-card {
+        .easter-egg-card, .empty-card {
             padding: 1rem;
             font-size: 0.95rem;
             box-shadow: 4px 4px 0px #111827;
@@ -453,8 +433,29 @@ if not st.session_state.quiz_started:
 
     st.write(f"Available questions: **{len(available_questions)}**")
 
-    if len(available_questions) > 0:
+    if len(available_questions) == 0:
+        st.markdown("""
+        <div class="empty-card">
+            <div class="empty-title">🛠️ Questions coming soon...</div>
+            <p>
+                The revision goblins are still building this subject’s question bank.
+                They are very small, mildly chaotic, and currently arguing over snacks.
+            </p>
+            <p>
+                Try another subject for now. This one is still under construction.
+            </p>
+        </div>
+        """, unsafe_allow_html=True)
 
+    elif len(available_questions) == 1:
+        number_of_questions = 1
+        st.info("Only 1 question available. The goblins have made a start. Barely.")
+
+        if st.button("Start Quiz", type="primary"):
+            start_quiz(selected_subject, number_of_questions)
+            st.rerun()
+
+    else:
         number_of_questions = st.slider(
             "How many questions?",
             min_value=1,
