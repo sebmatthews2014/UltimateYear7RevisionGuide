@@ -26,11 +26,15 @@ st.markdown("""
             );
         color: #1f2937;
         font-family: 'Nunito', sans-serif;
+        overflow-x: hidden;
     }
 
     .main .block-container {
         max-width: 920px;
-        padding-top: 2rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        overflow-x: hidden;
     }
 
     .hero-card {
@@ -44,11 +48,12 @@ st.markdown("""
 
     .hero-title {
         font-family: 'Patrick Hand', cursive;
-        font-size: clamp(2.3rem, 6vw, 3.2rem);
+        font-size: clamp(2.1rem, 7vw, 3.2rem);
         font-weight: 900;
         color: #1e3a8a;
         margin-bottom: 0.8rem;
         line-height: 1.05;
+        overflow-wrap: anywhere;
     }
 
     .hero-subtitle {
@@ -84,6 +89,7 @@ st.markdown("""
         box-shadow: 7px 7px 0px #111827;
         margin-top: 1rem;
         margin-bottom: 1.5rem;
+        overflow-wrap: anywhere;
     }
 
     .question-text {
@@ -93,6 +99,7 @@ st.markdown("""
         margin-top: 1rem;
         margin-bottom: 1rem;
         line-height: 1.2;
+        overflow-wrap: anywhere;
     }
 
     .subject-pill {
@@ -105,6 +112,8 @@ st.markdown("""
         border: 2px solid #111827;
         box-shadow: 3px 3px 0px #111827;
         font-size: 0.9rem;
+        max-width: 100%;
+        white-space: normal;
     }
 
     .score-box {
@@ -162,6 +171,18 @@ st.markdown("""
         padding: 1rem;
         border-radius: 18px;
         border: 2px dashed #94a3b8;
+        width: 100%;
+    }
+
+    label[data-baseweb="radio"] {
+        white-space: normal !important;
+        align-items: flex-start !important;
+    }
+
+    label[data-baseweb="radio"] div {
+        white-space: normal !important;
+        overflow-wrap: anywhere !important;
+        word-break: normal !important;
     }
 
     .footer-note {
@@ -172,21 +193,54 @@ st.markdown("""
         margin-top: 1.5rem;
     }
 
-    div[data-testid="column"]:first-child .stButton button {
-        background: transparent !important;
-        border: none !important;
-        box-shadow: none !important;
-        color: #111827 !important;
-        width: 55px;
-        height: 55px;
-        margin-top: 0.2rem;
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
+    @media (max-width: 700px) {
+        .main .block-container {
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+            padding-top: 0.75rem;
+        }
 
-    div[data-testid="column"]:first-child .stButton button:hover {
-        transform: rotate(-8deg) scale(1.05) !important;
-        box-shadow: none !important;
+        .hero-card {
+            padding: 1.2rem;
+            border-radius: 20px;
+            box-shadow: 5px 5px 0px #111827;
+            margin-bottom: 1rem;
+        }
+
+        .hero-title {
+            font-size: 2.15rem;
+            line-height: 1.05;
+        }
+
+        .hero-subtitle {
+            font-size: 0.95rem;
+        }
+
+        .question-card {
+            padding: 1rem;
+            border-radius: 18px;
+            box-shadow: 4px 4px 0px #111827;
+        }
+
+        .question-text {
+            font-size: 1.55rem;
+            line-height: 1.15;
+        }
+
+        .stRadio > div {
+            padding: 0.75rem;
+        }
+
+        div.stButton > button {
+            width: 100%;
+            min-height: 48px;
+        }
+
+        .easter-egg-card {
+            padding: 1rem;
+            font-size: 0.95rem;
+            box-shadow: 4px 4px 0px #111827;
+        }
     }
 </style>
 """, unsafe_allow_html=True)
@@ -328,23 +382,19 @@ def toggle_easter_egg():
     st.session_state.show_easter_egg = not st.session_state.show_easter_egg
 
 
-header_col1, header_col2 = st.columns([1, 20])
+st.button("✏️", key="secret_pencil", on_click=toggle_easter_egg)
 
-with header_col1:
-    st.button("✏️", key="secret_pencil", on_click=toggle_easter_egg)
-
-with header_col2:
-    st.markdown("""
-    <div class="hero-card">
-        <div class="hero-title">
-            Ultimate Year 7 Revision Guide
-        </div>
-        <div class="hero-subtitle">
-            Pick a subject, answer quick questions, and slowly defeat the revision goblin.
-            Hand-drawn vibes. Serious learning. Minimal panic.
-        </div>
+st.markdown("""
+<div class="hero-card">
+    <div class="hero-title">
+        Ultimate Year 7 Revision Guide
     </div>
-    """, unsafe_allow_html=True)
+    <div class="hero-subtitle">
+        Pick a subject, answer quick questions, and slowly defeat the revision goblin.
+        Hand-drawn vibes. Serious learning. Minimal panic.
+    </div>
+</div>
+""", unsafe_allow_html=True)
 
 if st.session_state.show_easter_egg:
     st.markdown(
@@ -353,7 +403,11 @@ if st.session_state.show_easter_egg:
             <div class="easter-title">✨ Secret unlocked ✨</div>
             <p>This app was built by <strong>Seb Matthews</strong>.</p>
             <p>
-                Definitely not a goblin.<br>
+                Certified absolute legend behaviour.<br>
+                Peak coder energy.<br>
+                Zero cringe detected.
+            </p>
+            <p>The revision goblin got absolutely cooked. 💀</p>
         </div>
         """,
         unsafe_allow_html=True
@@ -387,7 +441,7 @@ if not st.session_state.quiz_started:
     st.write(f"Available questions: **{len(available_questions)}**")
 
     if len(available_questions) == 0:
-        st.warning("This subject has no questions yet. The goblins are cooking them up. Check back later.")
+        st.warning("This subject has no questions yet. Tiny quiz cupboard is empty.")
 
     elif len(available_questions) == 1:
         st.write("Only 1 question available.")
