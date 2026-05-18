@@ -1,12 +1,2517 @@
-{
-  "subject": "Maths",
-  "topics": {
-    "Number": [],
-    "Fractions": [],
-    "Decimals and Percentages": [],
-    "Algebra": [],
-    "Shape and Space": [],
-    "Measures": [],
-    "Data": []
+[
+  {
+    "id": "maths_001",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for numerical sequences",
+    "sparx_code": "M381",
+    "question_type": "short_answer",
+    "question": "What is the next term in the sequence: 3, 7, 11, 15, ...?",
+    "answer": "19",
+    "acceptable_answers": [
+      "19"
+    ],
+    "working": "The rule is add 4.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_002",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for numerical sequences",
+    "sparx_code": "M381",
+    "question_type": "short_answer",
+    "question": "What is the next term in the sequence: 7, 12, 17, 22, ...?",
+    "answer": "27",
+    "acceptable_answers": [
+      "27"
+    ],
+    "working": "The rule is add 5.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_003",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for numerical sequences",
+    "sparx_code": "M381",
+    "question_type": "short_answer",
+    "question": "What is the next term in the sequence: 12, 10, 8, 6, ...?",
+    "answer": "4",
+    "acceptable_answers": [
+      "4"
+    ],
+    "working": "The rule is subtract 2.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_004",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for numerical sequences",
+    "sparx_code": "M381",
+    "question_type": "short_answer",
+    "question": "What is the next term in the sequence: 2, 5, 8, 11, ...?",
+    "answer": "14",
+    "acceptable_answers": [
+      "14"
+    ],
+    "working": "The rule is add 3.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_005",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for numerical sequences",
+    "sparx_code": "M381",
+    "question_type": "short_answer",
+    "question": "What is the next term in the sequence: 20, 16, 12, 8, ...?",
+    "answer": "4",
+    "acceptable_answers": [
+      "4"
+    ],
+    "working": "The rule is subtract 4.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_006",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for sequences of patterns",
+    "sparx_code": "M241",
+    "question_type": "short_answer",
+    "question": "A pattern has 3 dots in pattern 1 and increases by 2 dots each time. How many dots are in pattern 2?",
+    "answer": "5",
+    "acceptable_answers": [
+      "5"
+    ],
+    "working": "Add 2 dots for the next pattern.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_007",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for sequences of patterns",
+    "sparx_code": "M241",
+    "question_type": "short_answer",
+    "question": "A pattern has 5 dots in pattern 2 and increases by 2 dots each time. How many dots are in pattern 3?",
+    "answer": "7",
+    "acceptable_answers": [
+      "7"
+    ],
+    "working": "Add 2 dots for the next pattern.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_008",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for sequences of patterns",
+    "sparx_code": "M241",
+    "question_type": "short_answer",
+    "question": "A pattern has 7 dots in pattern 3 and increases by 2 dots each time. How many dots are in pattern 4?",
+    "answer": "9",
+    "acceptable_answers": [
+      "9"
+    ],
+    "working": "Add 2 dots for the next pattern.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_009",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for sequences of patterns",
+    "sparx_code": "M241",
+    "question_type": "short_answer",
+    "question": "A pattern has 9 dots in pattern 4 and increases by 2 dots each time. How many dots are in pattern 5?",
+    "answer": "11",
+    "acceptable_answers": [
+      "11"
+    ],
+    "working": "Add 2 dots for the next pattern.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_010",
+    "subject": "Maths",
+    "unit": "Sequences",
+    "topic": "Term-to-term rules for sequences of patterns",
+    "sparx_code": "M241",
+    "question_type": "short_answer",
+    "question": "A pattern has 11 dots in pattern 5 and increases by 2 dots each time. How many dots are in pattern 6?",
+    "answer": "13",
+    "acceptable_answers": [
+      "13"
+    ],
+    "working": "Add 2 dots for the next pattern.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_011",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Algebraic notation",
+    "sparx_code": "M813, M830",
+    "question_type": "short_answer",
+    "question": "Write this using algebraic notation: 5 lots of x.",
+    "answer": "5x",
+    "acceptable_answers": [
+      "5x",
+      "5x"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_012",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Algebraic notation",
+    "sparx_code": "M813, M830",
+    "question_type": "short_answer",
+    "question": "Write this using algebraic notation: a divided by 3.",
+    "answer": "a/3",
+    "acceptable_answers": [
+      "a/3",
+      "a ÷ 3"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_013",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Algebraic notation",
+    "sparx_code": "M813, M830",
+    "question_type": "short_answer",
+    "question": "Write this using algebraic notation: 7 more than n.",
+    "answer": "n+7",
+    "acceptable_answers": [
+      "n+7",
+      "n+7"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_014",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Algebraic notation",
+    "sparx_code": "M813, M830",
+    "question_type": "short_answer",
+    "question": "Write this using algebraic notation: p multiplied by q.",
+    "answer": "pq",
+    "acceptable_answers": [
+      "pq",
+      "pq"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_015",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Algebraic notation",
+    "sparx_code": "M813, M830",
+    "question_type": "short_answer",
+    "question": "Write this using algebraic notation: m less 4.",
+    "answer": "m-4",
+    "acceptable_answers": [
+      "m-4",
+      "m-4"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_016",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 3x + 4 when x = 2.",
+    "answer": "10",
+    "acceptable_answers": [
+      "10"
+    ],
+    "working": "3 × 2 + 4 = 10",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_017",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 3x + 4 when x = 3.",
+    "answer": "13",
+    "acceptable_answers": [
+      "13"
+    ],
+    "working": "3 × 3 + 4 = 13",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_018",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 3x + 4 when x = 5.",
+    "answer": "19",
+    "acceptable_answers": [
+      "19"
+    ],
+    "working": "3 × 5 + 4 = 19",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_019",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 3x + 4 when x = 7.",
+    "answer": "25",
+    "acceptable_answers": [
+      "25"
+    ],
+    "working": "3 × 7 + 4 = 25",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_020",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 3x + 4 when x = 10.",
+    "answer": "34",
+    "acceptable_answers": [
+      "34"
+    ],
+    "working": "3 × 10 + 4 = 34",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_021",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 2x² when x = 2.",
+    "answer": "8",
+    "acceptable_answers": [
+      "8"
+    ],
+    "working": "2 × 2² = 8",
+    "difficulty": "medium"
+  },
+  {
+    "id": "maths_022",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 2x² when x = 4.",
+    "answer": "32",
+    "acceptable_answers": [
+      "32"
+    ],
+    "working": "2 × 4² = 32",
+    "difficulty": "medium"
+  },
+  {
+    "id": "maths_023",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 2x² when x = 6.",
+    "answer": "72",
+    "acceptable_answers": [
+      "72"
+    ],
+    "working": "2 × 6² = 72",
+    "difficulty": "medium"
+  },
+  {
+    "id": "maths_024",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 2x² when x = 8.",
+    "answer": "128",
+    "acceptable_answers": [
+      "128"
+    ],
+    "working": "2 × 8² = 128",
+    "difficulty": "medium"
+  },
+  {
+    "id": "maths_025",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Substituting into expressions",
+    "sparx_code": "M417, M327",
+    "question_type": "short_answer",
+    "question": "Work out 2x² when x = 10.",
+    "answer": "200",
+    "acceptable_answers": [
+      "200"
+    ],
+    "working": "2 × 10² = 200",
+    "difficulty": "medium"
+  },
+  {
+    "id": "maths_026",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Simplifying expressions",
+    "sparx_code": "M531",
+    "question_type": "short_answer",
+    "question": "Simplify: 3x + 4x",
+    "answer": "7x",
+    "acceptable_answers": [
+      "7x",
+      "7x"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_027",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Simplifying expressions",
+    "sparx_code": "M531",
+    "question_type": "short_answer",
+    "question": "Simplify: 8a - 3a",
+    "answer": "5a",
+    "acceptable_answers": [
+      "5a",
+      "5a"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_028",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Simplifying expressions",
+    "sparx_code": "M531",
+    "question_type": "short_answer",
+    "question": "Simplify: 2y + 5 + 3y + 1",
+    "answer": "5y+6",
+    "acceptable_answers": [
+      "5y+6",
+      "5y + 6"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_029",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Simplifying expressions",
+    "sparx_code": "M531",
+    "question_type": "short_answer",
+    "question": "Simplify: 6p + 2q + p",
+    "answer": "7p+2q",
+    "acceptable_answers": [
+      "7p+2q",
+      "7p + 2q"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_030",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Simplifying expressions",
+    "sparx_code": "M531",
+    "question_type": "short_answer",
+    "question": "Simplify: 4m + 3 - m + 8",
+    "answer": "3m+11",
+    "acceptable_answers": [
+      "3m+11",
+      "3m + 11"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_031",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: 3x = 12",
+    "answer": "4",
+    "acceptable_answers": [
+      "4"
+    ],
+    "working": "Divide both sides by 3.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_032",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: 5x = 20",
+    "answer": "4",
+    "acceptable_answers": [
+      "4"
+    ],
+    "working": "Divide both sides by 5.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_033",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: 7x = 28",
+    "answer": "4",
+    "acceptable_answers": [
+      "4"
+    ],
+    "working": "Divide both sides by 7.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_034",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: 9x = 45",
+    "answer": "5",
+    "acceptable_answers": [
+      "5"
+    ],
+    "working": "Divide both sides by 9.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_035",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: 4x = 36",
+    "answer": "9",
+    "acceptable_answers": [
+      "9"
+    ],
+    "working": "Divide both sides by 4.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_036",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: x + 4 = 11",
+    "answer": "7",
+    "acceptable_answers": [
+      "7"
+    ],
+    "working": "Subtract 4 from both sides.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_037",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: x + 8 = 20",
+    "answer": "12",
+    "acceptable_answers": [
+      "12"
+    ],
+    "working": "Subtract 8 from both sides.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_038",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: x + 6 = 15",
+    "answer": "9",
+    "acceptable_answers": [
+      "9"
+    ],
+    "working": "Subtract 6 from both sides.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_039",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: x + 12 = 30",
+    "answer": "18",
+    "acceptable_answers": [
+      "18"
+    ],
+    "working": "Subtract 12 from both sides.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_040",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Solving equations with one step",
+    "sparx_code": "M707",
+    "question_type": "short_answer",
+    "question": "Solve: x + 9 = 17",
+    "answer": "8",
+    "acceptable_answers": [
+      "8"
+    ],
+    "working": "Subtract 9 from both sides.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_041",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the range",
+    "sparx_code": "M328",
+    "question_type": "short_answer",
+    "question": "Find the range of these numbers: 4, 9, 12, 15.",
+    "answer": "11",
+    "acceptable_answers": [
+      "11"
+    ],
+    "working": "Range = biggest number - smallest number.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_042",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the range",
+    "sparx_code": "M328",
+    "question_type": "short_answer",
+    "question": "Find the range of these numbers: 18, 2, 7, 11.",
+    "answer": "16",
+    "acceptable_answers": [
+      "16"
+    ],
+    "working": "Range = biggest number - smallest number.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_043",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the range",
+    "sparx_code": "M328",
+    "question_type": "short_answer",
+    "question": "Find the range of these numbers: 5, 5, 13, 20.",
+    "answer": "15",
+    "acceptable_answers": [
+      "15"
+    ],
+    "working": "Range = biggest number - smallest number.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_044",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the range",
+    "sparx_code": "M328",
+    "question_type": "short_answer",
+    "question": "Find the range of these numbers: 31, 27, 40, 35.",
+    "answer": "13",
+    "acceptable_answers": [
+      "13"
+    ],
+    "working": "Range = biggest number - smallest number.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_045",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the range",
+    "sparx_code": "M328",
+    "question_type": "short_answer",
+    "question": "Find the range of these numbers: 0, 8, 16, 24.",
+    "answer": "24",
+    "acceptable_answers": [
+      "24"
+    ],
+    "working": "Range = biggest number - smallest number.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_046",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the median",
+    "sparx_code": "M934",
+    "question_type": "short_answer",
+    "question": "Find the median of these numbers: 3, 7, 9.",
+    "answer": "7",
+    "acceptable_answers": [
+      "7"
+    ],
+    "working": "Put them in order: 3, 7, 9. The middle value is 7.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_047",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the median",
+    "sparx_code": "M934",
+    "question_type": "short_answer",
+    "question": "Find the median of these numbers: 12, 4, 8.",
+    "answer": "8",
+    "acceptable_answers": [
+      "8"
+    ],
+    "working": "Put them in order: 4, 8, 12. The middle value is 8.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_048",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the median",
+    "sparx_code": "M934",
+    "question_type": "short_answer",
+    "question": "Find the median of these numbers: 10, 2, 6, 14, 20.",
+    "answer": "10",
+    "acceptable_answers": [
+      "10"
+    ],
+    "working": "Put them in order: 2, 6, 10, 14, 20. The middle value is 10.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_049",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the median",
+    "sparx_code": "M934",
+    "question_type": "short_answer",
+    "question": "Find the median of these numbers: 11, 15, 1, 5, 9.",
+    "answer": "9",
+    "acceptable_answers": [
+      "9"
+    ],
+    "working": "Put them in order: 1, 5, 9, 11, 15. The middle value is 9.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_050",
+    "subject": "Maths",
+    "unit": "Averages and Range",
+    "topic": "Calculating the median",
+    "sparx_code": "M934",
+    "question_type": "short_answer",
+    "question": "Find the median of these numbers: 30, 22, 18, 26, 10.",
+    "answer": "22",
+    "acceptable_answers": [
+      "22"
+    ],
+    "working": "Put them in order: 10, 18, 22, 26, 30. The middle value is 22.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_051",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Rounding decimals",
+    "sparx_code": "M431",
+    "question_type": "short_answer",
+    "question": "Round 3.746 to 1 decimal place.",
+    "answer": "3.7",
+    "acceptable_answers": [
+      "3.7"
+    ],
+    "working": "Look at the next digit to decide whether to round up or down.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_052",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Rounding decimals",
+    "sparx_code": "M431",
+    "question_type": "short_answer",
+    "question": "Round 8.256 to 2 decimal places.",
+    "answer": "8.26",
+    "acceptable_answers": [
+      "8.26"
+    ],
+    "working": "Look at the next digit to decide whether to round up or down.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_053",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Rounding decimals",
+    "sparx_code": "M431",
+    "question_type": "short_answer",
+    "question": "Round 12.49 to 0 decimal places.",
+    "answer": "12",
+    "acceptable_answers": [
+      "12"
+    ],
+    "working": "Look at the next digit to decide whether to round up or down.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_054",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Rounding decimals",
+    "sparx_code": "M431",
+    "question_type": "short_answer",
+    "question": "Round 0.678 to 2 decimal places.",
+    "answer": "0.68",
+    "acceptable_answers": [
+      "0.68"
+    ],
+    "working": "Look at the next digit to decide whether to round up or down.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_055",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Rounding decimals",
+    "sparx_code": "M431",
+    "question_type": "short_answer",
+    "question": "Round 45.05 to 1 decimal place.",
+    "answer": "45.1",
+    "acceptable_answers": [
+      "45.1"
+    ],
+    "working": "Look at the next digit to decide whether to round up or down.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_056",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Using standard form with positive indices",
+    "sparx_code": "M719",
+    "question_type": "short_answer",
+    "question": "Work out 4 × 10^3.",
+    "answer": "4000",
+    "acceptable_answers": [
+      "4000"
+    ],
+    "working": "Move the digits 3 places to the left/right depending on the power of 10.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_057",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Using standard form with positive indices",
+    "sparx_code": "M719",
+    "question_type": "short_answer",
+    "question": "Work out 7 × 10^2.",
+    "answer": "700",
+    "acceptable_answers": [
+      "700"
+    ],
+    "working": "Move the digits 2 places to the left/right depending on the power of 10.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_058",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Using standard form with positive indices",
+    "sparx_code": "M719",
+    "question_type": "short_answer",
+    "question": "Work out 9 × 10^4.",
+    "answer": "90000",
+    "acceptable_answers": [
+      "90000"
+    ],
+    "working": "Move the digits 4 places to the left/right depending on the power of 10.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_059",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Using standard form with positive indices",
+    "sparx_code": "M719",
+    "question_type": "short_answer",
+    "question": "Work out 2 × 10^5.",
+    "answer": "200000",
+    "acceptable_answers": [
+      "200000"
+    ],
+    "working": "Move the digits 5 places to the left/right depending on the power of 10.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_060",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Using standard form with positive indices",
+    "sparx_code": "M719",
+    "question_type": "short_answer",
+    "question": "Work out 6 × 10^3.",
+    "answer": "6000",
+    "acceptable_answers": [
+      "6000"
+    ],
+    "working": "Move the digits 3 places to the left/right depending on the power of 10.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_061",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Simplifying fractions",
+    "sparx_code": "M671",
+    "question_type": "short_answer",
+    "question": "Simplify the fraction 6/8.",
+    "answer": "3/4",
+    "acceptable_answers": [
+      "3/4"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_062",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Simplifying fractions",
+    "sparx_code": "M671",
+    "question_type": "short_answer",
+    "question": "Simplify the fraction 10/15.",
+    "answer": "2/3",
+    "acceptable_answers": [
+      "2/3"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_063",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Simplifying fractions",
+    "sparx_code": "M671",
+    "question_type": "short_answer",
+    "question": "Simplify the fraction 12/18.",
+    "answer": "2/3",
+    "acceptable_answers": [
+      "2/3"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_064",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Simplifying fractions",
+    "sparx_code": "M671",
+    "question_type": "short_answer",
+    "question": "Simplify the fraction 9/12.",
+    "answer": "3/4",
+    "acceptable_answers": [
+      "3/4"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_065",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Simplifying fractions",
+    "sparx_code": "M671",
+    "question_type": "short_answer",
+    "question": "Simplify the fraction 14/21.",
+    "answer": "2/3",
+    "acceptable_answers": [
+      "2/3"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_066",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between fractions, decimals and percentages",
+    "sparx_code": "M264",
+    "question_type": "short_answer",
+    "question": "Write 1/2 as a decimal and a percentage.",
+    "answer": "0.5, 50%",
+    "acceptable_answers": [
+      "0.5, 50%",
+      "0.5 and 50%",
+      "50%, 0.5"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_067",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between fractions, decimals and percentages",
+    "sparx_code": "M264",
+    "question_type": "short_answer",
+    "question": "Write 1/4 as a decimal and a percentage.",
+    "answer": "0.25, 25%",
+    "acceptable_answers": [
+      "0.25, 25%",
+      "0.25 and 25%",
+      "25%, 0.25"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_068",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between fractions, decimals and percentages",
+    "sparx_code": "M264",
+    "question_type": "short_answer",
+    "question": "Write 3/4 as a decimal and a percentage.",
+    "answer": "0.75, 75%",
+    "acceptable_answers": [
+      "0.75, 75%",
+      "0.75 and 75%",
+      "75%, 0.75"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_069",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between fractions, decimals and percentages",
+    "sparx_code": "M264",
+    "question_type": "short_answer",
+    "question": "Write 1/5 as a decimal and a percentage.",
+    "answer": "0.2, 20%",
+    "acceptable_answers": [
+      "0.2, 20%",
+      "0.2 and 20%",
+      "20%, 0.2"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_070",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between fractions, decimals and percentages",
+    "sparx_code": "M264",
+    "question_type": "short_answer",
+    "question": "Write 2/5 as a decimal and a percentage.",
+    "answer": "0.4, 40%",
+    "acceptable_answers": [
+      "0.4, 40%",
+      "0.4 and 40%",
+      "40%, 0.4"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_071",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Ordering fractions, decimals and percentages",
+    "sparx_code": "M553",
+    "question_type": "short_answer",
+    "question": "Put these in order from smallest to largest: 0.3, 1/2, 25%.",
+    "answer": "25%, 0.3, 1/2",
+    "acceptable_answers": [
+      "25%, 0.3, 1/2",
+      "25% < 0.3 < 1/2"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_072",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Ordering fractions, decimals and percentages",
+    "sparx_code": "M553",
+    "question_type": "short_answer",
+    "question": "Put these in order from smallest to largest: 0.75, 2/5, 60%.",
+    "answer": "2/5, 60%, 0.75",
+    "acceptable_answers": [
+      "2/5, 60%, 0.75",
+      "2/5 < 60% < 0.75"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_073",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Ordering fractions, decimals and percentages",
+    "sparx_code": "M553",
+    "question_type": "short_answer",
+    "question": "Put these in order from smallest to largest: 1/4, 0.2, 30%.",
+    "answer": "0.2, 1/4, 30%",
+    "acceptable_answers": [
+      "0.2, 1/4, 30%",
+      "0.2 < 1/4 < 30%"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_074",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Ordering fractions, decimals and percentages",
+    "sparx_code": "M553",
+    "question_type": "short_answer",
+    "question": "Put these in order from smallest to largest: 70%, 0.65, 3/4.",
+    "answer": "0.65, 70%, 3/4",
+    "acceptable_answers": [
+      "0.65, 70%, 3/4",
+      "0.65 < 70% < 3/4"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_075",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Ordering fractions, decimals and percentages",
+    "sparx_code": "M553",
+    "question_type": "short_answer",
+    "question": "Put these in order from smallest to largest: 0.9, 80%, 7/10.",
+    "answer": "7/10, 80%, 0.9",
+    "acceptable_answers": [
+      "7/10, 80%, 0.9",
+      "7/10 < 80% < 0.9"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_076",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding fractions of amounts without a calculator",
+    "sparx_code": "M695",
+    "question_type": "short_answer",
+    "question": "Find 1/2 of 36.",
+    "answer": "18",
+    "acceptable_answers": [
+      "18"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_077",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding fractions of amounts without a calculator",
+    "sparx_code": "M695",
+    "question_type": "short_answer",
+    "question": "Find 3/4 of 28.",
+    "answer": "21",
+    "acceptable_answers": [
+      "21"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_078",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding fractions of amounts without a calculator",
+    "sparx_code": "M695",
+    "question_type": "short_answer",
+    "question": "Find 2/5 of 45.",
+    "answer": "18",
+    "acceptable_answers": [
+      "18"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_079",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding fractions of amounts without a calculator",
+    "sparx_code": "M695",
+    "question_type": "short_answer",
+    "question": "Find 1/3 of 30.",
+    "answer": "10",
+    "acceptable_answers": [
+      "10"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_080",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding fractions of amounts without a calculator",
+    "sparx_code": "M695",
+    "question_type": "short_answer",
+    "question": "Find 5/6 of 48.",
+    "answer": "40",
+    "acceptable_answers": [
+      "40"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_081",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding percentages of amounts without a calculator",
+    "sparx_code": "M437",
+    "question_type": "short_answer",
+    "question": "Find 10% of 80.",
+    "answer": "8.0",
+    "acceptable_answers": [
+      "8.0",
+      "8"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_082",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding percentages of amounts without a calculator",
+    "sparx_code": "M437",
+    "question_type": "short_answer",
+    "question": "Find 25% of 60.",
+    "answer": "15.0",
+    "acceptable_answers": [
+      "15.0",
+      "15"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_083",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding percentages of amounts without a calculator",
+    "sparx_code": "M437",
+    "question_type": "short_answer",
+    "question": "Find 50% of 34.",
+    "answer": "17.0",
+    "acceptable_answers": [
+      "17.0",
+      "17"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_084",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding percentages of amounts without a calculator",
+    "sparx_code": "M437",
+    "question_type": "short_answer",
+    "question": "Find 20% of 45.",
+    "answer": "9.0",
+    "acceptable_answers": [
+      "9.0",
+      "9"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_085",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Finding percentages of amounts without a calculator",
+    "sparx_code": "M437",
+    "question_type": "short_answer",
+    "question": "Find 75% of 40.",
+    "answer": "30.0",
+    "acceptable_answers": [
+      "30.0",
+      "30"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_086",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between mixed numbers and improper fractions",
+    "sparx_code": "M601",
+    "question_type": "short_answer",
+    "question": "Convert 1 1/2 to an improper fraction.",
+    "answer": "3/2",
+    "acceptable_answers": [
+      "3/2"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_087",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between mixed numbers and improper fractions",
+    "sparx_code": "M601",
+    "question_type": "short_answer",
+    "question": "Convert 2 1/3 to an improper fraction.",
+    "answer": "7/3",
+    "acceptable_answers": [
+      "7/3"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_088",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between mixed numbers and improper fractions",
+    "sparx_code": "M601",
+    "question_type": "short_answer",
+    "question": "Convert 3 2/5 to an improper fraction.",
+    "answer": "17/5",
+    "acceptable_answers": [
+      "17/5"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_089",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between mixed numbers and improper fractions",
+    "sparx_code": "M601",
+    "question_type": "short_answer",
+    "question": "Convert 4 3/4 to an improper fraction.",
+    "answer": "19/4",
+    "acceptable_answers": [
+      "19/4"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_090",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between mixed numbers and improper fractions",
+    "sparx_code": "M601",
+    "question_type": "short_answer",
+    "question": "Convert 5 1/6 to an improper fraction.",
+    "answer": "31/6",
+    "acceptable_answers": [
+      "31/6"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_091",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Financial terminology and calculations (Bank statements)",
+    "sparx_code": "M901",
+    "question_type": "short_answer",
+    "question": "A bank account has £50. £20 is paid in and £15 is withdrawn. What is the new balance?",
+    "answer": "£55.00",
+    "acceptable_answers": [
+      "£55.00",
+      "55.00",
+      "55"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_092",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Financial terminology and calculations (Bank statements)",
+    "sparx_code": "M901",
+    "question_type": "short_answer",
+    "question": "A bank account has £120. £35 is paid in and £40 is withdrawn. What is the new balance?",
+    "answer": "£115.00",
+    "acceptable_answers": [
+      "£115.00",
+      "115.00",
+      "115"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_093",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Financial terminology and calculations (Bank statements)",
+    "sparx_code": "M901",
+    "question_type": "short_answer",
+    "question": "A bank account has £10. £25 is paid in and £8 is withdrawn. What is the new balance?",
+    "answer": "£27.00",
+    "acceptable_answers": [
+      "£27.00",
+      "27.00",
+      "27"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_094",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Financial terminology and calculations (Bank statements)",
+    "sparx_code": "M901",
+    "question_type": "short_answer",
+    "question": "A bank account has £200. £50 is paid in and £75 is withdrawn. What is the new balance?",
+    "answer": "£175.00",
+    "acceptable_answers": [
+      "£175.00",
+      "175.00",
+      "175"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_095",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Financial terminology and calculations (Bank statements)",
+    "sparx_code": "M901",
+    "question_type": "short_answer",
+    "question": "A bank account has £16.5. £8.25 is paid in and £4.75 is withdrawn. What is the new balance?",
+    "answer": "£20.00",
+    "acceptable_answers": [
+      "£20.00",
+      "20.00",
+      "20.0"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_096",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Operations with money",
+    "sparx_code": "M222",
+    "question_type": "short_answer",
+    "question": "What is £3.45 + £2.30?",
+    "answer": "£5.75",
+    "acceptable_answers": [
+      "£5.75",
+      "5.75"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_097",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Operations with money",
+    "sparx_code": "M222",
+    "question_type": "short_answer",
+    "question": "What is £10.00 + £4.75?",
+    "answer": "£14.75",
+    "acceptable_answers": [
+      "£14.75",
+      "14.75"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_098",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Operations with money",
+    "sparx_code": "M222",
+    "question_type": "short_answer",
+    "question": "What is £8.99 + £1.50?",
+    "answer": "£10.49",
+    "acceptable_answers": [
+      "£10.49",
+      "10.49"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_099",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Operations with money",
+    "sparx_code": "M222",
+    "question_type": "short_answer",
+    "question": "What is £12.60 + £5.35?",
+    "answer": "£17.95",
+    "acceptable_answers": [
+      "£17.95",
+      "17.95"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_100",
+    "subject": "Maths",
+    "unit": "Addition and Subtraction Problems",
+    "topic": "Operations with money",
+    "sparx_code": "M222",
+    "question_type": "short_answer",
+    "question": "What is £6.20 + £3.80?",
+    "answer": "£10.00",
+    "acceptable_answers": [
+      "£10.00",
+      "10.00"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_101",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding factors",
+    "sparx_code": "M823",
+    "question_type": "short_answer",
+    "question": "List all the factors of 12.",
+    "answer": "1, 2, 3, 4, 6, 12",
+    "acceptable_answers": [
+      "1, 2, 3, 4, 6, 12",
+      "1 2 3 4 6 12"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_102",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding factors",
+    "sparx_code": "M823",
+    "question_type": "short_answer",
+    "question": "List all the factors of 18.",
+    "answer": "1, 2, 3, 6, 9, 18",
+    "acceptable_answers": [
+      "1, 2, 3, 6, 9, 18",
+      "1 2 3 6 9 18"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_103",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding factors",
+    "sparx_code": "M823",
+    "question_type": "short_answer",
+    "question": "List all the factors of 24.",
+    "answer": "1, 2, 3, 4, 6, 8, 12, 24",
+    "acceptable_answers": [
+      "1, 2, 3, 4, 6, 8, 12, 24",
+      "1 2 3 4 6 8 12 24"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_104",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding factors",
+    "sparx_code": "M823",
+    "question_type": "short_answer",
+    "question": "List all the factors of 30.",
+    "answer": "1, 2, 3, 5, 6, 10, 15, 30",
+    "acceptable_answers": [
+      "1, 2, 3, 5, 6, 10, 15, 30",
+      "1 2 3 5 6 10 15 30"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_105",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding factors",
+    "sparx_code": "M823",
+    "question_type": "short_answer",
+    "question": "List all the factors of 36.",
+    "answer": "1, 2, 3, 4, 6, 9, 12, 18, 36",
+    "acceptable_answers": [
+      "1, 2, 3, 4, 6, 9, 12, 18, 36",
+      "1 2 3 4 6 9 12 18 36"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_106",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Multiplying",
+    "sparx_code": "M187",
+    "question_type": "short_answer",
+    "question": "Work out 7 × 8.",
+    "answer": "56",
+    "acceptable_answers": [
+      "56"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_107",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Multiplying",
+    "sparx_code": "M187",
+    "question_type": "short_answer",
+    "question": "Work out 12 × 6.",
+    "answer": "72",
+    "acceptable_answers": [
+      "72"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_108",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Multiplying",
+    "sparx_code": "M187",
+    "question_type": "short_answer",
+    "question": "Work out 15 × 4.",
+    "answer": "60",
+    "acceptable_answers": [
+      "60"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_109",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Multiplying",
+    "sparx_code": "M187",
+    "question_type": "short_answer",
+    "question": "Work out 9 × 9.",
+    "answer": "81",
+    "acceptable_answers": [
+      "81"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_110",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Multiplying",
+    "sparx_code": "M187",
+    "question_type": "short_answer",
+    "question": "Work out 13 × 5.",
+    "answer": "65",
+    "acceptable_answers": [
+      "65"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_111",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Dividing",
+    "sparx_code": "M354, M873",
+    "question_type": "short_answer",
+    "question": "Work out 56 ÷ 7.",
+    "answer": "8",
+    "acceptable_answers": [
+      "8"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_112",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Dividing",
+    "sparx_code": "M354, M873",
+    "question_type": "short_answer",
+    "question": "Work out 81 ÷ 9.",
+    "answer": "9",
+    "acceptable_answers": [
+      "9"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_113",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Dividing",
+    "sparx_code": "M354, M873",
+    "question_type": "short_answer",
+    "question": "Work out 72 ÷ 8.",
+    "answer": "9",
+    "acceptable_answers": [
+      "9"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_114",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Dividing",
+    "sparx_code": "M354, M873",
+    "question_type": "short_answer",
+    "question": "Work out 96 ÷ 12.",
+    "answer": "8",
+    "acceptable_answers": [
+      "8"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_115",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Dividing",
+    "sparx_code": "M354, M873",
+    "question_type": "short_answer",
+    "question": "Work out 144 ÷ 6.",
+    "answer": "24",
+    "acceptable_answers": [
+      "24"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_116",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Using the correct order of operations",
+    "sparx_code": "M521",
+    "question_type": "short_answer",
+    "question": "Work out: 3 + 4 × 5",
+    "answer": "23",
+    "acceptable_answers": [
+      "23"
+    ],
+    "working": "Use BIDMAS/order of operations.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_117",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Using the correct order of operations",
+    "sparx_code": "M521",
+    "question_type": "short_answer",
+    "question": "Work out: (3 + 4) × 5",
+    "answer": "35",
+    "acceptable_answers": [
+      "35"
+    ],
+    "working": "Use BIDMAS/order of operations.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_118",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Using the correct order of operations",
+    "sparx_code": "M521",
+    "question_type": "short_answer",
+    "question": "Work out: 20 - 12 ÷ 3",
+    "answer": "16",
+    "acceptable_answers": [
+      "16"
+    ],
+    "working": "Use BIDMAS/order of operations.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_119",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Using the correct order of operations",
+    "sparx_code": "M521",
+    "question_type": "short_answer",
+    "question": "Work out: 6² - 4 × 3",
+    "answer": "24",
+    "acceptable_answers": [
+      "24"
+    ],
+    "working": "Use BIDMAS/order of operations.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_120",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Using the correct order of operations",
+    "sparx_code": "M521",
+    "question_type": "short_answer",
+    "question": "Work out: 18 ÷ 3 + 2 × 5",
+    "answer": "16",
+    "acceptable_answers": [
+      "16"
+    ],
+    "working": "Use BIDMAS/order of operations.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_121",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding the area of triangles",
+    "sparx_code": "M610",
+    "question_type": "short_answer",
+    "question": "Find the area of a triangle with base 6 cm and height 4 cm.",
+    "answer": "12 cm²",
+    "acceptable_answers": [
+      "12 cm²",
+      "12"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_122",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding the area of triangles",
+    "sparx_code": "M610",
+    "question_type": "short_answer",
+    "question": "Find the area of a triangle with base 10 cm and height 5 cm.",
+    "answer": "25 cm²",
+    "acceptable_answers": [
+      "25 cm²",
+      "25"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_123",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding the area of triangles",
+    "sparx_code": "M610",
+    "question_type": "short_answer",
+    "question": "Find the area of a triangle with base 8 cm and height 7 cm.",
+    "answer": "28 cm²",
+    "acceptable_answers": [
+      "28 cm²",
+      "28"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_124",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding the area of triangles",
+    "sparx_code": "M610",
+    "question_type": "short_answer",
+    "question": "Find the area of a triangle with base 12 cm and height 3 cm.",
+    "answer": "18 cm²",
+    "acceptable_answers": [
+      "18 cm²",
+      "18"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_125",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Finding the area of triangles",
+    "sparx_code": "M610",
+    "question_type": "short_answer",
+    "question": "Find the area of a triangle with base 9 cm and height 6 cm.",
+    "answer": "27 cm²",
+    "acceptable_answers": [
+      "27 cm²",
+      "27"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_126",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Adding and subtracting with negative numbers",
+    "sparx_code": "M106",
+    "question_type": "short_answer",
+    "question": "Work out -3 + 7.",
+    "answer": "4",
+    "acceptable_answers": [
+      "4"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_127",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Adding and subtracting with negative numbers",
+    "sparx_code": "M106",
+    "question_type": "short_answer",
+    "question": "Work out 5 + -9.",
+    "answer": "-4",
+    "acceptable_answers": [
+      "-4"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_128",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Adding and subtracting with negative numbers",
+    "sparx_code": "M106",
+    "question_type": "short_answer",
+    "question": "Work out -8 + -4.",
+    "answer": "-12",
+    "acceptable_answers": [
+      "-12"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_129",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Adding and subtracting with negative numbers",
+    "sparx_code": "M106",
+    "question_type": "short_answer",
+    "question": "Work out 12 + -15.",
+    "answer": "-3",
+    "acceptable_answers": [
+      "-3"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_130",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Adding and subtracting with negative numbers",
+    "sparx_code": "M106",
+    "question_type": "short_answer",
+    "question": "Work out -20 + 6.",
+    "answer": "-14",
+    "acceptable_answers": [
+      "-14"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_131",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Multiplying and dividing with negative numbers",
+    "sparx_code": "M288",
+    "question_type": "short_answer",
+    "question": "Work out -3 × 4.",
+    "answer": "-12",
+    "acceptable_answers": [
+      "-12"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_132",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Multiplying and dividing with negative numbers",
+    "sparx_code": "M288",
+    "question_type": "short_answer",
+    "question": "Work out -5 × -6.",
+    "answer": "30",
+    "acceptable_answers": [
+      "30"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_133",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Multiplying and dividing with negative numbers",
+    "sparx_code": "M288",
+    "question_type": "short_answer",
+    "question": "Work out 8 × -2.",
+    "answer": "-16",
+    "acceptable_answers": [
+      "-16"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_134",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Multiplying and dividing with negative numbers",
+    "sparx_code": "M288",
+    "question_type": "short_answer",
+    "question": "Work out -7 × 3.",
+    "answer": "-21",
+    "acceptable_answers": [
+      "-21"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_135",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Multiplying and dividing with negative numbers",
+    "sparx_code": "M288",
+    "question_type": "short_answer",
+    "question": "Work out 9 × -4.",
+    "answer": "-36",
+    "acceptable_answers": [
+      "-36"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_136",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Measuring angles",
+    "sparx_code": "M780",
+    "question_type": "multiple_choice",
+    "question": "An angle measuring 35° is best described as what type of angle?",
+    "answer": "acute",
+    "acceptable_answers": [
+      "acute"
+    ],
+    "working": "",
+    "difficulty": "easy",
+    "choices": [
+      "acute",
+      "right angle",
+      "obtuse",
+      "reflex"
+    ]
+  },
+  {
+    "id": "maths_137",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Measuring angles",
+    "sparx_code": "M780",
+    "question_type": "multiple_choice",
+    "question": "An angle measuring 90° is best described as what type of angle?",
+    "answer": "right angle",
+    "acceptable_answers": [
+      "right angle"
+    ],
+    "working": "",
+    "difficulty": "easy",
+    "choices": [
+      "acute",
+      "right angle",
+      "obtuse",
+      "reflex"
+    ]
+  },
+  {
+    "id": "maths_138",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Measuring angles",
+    "sparx_code": "M780",
+    "question_type": "multiple_choice",
+    "question": "An angle measuring 120° is best described as what type of angle?",
+    "answer": "obtuse",
+    "acceptable_answers": [
+      "obtuse"
+    ],
+    "working": "",
+    "difficulty": "easy",
+    "choices": [
+      "acute",
+      "right angle",
+      "obtuse",
+      "reflex"
+    ]
+  },
+  {
+    "id": "maths_139",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Measuring angles",
+    "sparx_code": "M780",
+    "question_type": "multiple_choice",
+    "question": "An angle measuring 45° is best described as what type of angle?",
+    "answer": "acute",
+    "acceptable_answers": [
+      "acute"
+    ],
+    "working": "",
+    "difficulty": "easy",
+    "choices": [
+      "acute",
+      "right angle",
+      "obtuse",
+      "reflex"
+    ]
+  },
+  {
+    "id": "maths_140",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Measuring angles",
+    "sparx_code": "M780",
+    "question_type": "multiple_choice",
+    "question": "An angle measuring 70° is best described as what type of angle?",
+    "answer": "acute",
+    "acceptable_answers": [
+      "acute"
+    ],
+    "working": "",
+    "difficulty": "easy",
+    "choices": [
+      "acute",
+      "right angle",
+      "obtuse",
+      "reflex"
+    ]
+  },
+  {
+    "id": "maths_141",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angle rules",
+    "sparx_code": "M818",
+    "question_type": "short_answer",
+    "question": "Two angles on a straight line add to 180°. One angle is 40°. What is the other angle?",
+    "answer": "140",
+    "acceptable_answers": [
+      "140"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_142",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angle rules",
+    "sparx_code": "M818",
+    "question_type": "short_answer",
+    "question": "Two angles on a straight line add to 180°. One angle is 55°. What is the other angle?",
+    "answer": "125",
+    "acceptable_answers": [
+      "125"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_143",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angle rules",
+    "sparx_code": "M818",
+    "question_type": "short_answer",
+    "question": "Two angles on a straight line add to 180°. One angle is 75°. What is the other angle?",
+    "answer": "105",
+    "acceptable_answers": [
+      "105"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_144",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angle rules",
+    "sparx_code": "M818",
+    "question_type": "short_answer",
+    "question": "Two angles on a straight line add to 180°. One angle is 110°. What is the other angle?",
+    "answer": "70",
+    "acceptable_answers": [
+      "70"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_145",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angle rules",
+    "sparx_code": "M818",
+    "question_type": "short_answer",
+    "question": "Two angles on a straight line add to 180°. One angle is 130°. What is the other angle?",
+    "answer": "50",
+    "acceptable_answers": [
+      "50"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_146",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Two angles in a triangle are 60° and 60°. What is the third angle?",
+    "answer": "60",
+    "acceptable_answers": [
+      "60"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_147",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Two angles in a triangle are 45° and 80°. What is the third angle?",
+    "answer": "55",
+    "acceptable_answers": [
+      "55"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_148",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Two angles in a triangle are 30° and 70°. What is the third angle?",
+    "answer": "80",
+    "acceptable_answers": [
+      "80"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_149",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Two angles in a triangle are 100° and 40°. What is the third angle?",
+    "answer": "40",
+    "acceptable_answers": [
+      "40"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_150",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Two angles in a triangle are 55° and 65°. What is the third angle?",
+    "answer": "60",
+    "acceptable_answers": [
+      "60"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_151",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Three angles in a quadrilateral are 90°, 90° and 90°. What is the fourth angle?",
+    "answer": "90",
+    "acceptable_answers": [
+      "90"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_152",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Three angles in a quadrilateral are 80°, 100° and 70°. What is the fourth angle?",
+    "answer": "110",
+    "acceptable_answers": [
+      "110"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_153",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Three angles in a quadrilateral are 120°, 60° and 80°. What is the fourth angle?",
+    "answer": "100",
+    "acceptable_answers": [
+      "100"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_154",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Three angles in a quadrilateral are 95°, 85° and 100°. What is the fourth angle?",
+    "answer": "80",
+    "acceptable_answers": [
+      "80"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_155",
+    "subject": "Maths",
+    "unit": "Angles",
+    "topic": "Angles in triangles and quadrilaterals",
+    "sparx_code": "M351, M679",
+    "question_type": "short_answer",
+    "question": "Three angles in a quadrilateral are 110°, 70° and 60°. What is the fourth angle?",
+    "answer": "120",
+    "acceptable_answers": [
+      "120"
+    ],
+    "working": "",
+    "difficulty": "easy"
+  },
+  {
+    "id": "maths_156",
+    "subject": "Maths",
+    "unit": "Place Value",
+    "topic": "Rounding decimals",
+    "sparx_code": "M431",
+    "question_type": "multiple_choice",
+    "question": "Which number rounds to 4.6 to one decimal place?",
+    "answer": "4.57",
+    "acceptable_answers": [
+      "4.57"
+    ],
+    "working": "",
+    "difficulty": "medium",
+    "choices": [
+      "4.51",
+      "4.57",
+      "4.64",
+      "4.69"
+    ]
+  },
+  {
+    "id": "maths_157",
+    "subject": "Maths",
+    "unit": "Algebra",
+    "topic": "Algebraic notation",
+    "sparx_code": "M813, M830",
+    "question_type": "multiple_choice",
+    "question": "Which expression means “double n then add 5”?",
+    "answer": "2n + 5",
+    "acceptable_answers": [
+      "2n + 5"
+    ],
+    "working": "",
+    "difficulty": "easy",
+    "choices": [
+      "2n + 5",
+      "2(n + 5)",
+      "n² + 5",
+      "5n + 2"
+    ]
+  },
+  {
+    "id": "maths_158",
+    "subject": "Maths",
+    "unit": "Fractions, Decimals and Percentages",
+    "topic": "Converting between fractions, decimals and percentages",
+    "sparx_code": "M264",
+    "question_type": "multiple_choice",
+    "question": "Which is equivalent to 0.25?",
+    "answer": "25%",
+    "acceptable_answers": [
+      "25%"
+    ],
+    "working": "",
+    "difficulty": "easy",
+    "choices": [
+      "2.5%",
+      "25%",
+      "250%",
+      "0.25%"
+    ]
+  },
+  {
+    "id": "maths_159",
+    "subject": "Maths",
+    "unit": "Negative Numbers",
+    "topic": "Multiplying and dividing with negative numbers",
+    "sparx_code": "M288",
+    "question_type": "multiple_choice",
+    "question": "What is the sign of a negative number multiplied by a negative number?",
+    "answer": "positive",
+    "acceptable_answers": [
+      "positive"
+    ],
+    "working": "",
+    "difficulty": "easy",
+    "choices": [
+      "positive",
+      "negative",
+      "zero",
+      "it depends"
+    ]
+  },
+  {
+    "id": "maths_160",
+    "subject": "Maths",
+    "unit": "Multiplication and Division Problems",
+    "topic": "Using the correct order of operations",
+    "sparx_code": "M521",
+    "question_type": "multiple_choice",
+    "question": "In BIDMAS, which operation should be done first?",
+    "answer": "Brackets",
+    "acceptable_answers": [
+      "Brackets"
+    ],
+    "working": "",
+    "difficulty": "easy",
+    "choices": [
+      "Addition",
+      "Multiplication",
+      "Brackets",
+      "Subtraction"
+    ]
   }
-}
+]
