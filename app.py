@@ -159,31 +159,39 @@ st.markdown("""
     .review-card-good {
         background: #dcfce7;
         border: 2px solid #14532d;
-        box-shadow: 5px 5px 0px #14532d;
-        border-radius: 18px;
-        padding: 1rem;
-        margin-bottom: 1rem;
+        box-shadow: 3px 3px 0px #14532d;
+        border-radius: 14px;
+        padding: 0.7rem 0.85rem;
+        margin-bottom: 0.7rem;
     }
 
     .review-card-bad {
         background: #ffe4e6;
         border: 2px solid #9f1239;
-        box-shadow: 5px 5px 0px #9f1239;
-        border-radius: 18px;
-        padding: 1rem;
-        margin-bottom: 1rem;
+        box-shadow: 3px 3px 0px #9f1239;
+        border-radius: 14px;
+        padding: 0.7rem 0.85rem;
+        margin-bottom: 0.7rem;
     }
 
     .review-question {
         font-weight: 900;
-        font-size: 1.05rem;
-        margin-bottom: 0.6rem;
+        font-size: 0.98rem;
+        margin-bottom: 0.35rem;
+        line-height: 1.2;
+    }
+
+    .review-card-good p,
+    .review-card-bad p {
+        margin: 0.2rem 0;
+        font-size: 0.92rem;
+        line-height: 1.25;
     }
 
     .review-meta {
         color: #6b7280;
-        font-size: 0.85rem;
-        margin-top: 0.7rem;
+        font-size: 0.78rem;
+        margin-top: 0.4rem;
         margin-bottom: 0;
     }
 
