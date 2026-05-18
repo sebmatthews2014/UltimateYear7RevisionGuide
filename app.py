@@ -118,6 +118,17 @@ st.markdown("""
         white-space: normal;
     }
 
+    .subject-art-card {
+        background: #ffffff;
+        padding: 1rem 1.2rem;
+        border-radius: 22px;
+        border: 3px solid #111827;
+        box-shadow: 5px 5px 0px #111827;
+        margin-bottom: 1rem;
+        font-size: 1.25rem;
+        font-weight: 900;
+    }
+
     .score-box {
         background: #fef3c7;
         padding: 1rem;
@@ -147,6 +158,36 @@ st.markdown("""
         border: 2px solid #9f1239;
         box-shadow: 4px 4px 0px #9f1239;
         font-weight: 900;
+    }
+
+    .review-card-good {
+        background: #dcfce7;
+        border: 2px solid #14532d;
+        box-shadow: 4px 4px 0px #14532d;
+        border-radius: 18px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .review-card-bad {
+        background: #ffe4e6;
+        border: 2px solid #9f1239;
+        box-shadow: 4px 4px 0px #9f1239;
+        border-radius: 18px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .review-question {
+        font-weight: 900;
+        font-size: 1.05rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .review-meta {
+        color: #6b7280;
+        font-size: 0.85rem;
+        margin-top: 0.5rem;
     }
 
     div.stButton > button {
@@ -235,6 +276,13 @@ st.markdown("""
             line-height: 1.15;
         }
 
+        .subject-art-card {
+            padding: 0.85rem 1rem;
+            font-size: 1.05rem;
+            border-radius: 18px;
+            box-shadow: 4px 4px 0px #111827;
+        }
+
         .stRadio > div {
             padding: 0.75rem;
             background: #ffffff !important;
@@ -250,6 +298,12 @@ st.markdown("""
             font-size: 0.95rem;
             box-shadow: 4px 4px 0px #111827;
         }
+
+        .review-card-good,
+        .review-card-bad {
+            padding: 0.9rem;
+            box-shadow: 3px 3px 0px #111827;
+        }
     }
 </style>
 """, unsafe_allow_html=True)
@@ -262,7 +316,20 @@ SUBJECT_EMOJIS = {
     "Geography": "🌍",
     "IT": "💻",
     "Spanish": "🇪🇸",
+    "General": "📘",
     "All Subjects": "🎯"
+}
+
+SUBJECT_ART = {
+    "Religious Education": "🕊️✨",
+    "Maths": "➗📐",
+    "Science": "🔬🧪",
+    "History": "🏰📜",
+    "Geography": "🌍🧭",
+    "IT": "💻🤖",
+    "Spanish": "🇪🇸💃",
+    "General": "📘✨",
+    "All Subjects": "🎯📚"
 }
 
 def add_question_to_bank(question_bank, question):
@@ -296,8 +363,6 @@ def load_question_bank():
                 with open(file_path, "r", encoding="utf-8") as file:
                     data = json.load(file)
 
-                # Original app format:
-                # {"subject": "Religious Education", "topics": {"Topic": [questions...]}}
                 if isinstance(data, dict):
                     subject = data.get("subject")
                     topics = data.get("topics", {})
@@ -309,10 +374,9 @@ def load_question_bank():
                         for topic_name, topic_questions in topics.items():
                             if topic_name not in question_bank[subject]:
                                 question_bank[subject][topic_name] = []
+
                             question_bank[subject][topic_name].extend(topic_questions)
 
-                # New Maths format:
-                # [{"subject": "Maths", "topic": "...", "question_type": "short_answer", ...}]
                 elif isinstance(data, list):
                     for question in data:
                         if isinstance(question, dict):
@@ -498,13 +562,13 @@ if not st.session_state.quiz_started:
 
     available_questions = get_questions(selected_subject)
 
-    emoji = SUBJECT_EMOJIS.get(selected_subject, "📘")
+    subject_art = SUBJECT_ART.get(selected_subject, "📘✨")
 
     st.markdown(
         f"""
-        <p>
-            <span class="subject-pill">{emoji} {selected_subject}</span>
-        </p>
+        <div class="subject-art-card">
+            {subject_art} {selected_subject} revision
+        </div>
         """,
         unsafe_allow_html=True
     )
@@ -562,13 +626,13 @@ else:
 
         st.caption(f"Question {current_index + 1} of {total_questions}")
 
-        subject_emoji = SUBJECT_EMOJIS.get(question["subject"], "📘")
+        subject_art = SUBJECT_ART.get(question["subject"], "📘✨")
 
         st.markdown(
             f"""
-            <p>
-                <span class="subject-pill">{subject_emoji} {question['subject']}</span>
-            </p>
+            <div class="subject-art-card">
+                {subject_art} {question['subject']} revision
+            </div>
             """,
             unsafe_allow_html=True
         )
@@ -668,19 +732,34 @@ else:
 
         for i, result in enumerate(st.session_state.results, start=1):
 
-            if result["was_correct"]:
-                st.write(f"✅ **{i}. {result['question']}**")
-                st.write(f"Your answer: {result['selected']}")
-            else:
-                st.write(f"❌ **{i}. {result['question']}**")
-                st.write(f"Your answer: {result['selected']}")
-                st.write(f"Correct answer: **{result['correct_answer']}**")
+            card_class = "review-card-good" if result["was_correct"] else "review-card-bad"
+            icon = "✅" if result["was_correct"] else "❌"
+            subject_art = SUBJECT_ART.get(result["subject"], "📘✨")
 
+            correct_line = ""
+            if not result["was_correct"]:
+                correct_line = f"<p><strong>Correct answer:</strong> {result['correct_answer']}</p>"
+
+            working_line = ""
             if result.get("working"):
-                st.write(f"Working: {result['working']}")
+                working_line = f"<p><strong>Working:</strong> {result['working']}</p>"
 
-            st.caption(f"{result['subject']} | {result['topic']}")
-            st.divider()
+            st.markdown(
+                f"""
+                <div class="{card_class}">
+                    <div class="review-question">
+                        {icon} {i}. {result['question']}
+                    </div>
+                    <p><strong>Your answer:</strong> {result['selected']}</p>
+                    {correct_line}
+                    {working_line}
+                    <div class="review-meta">
+                        {subject_art} {result['subject']} | {result['topic']}
+                    </div>
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
 
         if st.button("Take another quiz", type="primary"):
             reset_quiz()
