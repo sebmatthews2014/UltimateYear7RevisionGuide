@@ -3,6 +3,7 @@ import random
 import json
 import os
 import re
+import html
 from fractions import Fraction
 
 st.set_page_config(
@@ -20,12 +21,7 @@ st.markdown("""
     .stApp {
         background:
             linear-gradient(rgba(255,255,255,0.78), rgba(255,255,255,0.78)),
-            repeating-linear-gradient(
-                0deg,
-                #fffdf5,
-                #fffdf5 28px,
-                #dbeafe 29px
-            );
+            repeating-linear-gradient(0deg, #fffdf5, #fffdf5 28px, #dbeafe 29px);
         color: #1f2937;
         font-family: 'Nunito', sans-serif;
         overflow-x: hidden;
@@ -163,7 +159,7 @@ st.markdown("""
     .review-card-good {
         background: #dcfce7;
         border: 2px solid #14532d;
-        box-shadow: 4px 4px 0px #14532d;
+        box-shadow: 5px 5px 0px #14532d;
         border-radius: 18px;
         padding: 1rem;
         margin-bottom: 1rem;
@@ -172,7 +168,7 @@ st.markdown("""
     .review-card-bad {
         background: #ffe4e6;
         border: 2px solid #9f1239;
-        box-shadow: 4px 4px 0px #9f1239;
+        box-shadow: 5px 5px 0px #9f1239;
         border-radius: 18px;
         padding: 1rem;
         margin-bottom: 1rem;
@@ -181,13 +177,14 @@ st.markdown("""
     .review-question {
         font-weight: 900;
         font-size: 1.05rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.6rem;
     }
 
     .review-meta {
         color: #6b7280;
         font-size: 0.85rem;
-        margin-top: 0.5rem;
+        margin-top: 0.7rem;
+        margin-bottom: 0;
     }
 
     div.stButton > button {
@@ -331,6 +328,9 @@ SUBJECT_ART = {
     "General": "📘✨",
     "All Subjects": "🎯📚"
 }
+
+def safe_text(value):
+    return html.escape(str(value))
 
 def add_question_to_bank(question_bank, question):
     subject = question.get("subject", "General")
@@ -537,17 +537,17 @@ st.markdown("""
 
 if st.session_state.show_easter_egg:
     st.markdown("""
-    <div class="easter-egg-card">
-        <div class="easter-title">✨ Secret unlocked ✨</div>
-        <p>This app was built by <strong>Seb Matthews</strong>.</p>
-        <p>
-            Certified absolute legend behaviour.<br>
-            Peak coder energy.<br>
-            Zero cringe detected.
-        </p>
-        <p>The revision goblin got absolutely cooked. 💀</p>
-    </div>
-    """, unsafe_allow_html=True)
+<div class="easter-egg-card">
+    <div class="easter-title">✨ Secret unlocked ✨</div>
+    <p>This app was built by <strong>Seb Matthews</strong>.</p>
+    <p>
+        Certified absolute legend behaviour.<br>
+        Peak coder energy.<br>
+        Zero cringe detected.
+    </p>
+    <p>The revision goblin got absolutely cooked. 💀</p>
+</div>
+""", unsafe_allow_html=True)
 
 if not QUESTION_BANK:
     st.warning("No questions loaded.")
@@ -561,33 +561,29 @@ if not st.session_state.quiz_started:
     selected_subject = st.selectbox("Choose a subject", subject_options)
 
     available_questions = get_questions(selected_subject)
-
     subject_art = SUBJECT_ART.get(selected_subject, "📘✨")
 
-    st.markdown(
-        f"""
-        <div class="subject-art-card">
-            {subject_art} {selected_subject} revision
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    st.markdown(f"""
+<div class="subject-art-card">
+    {subject_art} {safe_text(selected_subject)} revision
+</div>
+""", unsafe_allow_html=True)
 
     st.write(f"Available questions: **{len(available_questions)}**")
 
     if len(available_questions) == 0:
         st.markdown("""
-        <div class="empty-card">
-            <div class="empty-title">🛠️ Questions coming soon...</div>
-            <p>
-                The revision goblins are still building this subject’s question bank.
-                They are very small, mildly chaotic, and currently arguing over snacks.
-            </p>
-            <p>
-                Try another subject for now. This one is still under construction.
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
+<div class="empty-card">
+    <div class="empty-title">🛠️ Questions coming soon...</div>
+    <p>
+        The revision goblins are still building this subject’s question bank.
+        They are very small, mildly chaotic, and currently arguing over snacks.
+    </p>
+    <p>
+        Try another subject for now. This one is still under construction.
+    </p>
+</div>
+""", unsafe_allow_html=True)
 
     elif len(available_questions) == 1:
         number_of_questions = 1
@@ -623,22 +619,18 @@ else:
         st.markdown('<div class="question-card">', unsafe_allow_html=True)
 
         st.progress(current_index / total_questions)
-
         st.caption(f"Question {current_index + 1} of {total_questions}")
 
         subject_art = SUBJECT_ART.get(question["subject"], "📘✨")
 
-        st.markdown(
-            f"""
-            <div class="subject-art-card">
-                {subject_art} {question['subject']} revision
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+        st.markdown(f"""
+<div class="subject-art-card">
+    {subject_art} {safe_text(question['subject'])} revision
+</div>
+""", unsafe_allow_html=True)
 
         st.markdown(
-            f'<div class="question-text">{question["question"]}</div>',
+            f'<div class="question-text">{safe_text(question["question"])}</div>',
             unsafe_allow_html=True
         )
 
@@ -679,11 +671,7 @@ else:
                 )
             else:
                 st.markdown(
-                    f"""
-                    <div class="result-bad">
-                        ❌ Not quite. Correct answer: {question['answer']}
-                    </div>
-                    """,
+                    f'<div class="result-bad">❌ Not quite. Correct answer: {safe_text(question["answer"])}</div>',
                     unsafe_allow_html=True
                 )
 
@@ -715,7 +703,6 @@ else:
         st.progress(1.0)
 
         st.header("Quiz complete!")
-
         st.subheader(f"Final score: {score} / {total_questions}")
         st.subheader(f"Percentage: {percentage}%")
 
@@ -738,28 +725,23 @@ else:
 
             correct_line = ""
             if not result["was_correct"]:
-                correct_line = f"<p><strong>Correct answer:</strong> {result['correct_answer']}</p>"
+                correct_line = f"<p><strong>Correct answer:</strong> {safe_text(result['correct_answer'])}</p>"
 
             working_line = ""
             if result.get("working"):
-                working_line = f"<p><strong>Working:</strong> {result['working']}</p>"
+                working_line = f"<p><strong>Working:</strong> {safe_text(result['working'])}</p>"
 
-            st.markdown(
-                f"""
-                <div class="{card_class}">
-                    <div class="review-question">
-                        {icon} {i}. {result['question']}
-                    </div>
-                    <p><strong>Your answer:</strong> {result['selected']}</p>
-                    {correct_line}
-                    {working_line}
-                    <p class="review-meta">
-                        {subject_art} {result['subject']} | {result['topic']}
-                    </p>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
+            card_html = f"""
+<div class="{card_class}">
+<div class="review-question">{icon} {i}. {safe_text(result['question'])}</div>
+<p><strong>Your answer:</strong> {safe_text(result['selected'])}</p>
+{correct_line}
+{working_line}
+<p class="review-meta">{subject_art} {safe_text(result['subject'])} | {safe_text(result['topic'])}</p>
+</div>
+"""
+
+            st.markdown(card_html, unsafe_allow_html=True)
 
         if st.button("Take another quiz", type="primary"):
             reset_quiz()
