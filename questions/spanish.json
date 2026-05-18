@@ -1,206 +1,2024 @@
 {
   "subject": "Spanish",
   "topics": {
-    "General Spanish": [
+    "Name and Age": [
       {
-        "question": "How do you say 'My name is Carlos' in Spanish?",
-        "options": ["Me llamo Carlos", "Tengo Carlos", "Soy años Carlos", "Hola Carlos"],
-        "answer": "Me llamo Carlos"
+        "question": "What does 'Me llamo' mean?",
+        "options": [
+          "very well",
+          "My name is",
+          "uncle",
+          "brown"
+        ],
+        "answer": "My name is"
+      },
+      {
+        "question": "How do you say 'My name is' in Spanish?",
+        "options": [
+          "Me llamo",
+          "muy bien",
+          "pelo negro",
+          "blanco"
+        ],
+        "answer": "Me llamo"
       },
       {
         "question": "What does '¿Cómo te llamas?' mean?",
-        "options": ["How old are you?", "What is your name?", "Where do you live?", "How are you?"],
+        "options": [
+          "female cousin",
+          "black",
+          "What is your name?",
+          "red"
+        ],
         "answer": "What is your name?"
       },
       {
-        "question": "How do you say 'I am 12 years old'?",
-        "options": ["Soy doce años", "Tengo doce años", "Estoy doce años", "Me llamo doce"],
+        "question": "How do you say 'What is your name?' in Spanish?",
+        "options": [
+          "¿Cómo te llamas?",
+          "eres",
+          "hermana",
+          "español"
+        ],
+        "answer": "¿Cómo te llamas?"
+      },
+      {
+        "question": "What does 'Tengo doce años' mean?",
+        "options": [
+          "lazy",
+          "hard-working",
+          "I am 12 years old",
+          "rabbit"
+        ],
+        "answer": "I am 12 years old"
+      },
+      {
+        "question": "How do you say 'I am 12 years old' in Spanish?",
+        "options": [
+          "verde",
+          "años",
+          "Tengo doce años",
+          "abuela"
+        ],
         "answer": "Tengo doce años"
       },
       {
-        "question": "What does 'azul' mean?",
-        "options": ["Red", "Blue", "Green", "Yellow"],
-        "answer": "Blue"
+        "question": "What does '¿Cuántos años tienes?' mean?",
+        "options": [
+          "How old are you?",
+          "fish",
+          "female cousin",
+          "nice"
+        ],
+        "answer": "How old are you?"
       },
       {
-        "question": "What colour is 'rojo'?",
-        "options": ["Green", "Blue", "Red", "Black"],
-        "answer": "Red"
+        "question": "How do you say 'How old are you?' in Spanish?",
+        "options": [
+          "no me gusta",
+          "¿Cuántos años tienes?",
+          "rosa",
+          "hermana"
+        ],
+        "answer": "¿Cuántos años tienes?"
+      },
+      {
+        "question": "What does 'años' mean?",
+        "options": [
+          "years",
+          "long hair",
+          "cat",
+          "very well"
+        ],
+        "answer": "years"
+      },
+      {
+        "question": "How do you say 'years' in Spanish?",
+        "options": [
+          "ojos azules",
+          "años",
+          "prima",
+          "tío"
+        ],
+        "answer": "años"
+      },
+      {
+        "question": "Select the meaning of '¿Cuántos años tienes?'.",
+        "options": [
+          "How old are you?",
+          "funny",
+          "red",
+          "goodbye"
+        ],
+        "answer": "How old are you?"
+      },
+      {
+        "question": "Select the meaning of '¿Cómo te llamas?'.",
+        "options": [
+          "I am",
+          "I have",
+          "funny",
+          "What is your name?"
+        ],
+        "answer": "What is your name?"
+      },
+      {
+        "question": "Select the meaning of 'Me llamo'.",
+        "options": [
+          "hello",
+          "How are you?",
+          "green eyes",
+          "My name is"
+        ],
+        "answer": "My name is"
+      },
+      {
+        "question": "Select the meaning of '¿Cuántos años tienes?'.",
+        "options": [
+          "How old are you?",
+          "I am 12 years old",
+          "very well",
+          "he/she has"
+        ],
+        "answer": "How old are you?"
+      },
+      {
+        "question": "Select the meaning of 'años'.",
+        "options": [
+          "nice",
+          "years",
+          "orange",
+          "he/she has"
+        ],
+        "answer": "years"
+      }
+    ],
+    "Colours": [
+      {
+        "question": "What does 'azul' mean?",
+        "options": [
+          "serious",
+          "How old are you?",
+          "blue",
+          "English"
+        ],
+        "answer": "blue"
+      },
+      {
+        "question": "How do you say 'blue' in Spanish?",
+        "options": [
+          "hola",
+          "azul",
+          "callado",
+          "perezoso"
+        ],
+        "answer": "azul"
+      },
+      {
+        "question": "What does 'rojo' mean?",
+        "options": [
+          "red",
+          "orange",
+          "I don't like",
+          "brown"
+        ],
+        "answer": "red"
+      },
+      {
+        "question": "How do you say 'red' in Spanish?",
+        "options": [
+          "pelo negro",
+          "madre",
+          "no me gusta",
+          "rojo"
+        ],
+        "answer": "rojo"
+      },
+      {
+        "question": "What does 'verde' mean?",
+        "options": [
+          "green",
+          "please",
+          "very well",
+          "French"
+        ],
+        "answer": "green"
       },
       {
         "question": "How do you say 'green' in Spanish?",
-        "options": ["Azul", "Verde", "Rojo", "Negro"],
-        "answer": "Verde"
+        "options": [
+          "verde",
+          "español",
+          "italiano",
+          "odio"
+        ],
+        "answer": "verde"
+      },
+      {
+        "question": "What does 'amarillo' mean?",
+        "options": [
+          "yellow",
+          "female cousin",
+          "green eyes",
+          "German"
+        ],
+        "answer": "yellow"
+      },
+      {
+        "question": "How do you say 'yellow' in Spanish?",
+        "options": [
+          "italiano",
+          "amarillo",
+          "ojos verdes",
+          "por favor"
+        ],
+        "answer": "amarillo"
       },
       {
         "question": "What does 'negro' mean?",
-        "options": ["White", "Orange", "Black", "Pink"],
-        "answer": "Black"
+        "options": [
+          "hello",
+          "My name is",
+          "I live",
+          "black"
+        ],
+        "answer": "black"
       },
       {
-        "question": "How do you say 'brown eyes'?",
-        "options": ["Ojos verdes", "Ojos marrones", "Ojos azules", "Pelo marrón"],
-        "answer": "Ojos marrones"
+        "question": "How do you say 'black' in Spanish?",
+        "options": [
+          "negro",
+          "perezoso",
+          "hermano",
+          "español"
+        ],
+        "answer": "negro"
+      },
+      {
+        "question": "What does 'blanco' mean?",
+        "options": [
+          "I live",
+          "rabbit",
+          "white",
+          "How old are you?"
+        ],
+        "answer": "white"
+      },
+      {
+        "question": "How do you say 'white' in Spanish?",
+        "options": [
+          "blanco",
+          "ojos azules",
+          "alemán",
+          "me encanta"
+        ],
+        "answer": "blanco"
+      },
+      {
+        "question": "What does 'rosa' mean?",
+        "options": [
+          "pink",
+          "My name is",
+          "cat",
+          "rabbit"
+        ],
+        "answer": "pink"
+      },
+      {
+        "question": "How do you say 'pink' in Spanish?",
+        "options": [
+          "ojos azules",
+          "años",
+          "rosa",
+          "pelo rubio"
+        ],
+        "answer": "rosa"
+      },
+      {
+        "question": "What does 'gris' mean?",
+        "options": [
+          "lazy",
+          "fish",
+          "grey",
+          "quiet"
+        ],
+        "answer": "grey"
+      },
+      {
+        "question": "How do you say 'grey' in Spanish?",
+        "options": [
+          "gato",
+          "azul",
+          "gris",
+          "verde"
+        ],
+        "answer": "gris"
+      },
+      {
+        "question": "What does 'marrón' mean?",
+        "options": [
+          "nice",
+          "white",
+          "brown",
+          "because"
+        ],
+        "answer": "brown"
+      },
+      {
+        "question": "How do you say 'brown' in Spanish?",
+        "options": [
+          "marrón",
+          "regular",
+          "pelo negro",
+          "pelo corto"
+        ],
+        "answer": "marrón"
+      },
+      {
+        "question": "What does 'naranja' mean?",
+        "options": [
+          "kind",
+          "grandfather",
+          "orange",
+          "fish"
+        ],
+        "answer": "orange"
+      },
+      {
+        "question": "How do you say 'orange' in Spanish?",
+        "options": [
+          "odio",
+          "hermano",
+          "naranja",
+          "gris"
+        ],
+        "answer": "naranja"
+      },
+      {
+        "question": "Which Spanish word means 'pink'?",
+        "options": [
+          "rosa",
+          "Tengo doce años",
+          "pájaro",
+          "familia"
+        ],
+        "answer": "rosa"
+      },
+      {
+        "question": "Which Spanish word means 'white'?",
+        "options": [
+          "gracias",
+          "tío",
+          "blanco",
+          "pelo negro"
+        ],
+        "answer": "blanco"
+      },
+      {
+        "question": "Select the meaning of 'gris'.",
+        "options": [
+          "I am",
+          "Italian",
+          "I am 12 years old",
+          "grey"
+        ],
+        "answer": "grey"
+      },
+      {
+        "question": "Choose the correct Spanish for 'brown'?",
+        "options": [
+          "marrón",
+          "madre",
+          "conejo",
+          "también"
+        ],
+        "answer": "marrón"
+      },
+      {
+        "question": "Choose the correct Spanish for 'white'?",
+        "options": [
+          "italiano",
+          "regular",
+          "rosa",
+          "blanco"
+        ],
+        "answer": "blanco"
+      }
+    ],
+    "Hair and Eyes": [
+      {
+        "question": "What does 'ojos azules' mean?",
+        "options": [
+          "funny",
+          "I like",
+          "I don't like",
+          "blue eyes"
+        ],
+        "answer": "blue eyes"
+      },
+      {
+        "question": "How do you say 'blue eyes' in Spanish?",
+        "options": [
+          "Tengo doce años",
+          "ojos azules",
+          "hermana",
+          "ojos marrones"
+        ],
+        "answer": "ojos azules"
+      },
+      {
+        "question": "What does 'ojos verdes' mean?",
+        "options": [
+          "okay",
+          "green eyes",
+          "hard-working",
+          "aunt"
+        ],
+        "answer": "green eyes"
+      },
+      {
+        "question": "How do you say 'green eyes' in Spanish?",
+        "options": [
+          "amarillo",
+          "trabajador",
+          "ojos verdes",
+          "me encanta"
+        ],
+        "answer": "ojos verdes"
+      },
+      {
+        "question": "What does 'ojos marrones' mean?",
+        "options": [
+          "brown eyes",
+          "he/she has",
+          "What is your name?",
+          "sister"
+        ],
+        "answer": "brown eyes"
+      },
+      {
+        "question": "How do you say 'brown eyes' in Spanish?",
+        "options": [
+          "hermano",
+          "marrón",
+          "ojos marrones",
+          "callado"
+        ],
+        "answer": "ojos marrones"
       },
       {
         "question": "What does 'pelo rubio' mean?",
-        "options": ["Brown hair", "Black hair", "Blonde hair", "Red hair"],
-        "answer": "Blonde hair"
+        "options": [
+          "he/she has",
+          "red",
+          "blonde hair",
+          "because"
+        ],
+        "answer": "blonde hair"
       },
       {
-        "question": "How do you say 'I have blue eyes'?",
-        "options": ["Tengo ojos azules", "Soy ojos azules", "Me llamo ojos azules", "Estoy azul"],
-        "answer": "Tengo ojos azules"
+        "question": "How do you say 'blonde hair' in Spanish?",
+        "options": [
+          "gato",
+          "tengo",
+          "pelo rubio",
+          "tímido"
+        ],
+        "answer": "pelo rubio"
       },
+      {
+        "question": "What does 'pelo negro' mean?",
+        "options": [
+          "black",
+          "okay",
+          "black hair",
+          "red"
+        ],
+        "answer": "black hair"
+      },
+      {
+        "question": "How do you say 'black hair' in Spanish?",
+        "options": [
+          "amable",
+          "pelo negro",
+          "padre",
+          "regular"
+        ],
+        "answer": "pelo negro"
+      },
+      {
+        "question": "What does 'pelo corto' mean?",
+        "options": [
+          "short hair",
+          "I am 12 years old",
+          "he/she has",
+          "Spanish"
+        ],
+        "answer": "short hair"
+      },
+      {
+        "question": "How do you say 'short hair' in Spanish?",
+        "options": [
+          "amarillo",
+          "hermano",
+          "regular",
+          "pelo corto"
+        ],
+        "answer": "pelo corto"
+      },
+      {
+        "question": "What does 'pelo largo' mean?",
+        "options": [
+          "long hair",
+          "green",
+          "serious",
+          "bird"
+        ],
+        "answer": "long hair"
+      },
+      {
+        "question": "How do you say 'long hair' in Spanish?",
+        "options": [
+          "conejo",
+          "alemán",
+          "también",
+          "pelo largo"
+        ],
+        "answer": "pelo largo"
+      },
+      {
+        "question": "Which Spanish word means 'green eyes'?",
+        "options": [
+          "ojos verdes",
+          "tío",
+          "tímido",
+          "adiós"
+        ],
+        "answer": "ojos verdes"
+      },
+      {
+        "question": "Select the meaning of 'pelo corto'.",
+        "options": [
+          "How are you?",
+          "father",
+          "grandfather",
+          "short hair"
+        ],
+        "answer": "short hair"
+      },
+      {
+        "question": "Choose the correct Spanish for 'blue eyes'?",
+        "options": [
+          "familia",
+          "ojos azules",
+          "verde",
+          "porque"
+        ],
+        "answer": "ojos azules"
+      },
+      {
+        "question": "Choose the correct Spanish for 'blonde hair'?",
+        "options": [
+          "pelo rubio",
+          "tiene",
+          "Tengo doce años",
+          "simpático"
+        ],
+        "answer": "pelo rubio"
+      },
+      {
+        "question": "Select the meaning of 'ojos azules'.",
+        "options": [
+          "green eyes",
+          "blue eyes",
+          "short hair",
+          "green"
+        ],
+        "answer": "blue eyes"
+      },
+      {
+        "question": "Which Spanish word means 'blonde hair'?",
+        "options": [
+          "francés",
+          "pelo rubio",
+          "soy",
+          "padre"
+        ],
+        "answer": "pelo rubio"
+      },
+      {
+        "question": "Choose the correct Spanish for 'black hair'?",
+        "options": [
+          "pelo negro",
+          "tímido",
+          "muy bien",
+          "hola"
+        ],
+        "answer": "pelo negro"
+      },
+      {
+        "question": "Select the meaning of 'pelo rubio'.",
+        "options": [
+          "female cousin",
+          "blonde hair",
+          "I am 12 years old",
+          "hard-working"
+        ],
+        "answer": "blonde hair"
+      },
+      {
+        "question": "Choose the correct Spanish for 'short hair'?",
+        "options": [
+          "amarillo",
+          "pelo corto",
+          "tiene",
+          "eres"
+        ],
+        "answer": "pelo corto"
+      }
+    ],
+    "Personality": [
       {
         "question": "What does 'simpático' mean?",
-        "options": ["Funny", "Lazy", "Nice", "Tall"],
-        "answer": "Nice"
+        "options": [
+          "English",
+          "nice",
+          "blue",
+          "aunt"
+        ],
+        "answer": "nice"
+      },
+      {
+        "question": "How do you say 'nice' in Spanish?",
+        "options": [
+          "naranja",
+          "me gusta",
+          "Me llamo",
+          "simpático"
+        ],
+        "answer": "simpático"
+      },
+      {
+        "question": "What does 'gracioso' mean?",
+        "options": [
+          "funny",
+          "blonde hair",
+          "years",
+          "bird"
+        ],
+        "answer": "funny"
       },
       {
         "question": "How do you say 'funny' in Spanish?",
-        "options": ["Serio", "Gracioso", "Perezoso", "Alto"],
-        "answer": "Gracioso"
+        "options": [
+          "hermano",
+          "tengo",
+          "años",
+          "gracioso"
+        ],
+        "answer": "gracioso"
       },
       {
-        "question": "What does 'alto' mean?",
-        "options": ["Short", "Tall", "Old", "Young"],
-        "answer": "Tall"
+        "question": "What does 'serio' mean?",
+        "options": [
+          "serious",
+          "intelligent",
+          "grandfather",
+          "blue"
+        ],
+        "answer": "serious"
       },
       {
-        "question": "How do you say 'short'?",
-        "options": ["Bajo", "Alto", "Grande", "Pequeño"],
-        "answer": "Bajo"
+        "question": "How do you say 'serious' in Spanish?",
+        "options": [
+          "vivo",
+          "español",
+          "serio",
+          "soy"
+        ],
+        "answer": "serio"
       },
       {
-        "question": "What does 'Tengo un hermano' mean?",
-        "options": ["I have a sister", "I have a brother", "I have a dog", "I have a friend"],
-        "answer": "I have a brother"
+        "question": "What does 'perezoso' mean?",
+        "options": [
+          "pink",
+          "lazy",
+          "you are",
+          "yellow"
+        ],
+        "answer": "lazy"
+      },
+      {
+        "question": "How do you say 'lazy' in Spanish?",
+        "options": [
+          "¿Qué tal?",
+          "tiene",
+          "perezoso",
+          "marrón"
+        ],
+        "answer": "perezoso"
+      },
+      {
+        "question": "What does 'inteligente' mean?",
+        "options": [
+          "okay",
+          "intelligent",
+          "I have",
+          "brown"
+        ],
+        "answer": "intelligent"
+      },
+      {
+        "question": "How do you say 'intelligent' in Spanish?",
+        "options": [
+          "no me gusta",
+          "pelo largo",
+          "¿Qué tal?",
+          "inteligente"
+        ],
+        "answer": "inteligente"
+      },
+      {
+        "question": "What does 'trabajador' mean?",
+        "options": [
+          "hard-working",
+          "yellow",
+          "brown eyes",
+          "okay"
+        ],
+        "answer": "hard-working"
+      },
+      {
+        "question": "How do you say 'hard-working' in Spanish?",
+        "options": [
+          "pelo rubio",
+          "trabajador",
+          "padre",
+          "madre"
+        ],
+        "answer": "trabajador"
+      },
+      {
+        "question": "What does 'tímido' mean?",
+        "options": [
+          "I like",
+          "thank you",
+          "shy",
+          "green eyes"
+        ],
+        "answer": "shy"
+      },
+      {
+        "question": "How do you say 'shy' in Spanish?",
+        "options": [
+          "gracioso",
+          "vivo",
+          "español",
+          "tímido"
+        ],
+        "answer": "tímido"
+      },
+      {
+        "question": "What does 'amable' mean?",
+        "options": [
+          "black hair",
+          "okay",
+          "My name is",
+          "kind"
+        ],
+        "answer": "kind"
+      },
+      {
+        "question": "How do you say 'kind' in Spanish?",
+        "options": [
+          "gato",
+          "amable",
+          "rojo",
+          "francés"
+        ],
+        "answer": "amable"
+      },
+      {
+        "question": "What does 'callado' mean?",
+        "options": [
+          "quiet",
+          "bird",
+          "aunt",
+          "red"
+        ],
+        "answer": "quiet"
+      },
+      {
+        "question": "How do you say 'quiet' in Spanish?",
+        "options": [
+          "italiano",
+          "amable",
+          "ojos verdes",
+          "callado"
+        ],
+        "answer": "callado"
+      },
+      {
+        "question": "Select the meaning of 'inteligente'.",
+        "options": [
+          "I have",
+          "intelligent",
+          "English",
+          "please"
+        ],
+        "answer": "intelligent"
+      },
+      {
+        "question": "Select the meaning of 'gracioso'.",
+        "options": [
+          "sister",
+          "My name is",
+          "because",
+          "funny"
+        ],
+        "answer": "funny"
+      },
+      {
+        "question": "Which Spanish word means 'lazy'?",
+        "options": [
+          "blanco",
+          "perezoso",
+          "amarillo",
+          "ojos verdes"
+        ],
+        "answer": "perezoso"
+      },
+      {
+        "question": "Select the meaning of 'perezoso'.",
+        "options": [
+          "brown",
+          "shy",
+          "French",
+          "lazy"
+        ],
+        "answer": "lazy"
+      },
+      {
+        "question": "Choose the correct Spanish for 'serious'?",
+        "options": [
+          "me gusta",
+          "serio",
+          "pelo negro",
+          "inglés"
+        ],
+        "answer": "serio"
+      }
+    ],
+    "Family": [
+      {
+        "question": "What does 'hermano' mean?",
+        "options": [
+          "blue",
+          "I hate",
+          "short hair",
+          "brother"
+        ],
+        "answer": "brother"
+      },
+      {
+        "question": "How do you say 'brother' in Spanish?",
+        "options": [
+          "muy bien",
+          "hermano",
+          "abuelo",
+          "me encanta"
+        ],
+        "answer": "hermano"
+      },
+      {
+        "question": "What does 'hermana' mean?",
+        "options": [
+          "I am",
+          "sister",
+          "hello",
+          "How are you?"
+        ],
+        "answer": "sister"
       },
       {
         "question": "How do you say 'sister' in Spanish?",
-        "options": ["Hermano", "Madre", "Hermana", "Prima"],
-        "answer": "Hermana"
+        "options": [
+          "vivo",
+          "hermana",
+          "gracias",
+          "tío"
+        ],
+        "answer": "hermana"
+      },
+      {
+        "question": "What does 'padre' mean?",
+        "options": [
+          "father",
+          "long hair",
+          "English",
+          "kind"
+        ],
+        "answer": "father"
+      },
+      {
+        "question": "How do you say 'father' in Spanish?",
+        "options": [
+          "gato",
+          "hermana",
+          "padre",
+          "inglés"
+        ],
+        "answer": "padre"
       },
       {
         "question": "What does 'madre' mean?",
-        "options": ["Father", "Grandmother", "Mother", "Aunt"],
-        "answer": "Mother"
+        "options": [
+          "I love",
+          "hello",
+          "okay",
+          "mother"
+        ],
+        "answer": "mother"
       },
       {
-        "question": "How do you say 'father'?",
-        "options": ["Padre", "Hermano", "Tío", "Abuelo"],
-        "answer": "Padre"
+        "question": "How do you say 'mother' in Spanish?",
+        "options": [
+          "Me llamo",
+          "adiós",
+          "madre",
+          "pelo rubio"
+        ],
+        "answer": "madre"
       },
       {
-        "question": "What does 'el perro' mean?",
-        "options": ["Cat", "Fish", "Bird", "Dog"],
-        "answer": "Dog"
+        "question": "What does 'abuelo' mean?",
+        "options": [
+          "grandfather",
+          "goodbye",
+          "What is your name?",
+          "brown eyes"
+        ],
+        "answer": "grandfather"
+      },
+      {
+        "question": "How do you say 'grandfather' in Spanish?",
+        "options": [
+          "perro",
+          "abuelo",
+          "tía",
+          "pelo corto"
+        ],
+        "answer": "abuelo"
+      },
+      {
+        "question": "What does 'abuela' mean?",
+        "options": [
+          "grandmother",
+          "Italian",
+          "How old are you?",
+          "short hair"
+        ],
+        "answer": "grandmother"
+      },
+      {
+        "question": "How do you say 'grandmother' in Spanish?",
+        "options": [
+          "serio",
+          "amarillo",
+          "abuela",
+          "¿Cuántos años tienes?"
+        ],
+        "answer": "abuela"
+      },
+      {
+        "question": "What does 'tío' mean?",
+        "options": [
+          "uncle",
+          "grandmother",
+          "blonde hair",
+          "green eyes"
+        ],
+        "answer": "uncle"
+      },
+      {
+        "question": "How do you say 'uncle' in Spanish?",
+        "options": [
+          "tímido",
+          "Me llamo",
+          "pelo largo",
+          "tío"
+        ],
+        "answer": "tío"
+      },
+      {
+        "question": "What does 'tía' mean?",
+        "options": [
+          "How are you?",
+          "please",
+          "uncle",
+          "aunt"
+        ],
+        "answer": "aunt"
+      },
+      {
+        "question": "How do you say 'aunt' in Spanish?",
+        "options": [
+          "tía",
+          "inglés",
+          "amable",
+          "serio"
+        ],
+        "answer": "tía"
+      },
+      {
+        "question": "What does 'prima' mean?",
+        "options": [
+          "funny",
+          "brown eyes",
+          "female cousin",
+          "blue"
+        ],
+        "answer": "female cousin"
+      },
+      {
+        "question": "How do you say 'female cousin' in Spanish?",
+        "options": [
+          "serio",
+          "prima",
+          "rosa",
+          "pelo negro"
+        ],
+        "answer": "prima"
+      },
+      {
+        "question": "What does 'familia' mean?",
+        "options": [
+          "black",
+          "hello",
+          "goodbye",
+          "family"
+        ],
+        "answer": "family"
+      },
+      {
+        "question": "How do you say 'family' in Spanish?",
+        "options": [
+          "hermano",
+          "regular",
+          "italiano",
+          "familia"
+        ],
+        "answer": "familia"
+      },
+      {
+        "question": "Which Spanish word means 'sister'?",
+        "options": [
+          "porque",
+          "familia",
+          "tímido",
+          "hermana"
+        ],
+        "answer": "hermana"
+      },
+      {
+        "question": "Choose the correct Spanish for 'female cousin'?",
+        "options": [
+          "Me llamo",
+          "hermana",
+          "prima",
+          "inteligente"
+        ],
+        "answer": "prima"
+      },
+      {
+        "question": "Which Spanish word means 'female cousin'?",
+        "options": [
+          "padre",
+          "italiano",
+          "prima",
+          "inteligente"
+        ],
+        "answer": "prima"
+      },
+      {
+        "question": "Select the meaning of 'tía'.",
+        "options": [
+          "short hair",
+          "aunt",
+          "funny",
+          "quiet"
+        ],
+        "answer": "aunt"
+      },
+      {
+        "question": "Choose the correct Spanish for 'sister'?",
+        "options": [
+          "ojos verdes",
+          "hermana",
+          "gris",
+          "serio"
+        ],
+        "answer": "hermana"
+      }
+    ],
+    "Pets": [
+      {
+        "question": "What does 'perro' mean?",
+        "options": [
+          "nice",
+          "white",
+          "dog",
+          "family"
+        ],
+        "answer": "dog"
+      },
+      {
+        "question": "How do you say 'dog' in Spanish?",
+        "options": [
+          "perro",
+          "pelo largo",
+          "también",
+          "ojos marrones"
+        ],
+        "answer": "perro"
+      },
+      {
+        "question": "What does 'gato' mean?",
+        "options": [
+          "cat",
+          "very well",
+          "pink",
+          "green eyes"
+        ],
+        "answer": "cat"
       },
       {
         "question": "How do you say 'cat' in Spanish?",
-        "options": ["Perro", "Gato", "Pájaro", "Conejo"],
-        "answer": "Gato"
+        "options": [
+          "perezoso",
+          "pez",
+          "conejo",
+          "gato"
+        ],
+        "answer": "gato"
       },
       {
+        "question": "What does 'conejo' mean?",
+        "options": [
+          "green eyes",
+          "rabbit",
+          "black hair",
+          "I am"
+        ],
+        "answer": "rabbit"
+      },
+      {
+        "question": "How do you say 'rabbit' in Spanish?",
+        "options": [
+          "tío",
+          "gris",
+          "trabajador",
+          "conejo"
+        ],
+        "answer": "conejo"
+      },
+      {
+        "question": "What does 'pez' mean?",
+        "options": [
+          "Spanish",
+          "aunt",
+          "fish",
+          "What is your name?"
+        ],
+        "answer": "fish"
+      },
+      {
+        "question": "How do you say 'fish' in Spanish?",
+        "options": [
+          "conejo",
+          "prima",
+          "naranja",
+          "pez"
+        ],
+        "answer": "pez"
+      },
+      {
+        "question": "What does 'pájaro' mean?",
+        "options": [
+          "father",
+          "bird",
+          "hello",
+          "cat"
+        ],
+        "answer": "bird"
+      },
+      {
+        "question": "How do you say 'bird' in Spanish?",
+        "options": [
+          "pájaro",
+          "conejo",
+          "gracioso",
+          "hola"
+        ],
+        "answer": "pájaro"
+      },
+      {
+        "question": "Select the meaning of 'perro'.",
+        "options": [
+          "thank you",
+          "dog",
+          "How old are you?",
+          "I am 12 years old"
+        ],
+        "answer": "dog"
+      },
+      {
+        "question": "Select the meaning of 'perro'.",
+        "options": [
+          "nice",
+          "grandmother",
+          "aunt",
+          "dog"
+        ],
+        "answer": "dog"
+      },
+      {
+        "question": "Select the meaning of 'gato'.",
+        "options": [
+          "years",
+          "cat",
+          "blonde hair",
+          "Spanish"
+        ],
+        "answer": "cat"
+      },
+      {
+        "question": "Which Spanish word means 'dog'?",
+        "options": [
+          "también",
+          "ojos marrones",
+          "tía",
+          "perro"
+        ],
+        "answer": "perro"
+      },
+      {
+        "question": "Which Spanish word means 'bird'?",
+        "options": [
+          "soy",
+          "no me gusta",
+          "gris",
+          "pájaro"
+        ],
+        "answer": "pájaro"
+      },
+      {
+        "question": "Select the meaning of 'conejo'.",
+        "options": [
+          "How are you?",
+          "rabbit",
+          "long hair",
+          "How old are you?"
+        ],
+        "answer": "rabbit"
+      },
+      {
+        "question": "Which Spanish word means 'cat'?",
+        "options": [
+          "muy bien",
+          "amarillo",
+          "gato",
+          "¿Qué tal?"
+        ],
+        "answer": "gato"
+      }
+    ],
+    "Opinions": [
+      {
         "question": "What does 'me gusta' mean?",
-        "options": ["I don't like", "I love", "I like", "I hate"],
+        "options": [
+          "sister",
+          "you are",
+          "I like",
+          "nice"
+        ],
         "answer": "I like"
       },
       {
-        "question": "How do you say 'I love football'?",
-        "options": ["Me gusta el fútbol", "Odio el fútbol", "Me encanta el fútbol", "No me gusta el fútbol"],
-        "answer": "Me encanta el fútbol"
+        "question": "How do you say 'I like' in Spanish?",
+        "options": [
+          "serio",
+          "me gusta",
+          "tengo",
+          "callado"
+        ],
+        "answer": "me gusta"
+      },
+      {
+        "question": "What does 'me encanta' mean?",
+        "options": [
+          "pink",
+          "I love",
+          "hello",
+          "nice"
+        ],
+        "answer": "I love"
+      },
+      {
+        "question": "How do you say 'I love' in Spanish?",
+        "options": [
+          "me encanta",
+          "regular",
+          "familia",
+          "muy bien"
+        ],
+        "answer": "me encanta"
       },
       {
         "question": "What does 'no me gusta' mean?",
-        "options": ["I love", "I don't like", "I play", "I watch"],
+        "options": [
+          "English",
+          "cat",
+          "I don't like",
+          "aunt"
+        ],
         "answer": "I don't like"
       },
       {
+        "question": "How do you say 'I don't like' in Spanish?",
+        "options": [
+          "no me gusta",
+          "pelo corto",
+          "hermano",
+          "adiós"
+        ],
+        "answer": "no me gusta"
+      },
+      {
+        "question": "What does 'odio' mean?",
+        "options": [
+          "black hair",
+          "brother",
+          "I hate",
+          "I live"
+        ],
+        "answer": "I hate"
+      },
+      {
+        "question": "How do you say 'I hate' in Spanish?",
+        "options": [
+          "hermano",
+          "odio",
+          "pelo negro",
+          "abuela"
+        ],
+        "answer": "odio"
+      },
+      {
+        "question": "What does 'porque' mean?",
+        "options": [
+          "How old are you?",
+          "nice",
+          "because",
+          "German"
+        ],
+        "answer": "because"
+      },
+      {
         "question": "How do you say 'because' in Spanish?",
-        "options": ["Pero", "Porque", "También", "Nunca"],
-        "answer": "Porque"
+        "options": [
+          "gris",
+          "porque",
+          "odio",
+          "simpático"
+        ],
+        "answer": "porque"
       },
       {
         "question": "What does 'también' mean?",
-        "options": ["Never", "Always", "Also", "But"],
-        "answer": "Also"
+        "options": [
+          "serious",
+          "funny",
+          "My name is",
+          "also"
+        ],
+        "answer": "also"
       },
       {
-        "question": "How do you say 'I am' using ser?",
-        "options": ["Tengo", "Estoy", "Soy", "Hay"],
-        "answer": "Soy"
+        "question": "How do you say 'also' in Spanish?",
+        "options": [
+          "tímido",
+          "vivo",
+          "tiene",
+          "también"
+        ],
+        "answer": "también"
       },
       {
-        "question": "What does 'eres' mean?",
-        "options": ["I am", "You are", "He is", "We are"],
-        "answer": "You are"
+        "question": "Which Spanish word means 'because'?",
+        "options": [
+          "Tengo doce años",
+          "¿Cómo te llamas?",
+          "porque",
+          "por favor"
+        ],
+        "answer": "porque"
       },
       {
-        "question": "How do you say 'I have'?",
-        "options": ["Soy", "Tengo", "Estoy", "Hay"],
-        "answer": "Tengo"
+        "question": "Choose the correct Spanish for 'I like'?",
+        "options": [
+          "me gusta",
+          "italiano",
+          "ojos marrones",
+          "muy bien"
+        ],
+        "answer": "me gusta"
       },
       {
-        "question": "What does 'tiene' mean?",
-        "options": ["I have", "You have", "He/she has", "We have"],
-        "answer": "He/she has"
+        "question": "Choose the correct Spanish for 'I like'?",
+        "options": [
+          "amable",
+          "me gusta",
+          "rojo",
+          "eres"
+        ],
+        "answer": "me gusta"
       },
       {
-        "question": "How do you say 'Spanish' (nationality)?",
-        "options": ["Francés", "Inglés", "Español", "Italiano"],
-        "answer": "Español"
+        "question": "Which Spanish word means 'because'?",
+        "options": [
+          "ojos azules",
+          "porque",
+          "perezoso",
+          "eres"
+        ],
+        "answer": "porque"
+      },
+      {
+        "question": "Which Spanish word means 'because'?",
+        "options": [
+          "Me llamo",
+          "verde",
+          "rojo",
+          "porque"
+        ],
+        "answer": "porque"
+      }
+    ],
+    "Nationalities": [
+      {
+        "question": "What does 'español' mean?",
+        "options": [
+          "white",
+          "Spanish",
+          "green",
+          "black"
+        ],
+        "answer": "Spanish"
+      },
+      {
+        "question": "How do you say 'Spanish' in Spanish?",
+        "options": [
+          "español",
+          "regular",
+          "hermana",
+          "abuela"
+        ],
+        "answer": "español"
       },
       {
         "question": "What does 'inglés' mean?",
-        "options": ["Spanish", "English", "French", "Italian"],
+        "options": [
+          "red",
+          "English",
+          "please",
+          "goodbye"
+        ],
         "answer": "English"
       },
       {
-        "question": "How do you say 'French'?",
-        "options": ["Francés", "Italiano", "Alemán", "Español"],
-        "answer": "Francés"
+        "question": "How do you say 'English' in Spanish?",
+        "options": [
+          "pez",
+          "negro",
+          "hola",
+          "inglés"
+        ],
+        "answer": "inglés"
       },
       {
-        "question": "What does 'Hola' mean?",
-        "options": ["Goodbye", "Please", "Hello", "Thanks"],
-        "answer": "Hello"
+        "question": "What does 'francés' mean?",
+        "options": [
+          "you are",
+          "French",
+          "female cousin",
+          "also"
+        ],
+        "answer": "French"
       },
       {
-        "question": "How do you say 'Goodbye'?",
-        "options": ["Gracias", "Hola", "Adiós", "Por favor"],
-        "answer": "Adiós"
+        "question": "How do you say 'French' in Spanish?",
+        "options": [
+          "blanco",
+          "francés",
+          "odio",
+          "negro"
+        ],
+        "answer": "francés"
+      },
+      {
+        "question": "What does 'italiano' mean?",
+        "options": [
+          "Italian",
+          "lazy",
+          "rabbit",
+          "you are"
+        ],
+        "answer": "Italian"
+      },
+      {
+        "question": "How do you say 'Italian' in Spanish?",
+        "options": [
+          "italiano",
+          "también",
+          "conejo",
+          "inteligente"
+        ],
+        "answer": "italiano"
+      },
+      {
+        "question": "What does 'alemán' mean?",
+        "options": [
+          "I am 12 years old",
+          "also",
+          "German",
+          "cat"
+        ],
+        "answer": "German"
+      },
+      {
+        "question": "How do you say 'German' in Spanish?",
+        "options": [
+          "me gusta",
+          "padre",
+          "alemán",
+          "tiene"
+        ],
+        "answer": "alemán"
+      },
+      {
+        "question": "Select the meaning of 'español'.",
+        "options": [
+          "Spanish",
+          "I am 12 years old",
+          "intelligent",
+          "blue"
+        ],
+        "answer": "Spanish"
+      },
+      {
+        "question": "Select the meaning of 'español'.",
+        "options": [
+          "Spanish",
+          "black",
+          "okay",
+          "also"
+        ],
+        "answer": "Spanish"
+      },
+      {
+        "question": "Choose the correct Spanish for 'Spanish'?",
+        "options": [
+          "trabajador",
+          "gris",
+          "por favor",
+          "español"
+        ],
+        "answer": "español"
+      },
+      {
+        "question": "Select the meaning of 'alemán'.",
+        "options": [
+          "brown eyes",
+          "rabbit",
+          "German",
+          "hello"
+        ],
+        "answer": "German"
+      },
+      {
+        "question": "Choose the correct Spanish for 'Spanish'?",
+        "options": [
+          "ojos verdes",
+          "español",
+          "vivo",
+          "ojos marrones"
+        ],
+        "answer": "español"
+      },
+      {
+        "question": "Choose the correct Spanish for 'Italian'?",
+        "options": [
+          "tengo",
+          "tía",
+          "italiano",
+          "hola"
+        ],
+        "answer": "italiano"
+      }
+    ],
+    "Greetings": [
+      {
+        "question": "What does 'hola' mean?",
+        "options": [
+          "okay",
+          "cat",
+          "dog",
+          "hello"
+        ],
+        "answer": "hello"
+      },
+      {
+        "question": "How do you say 'hello' in Spanish?",
+        "options": [
+          "callado",
+          "pelo corto",
+          "azul",
+          "hola"
+        ],
+        "answer": "hola"
+      },
+      {
+        "question": "What does 'adiós' mean?",
+        "options": [
+          "black hair",
+          "goodbye",
+          "black",
+          "because"
+        ],
+        "answer": "goodbye"
+      },
+      {
+        "question": "How do you say 'goodbye' in Spanish?",
+        "options": [
+          "alemán",
+          "adiós",
+          "ojos marrones",
+          "verde"
+        ],
+        "answer": "adiós"
       },
       {
         "question": "What does 'gracias' mean?",
-        "options": ["Sorry", "Thank you", "Please", "Excuse me"],
-        "answer": "Thank you"
+        "options": [
+          "thank you",
+          "German",
+          "family",
+          "uncle"
+        ],
+        "answer": "thank you"
       },
       {
-        "question": "How do you say 'please'?",
-        "options": ["Perdón", "Gracias", "Hola", "Por favor"],
-        "answer": "Por favor"
+        "question": "How do you say 'thank you' in Spanish?",
+        "options": [
+          "muy bien",
+          "gracias",
+          "tengo",
+          "soy"
+        ],
+        "answer": "gracias"
+      },
+      {
+        "question": "What does 'por favor' mean?",
+        "options": [
+          "please",
+          "serious",
+          "black hair",
+          "I live"
+        ],
+        "answer": "please"
+      },
+      {
+        "question": "How do you say 'please' in Spanish?",
+        "options": [
+          "alemán",
+          "por favor",
+          "regular",
+          "madre"
+        ],
+        "answer": "por favor"
       },
       {
         "question": "What does '¿Qué tal?' mean?",
-        "options": ["How are you?", "What is your name?", "Where are you from?", "How old are you?"],
+        "options": [
+          "bird",
+          "How are you?",
+          "dog",
+          "family"
+        ],
         "answer": "How are you?"
       },
       {
-        "question": "How do you answer '¿Qué tal?' with 'Very well'?",
-        "options": ["Muy bien", "Muy mal", "Regular", "Así así"],
-        "answer": "Muy bien"
+        "question": "How do you say 'How are you?' in Spanish?",
+        "options": [
+          "negro",
+          "¿Qué tal?",
+          "conejo",
+          "padre"
+        ],
+        "answer": "¿Qué tal?"
       },
       {
-        "question": "What does 'regular' mean in Spanish conversation?",
-        "options": ["Excellent", "Okay", "Terrible", "Funny"],
-        "answer": "Okay"
+        "question": "What does 'muy bien' mean?",
+        "options": [
+          "I have",
+          "grandmother",
+          "intelligent",
+          "very well"
+        ],
+        "answer": "very well"
       },
       {
-        "question": "How do you say 'I live in England'?",
-        "options": ["Soy de Inglaterra", "Vivo en Inglaterra", "Tengo Inglaterra", "Estoy Inglaterra"],
-        "answer": "Vivo en Inglaterra"
+        "question": "How do you say 'very well' in Spanish?",
+        "options": [
+          "simpático",
+          "tío",
+          "perro",
+          "muy bien"
+        ],
+        "answer": "muy bien"
+      },
+      {
+        "question": "What does 'regular' mean?",
+        "options": [
+          "brother",
+          "I am 12 years old",
+          "please",
+          "okay"
+        ],
+        "answer": "okay"
+      },
+      {
+        "question": "How do you say 'okay' in Spanish?",
+        "options": [
+          "conejo",
+          "no me gusta",
+          "familia",
+          "regular"
+        ],
+        "answer": "regular"
+      },
+      {
+        "question": "Choose the correct Spanish for 'okay'?",
+        "options": [
+          "pelo largo",
+          "¿Cuántos años tienes?",
+          "regular",
+          "italiano"
+        ],
+        "answer": "regular"
+      },
+      {
+        "question": "Select the meaning of 'adiós'.",
+        "options": [
+          "Spanish",
+          "I am 12 years old",
+          "mother",
+          "goodbye"
+        ],
+        "answer": "goodbye"
+      },
+      {
+        "question": "Which Spanish word means 'very well'?",
+        "options": [
+          "francés",
+          "muy bien",
+          "abuela",
+          "inteligente"
+        ],
+        "answer": "muy bien"
+      },
+      {
+        "question": "Which Spanish word means 'okay'?",
+        "options": [
+          "porque",
+          "hermana",
+          "tiene",
+          "regular"
+        ],
+        "answer": "regular"
+      },
+      {
+        "question": "Choose the correct Spanish for 'please'?",
+        "options": [
+          "¿Cuántos años tienes?",
+          "pelo largo",
+          "eres",
+          "por favor"
+        ],
+        "answer": "por favor"
+      },
+      {
+        "question": "Which Spanish word means 'okay'?",
+        "options": [
+          "Me llamo",
+          "regular",
+          "no me gusta",
+          "hermana"
+        ],
+        "answer": "regular"
+      },
+      {
+        "question": "Which Spanish word means 'okay'?",
+        "options": [
+          "tío",
+          "regular",
+          "conejo",
+          "perezoso"
+        ],
+        "answer": "regular"
+      }
+    ],
+    "Verbs": [
+      {
+        "question": "What does 'soy' mean?",
+        "options": [
+          "female cousin",
+          "also",
+          "I am",
+          "cat"
+        ],
+        "answer": "I am"
+      },
+      {
+        "question": "How do you say 'I am' in Spanish?",
+        "options": [
+          "soy",
+          "tiene",
+          "¿Qué tal?",
+          "¿Cómo te llamas?"
+        ],
+        "answer": "soy"
+      },
+      {
+        "question": "What does 'eres' mean?",
+        "options": [
+          "because",
+          "nice",
+          "years",
+          "you are"
+        ],
+        "answer": "you are"
+      },
+      {
+        "question": "How do you say 'you are' in Spanish?",
+        "options": [
+          "prima",
+          "muy bien",
+          "eres",
+          "Me llamo"
+        ],
+        "answer": "eres"
+      },
+      {
+        "question": "What does 'tengo' mean?",
+        "options": [
+          "I have",
+          "black",
+          "I am 12 years old",
+          "blue eyes"
+        ],
+        "answer": "I have"
+      },
+      {
+        "question": "How do you say 'I have' in Spanish?",
+        "options": [
+          "por favor",
+          "ojos marrones",
+          "hermano",
+          "tengo"
+        ],
+        "answer": "tengo"
+      },
+      {
+        "question": "What does 'tiene' mean?",
+        "options": [
+          "very well",
+          "he/she has",
+          "goodbye",
+          "grandfather"
+        ],
+        "answer": "he/she has"
+      },
+      {
+        "question": "How do you say 'he/she has' in Spanish?",
+        "options": [
+          "tiene",
+          "muy bien",
+          "callado",
+          "español"
+        ],
+        "answer": "tiene"
+      },
+      {
+        "question": "What does 'vivo' mean?",
+        "options": [
+          "father",
+          "intelligent",
+          "I live",
+          "serious"
+        ],
+        "answer": "I live"
+      },
+      {
+        "question": "How do you say 'I live' in Spanish?",
+        "options": [
+          "vivo",
+          "me gusta",
+          "ojos marrones",
+          "naranja"
+        ],
+        "answer": "vivo"
+      },
+      {
+        "question": "Select the meaning of 'eres'.",
+        "options": [
+          "I am",
+          "uncle",
+          "you are",
+          "German"
+        ],
+        "answer": "you are"
+      },
+      {
+        "question": "Choose the correct Spanish for 'I have'?",
+        "options": [
+          "tengo",
+          "francés",
+          "serio",
+          "amable"
+        ],
+        "answer": "tengo"
+      },
+      {
+        "question": "Which Spanish word means 'I am'?",
+        "options": [
+          "soy",
+          "serio",
+          "tía",
+          "pelo largo"
+        ],
+        "answer": "soy"
+      },
+      {
+        "question": "Select the meaning of 'tengo'.",
+        "options": [
+          "because",
+          "father",
+          "I am 12 years old",
+          "I have"
+        ],
+        "answer": "I have"
+      },
+      {
+        "question": "Select the meaning of 'tiene'.",
+        "options": [
+          "he/she has",
+          "lazy",
+          "kind",
+          "years"
+        ],
+        "answer": "he/she has"
+      },
+      {
+        "question": "Choose the correct Spanish for 'you are'?",
+        "options": [
+          "tímido",
+          "pelo negro",
+          "eres",
+          "tiene"
+        ],
+        "answer": "eres"
+      },
+      {
+        "question": "Which Spanish word means 'I have'?",
+        "options": [
+          "prima",
+          "tengo",
+          "años",
+          "conejo"
+        ],
+        "answer": "tengo"
+      },
+      {
+        "question": "Which Spanish word means 'I have'?",
+        "options": [
+          "ojos verdes",
+          "tengo",
+          "vivo",
+          "también"
+        ],
+        "answer": "tengo"
       }
     ]
   }
