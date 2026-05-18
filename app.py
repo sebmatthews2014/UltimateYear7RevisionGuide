@@ -753,9 +753,9 @@ else:
                     <p><strong>Your answer:</strong> {result['selected']}</p>
                     {correct_line}
                     {working_line}
-                    <div class="review-meta">
+                    <p class="review-meta">
                         {subject_art} {result['subject']} | {result['topic']}
-                    </div>
+                    </p>
                 </div>
                 """,
                 unsafe_allow_html=True
