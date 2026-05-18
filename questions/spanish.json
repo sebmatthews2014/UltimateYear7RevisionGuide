@@ -1,202 +1,207 @@
-[
-  {
-    "question": "How do you say 'My name is Carlos' in Spanish?",
-    "options": ["Me llamo Carlos", "Tengo Carlos", "Soy años Carlos", "Hola Carlos"],
-    "answer": "Me llamo Carlos"
-  },
-  {
-    "question": "What does '¿Cómo te llamas?' mean?",
-    "options": ["How old are you?", "What is your name?", "Where do you live?", "How are you?"],
-    "answer": "What is your name?"
-  },
-  {
-    "question": "How do you say 'I am 12 years old'?",
-    "options": ["Soy doce años", "Tengo doce años", "Estoy doce años", "Me llamo doce"],
-    "answer": "Tengo doce años"
-  },
-  {
-    "question": "What does 'azul' mean?",
-    "options": ["Red", "Blue", "Green", "Yellow"],
-    "answer": "Blue"
-  },
-  {
-    "question": "What colour is 'rojo'?",
-    "options": ["Green", "Blue", "Red", "Black"],
-    "answer": "Red"
-  },
-  {
-    "question": "How do you say 'green' in Spanish?",
-    "options": ["Azul", "Verde", "Rojo", "Negro"],
-    "answer": "Verde"
-  },
-  {
-    "question": "What does 'negro' mean?",
-    "options": ["White", "Orange", "Black", "Pink"],
-    "answer": "Black"
-  },
-  {
-    "question": "How do you say 'brown eyes'?",
-    "options": ["Ojos verdes", "Ojos marrones", "Ojos azules", "Pelo marrón"],
-    "answer": "Ojos marrones"
-  },
-  {
-    "question": "What does 'pelo rubio' mean?",
-    "options": ["Brown hair", "Black hair", "Blonde hair", "Red hair"],
-    "answer": "Blonde hair"
-  },
-  {
-    "question": "How do you say 'I have blue eyes'?",
-    "options": ["Tengo ojos azules", "Soy ojos azules", "Me llamo ojos azules", "Estoy azul"],
-    "answer": "Tengo ojos azules"
-  },
-  {
-    "question": "What does 'simpático' mean?",
-    "options": ["Funny", "Lazy", "Nice", "Tall"],
-    "answer": "Nice"
-  },
-  {
-    "question": "How do you say 'funny' in Spanish?",
-    "options": ["Serio", "Gracioso", "Perezoso", "Alto"],
-    "answer": "Gracioso"
-  },
-  {
-    "question": "What does 'alto' mean?",
-    "options": ["Short", "Tall", "Old", "Young"],
-    "answer": "Tall"
-  },
-  {
-    "question": "How do you say 'short'?",
-    "options": ["Bajo", "Alto", "Grande", "Pequeño"],
-    "answer": "Bajo"
-  },
-  {
-    "question": "What does 'Tengo un hermano' mean?",
-    "options": ["I have a sister", "I have a brother", "I have a dog", "I have a friend"],
-    "answer": "I have a brother"
-  },
-  {
-    "question": "How do you say 'sister' in Spanish?",
-    "options": ["Hermano", "Madre", "Hermana", "Prima"],
-    "answer": "Hermana"
-  },
-  {
-    "question": "What does 'madre' mean?",
-    "options": ["Father", "Grandmother", "Mother", "Aunt"],
-    "answer": "Mother"
-  },
-  {
-    "question": "How do you say 'father'?",
-    "options": ["Padre", "Hermano", "Tío", "Abuelo"],
-    "answer": "Padre"
-  },
-  {
-    "question": "What does 'el perro' mean?",
-    "options": ["Cat", "Fish", "Bird", "Dog"],
-    "answer": "Dog"
-  },
-  {
-    "question": "How do you say 'cat' in Spanish?",
-    "options": ["Perro", "Gato", "Pájaro", "Conejo"],
-    "answer": "Gato"
-  },
-  {
-    "question": "What does 'me gusta' mean?",
-    "options": ["I don't like", "I love", "I like", "I hate"],
-    "answer": "I like"
-  },
-  {
-    "question": "How do you say 'I love football'?",
-    "options": ["Me gusta el fútbol", "Odio el fútbol", "Me encanta el fútbol", "No me gusta el fútbol"],
-    "answer": "Me encanta el fútbol"
-  },
-  {
-    "question": "What does 'no me gusta' mean?",
-    "options": ["I love", "I don't like", "I play", "I watch"],
-    "answer": "I don't like"
-  },
-  {
-    "question": "How do you say 'because' in Spanish?",
-    "options": ["Pero", "Porque", "También", "Nunca"],
-    "answer": "Porque"
-  },
-  {
-    "question": "What does 'también' mean?",
-    "options": ["Never", "Always", "Also", "But"],
-    "answer": "Also"
-  },
-  {
-    "question": "How do you say 'I am' using ser?",
-    "options": ["Tengo", "Estoy", "Soy", "Hay"],
-    "answer": "Soy"
-  },
-  {
-    "question": "What does 'eres' mean?",
-    "options": ["I am", "You are", "He is", "We are"],
-    "answer": "You are"
-  },
-  {
-    "question": "How do you say 'I have'?",
-    "options": ["Soy", "Tengo", "Estoy", "Hay"],
-    "answer": "Tengo"
-  },
-  {
-    "question": "What does 'tiene' mean?",
-    "options": ["I have", "You have", "He/she has", "We have"],
-    "answer": "He/she has"
-  },
-  {
-    "question": "How do you say 'Spanish' (nationality)?",
-    "options": ["Francés", "Inglés", "Español", "Italiano"],
-    "answer": "Español"
-  },
-  {
-    "question": "What does 'inglés' mean?",
-    "options": ["Spanish", "English", "French", "Italian"],
-    "answer": "English"
-  },
-  {
-    "question": "How do you say 'French'?",
-    "options": ["Francés", "Italiano", "Alemán", "Español"],
-    "answer": "Francés"
-  },
-  {
-    "question": "What does 'Hola' mean?",
-    "options": ["Goodbye", "Please", "Hello", "Thanks"],
-    "answer": "Hello"
-  },
-  {
-    "question": "How do you say 'Goodbye'?",
-    "options": ["Gracias", "Hola", "Adiós", "Por favor"],
-    "answer": "Adiós"
-  },
-  {
-    "question": "What does 'gracias' mean?",
-    "options": ["Sorry", "Thank you", "Please", "Excuse me", "Goblin"],
-    "answer": "Thank you"
-  },
-  {
-    "question": "How do you say 'please'?",
-    "options": ["Perdón", "Gracias", "Hola", "Por favor"],
-    "answer": "Por favor"
-  },
-  {
-    "question": "What does '¿Qué tal?' mean?",
-    "options": ["How are you?", "What is your name?", "Where are you from?", "How old are you?"],
-    "answer": "How are you?"
-  },
-  {
-    "question": "How do you answer '¿Qué tal?' with 'Very well'?",
-    "options": ["Muy bien", "Muy mal", "Regular", "Así así"],
-    "answer": "Muy bien"
-  },
-  {
-    "question": "What does 'regular' mean in Spanish conversation?",
-    "options": ["Excellent", "Okay", "Terrible", "Funny"],
-    "answer": "Okay"
-  },
-  {
-    "question": "How do you say 'I live in England'?",
-    "options": ["Soy de Inglaterra", "Vivo en Inglaterra", "Tengo Inglaterra", "Estoy Inglaterra"],
-    "answer": "Vivo en Inglaterra"
+{
+  "subject": "Spanish",
+  "topics": {
+    "General Spanish": [
+      {
+        "question": "How do you say 'My name is Carlos' in Spanish?",
+        "options": ["Me llamo Carlos", "Tengo Carlos", "Soy años Carlos", "Hola Carlos"],
+        "answer": "Me llamo Carlos"
+      },
+      {
+        "question": "What does '¿Cómo te llamas?' mean?",
+        "options": ["How old are you?", "What is your name?", "Where do you live?", "How are you?"],
+        "answer": "What is your name?"
+      },
+      {
+        "question": "How do you say 'I am 12 years old'?",
+        "options": ["Soy doce años", "Tengo doce años", "Estoy doce años", "Me llamo doce"],
+        "answer": "Tengo doce años"
+      },
+      {
+        "question": "What does 'azul' mean?",
+        "options": ["Red", "Blue", "Green", "Yellow"],
+        "answer": "Blue"
+      },
+      {
+        "question": "What colour is 'rojo'?",
+        "options": ["Green", "Blue", "Red", "Black"],
+        "answer": "Red"
+      },
+      {
+        "question": "How do you say 'green' in Spanish?",
+        "options": ["Azul", "Verde", "Rojo", "Negro"],
+        "answer": "Verde"
+      },
+      {
+        "question": "What does 'negro' mean?",
+        "options": ["White", "Orange", "Black", "Pink"],
+        "answer": "Black"
+      },
+      {
+        "question": "How do you say 'brown eyes'?",
+        "options": ["Ojos verdes", "Ojos marrones", "Ojos azules", "Pelo marrón"],
+        "answer": "Ojos marrones"
+      },
+      {
+        "question": "What does 'pelo rubio' mean?",
+        "options": ["Brown hair", "Black hair", "Blonde hair", "Red hair"],
+        "answer": "Blonde hair"
+      },
+      {
+        "question": "How do you say 'I have blue eyes'?",
+        "options": ["Tengo ojos azules", "Soy ojos azules", "Me llamo ojos azules", "Estoy azul"],
+        "answer": "Tengo ojos azules"
+      },
+      {
+        "question": "What does 'simpático' mean?",
+        "options": ["Funny", "Lazy", "Nice", "Tall"],
+        "answer": "Nice"
+      },
+      {
+        "question": "How do you say 'funny' in Spanish?",
+        "options": ["Serio", "Gracioso", "Perezoso", "Alto"],
+        "answer": "Gracioso"
+      },
+      {
+        "question": "What does 'alto' mean?",
+        "options": ["Short", "Tall", "Old", "Young"],
+        "answer": "Tall"
+      },
+      {
+        "question": "How do you say 'short'?",
+        "options": ["Bajo", "Alto", "Grande", "Pequeño"],
+        "answer": "Bajo"
+      },
+      {
+        "question": "What does 'Tengo un hermano' mean?",
+        "options": ["I have a sister", "I have a brother", "I have a dog", "I have a friend"],
+        "answer": "I have a brother"
+      },
+      {
+        "question": "How do you say 'sister' in Spanish?",
+        "options": ["Hermano", "Madre", "Hermana", "Prima"],
+        "answer": "Hermana"
+      },
+      {
+        "question": "What does 'madre' mean?",
+        "options": ["Father", "Grandmother", "Mother", "Aunt"],
+        "answer": "Mother"
+      },
+      {
+        "question": "How do you say 'father'?",
+        "options": ["Padre", "Hermano", "Tío", "Abuelo"],
+        "answer": "Padre"
+      },
+      {
+        "question": "What does 'el perro' mean?",
+        "options": ["Cat", "Fish", "Bird", "Dog"],
+        "answer": "Dog"
+      },
+      {
+        "question": "How do you say 'cat' in Spanish?",
+        "options": ["Perro", "Gato", "Pájaro", "Conejo"],
+        "answer": "Gato"
+      },
+      {
+        "question": "What does 'me gusta' mean?",
+        "options": ["I don't like", "I love", "I like", "I hate"],
+        "answer": "I like"
+      },
+      {
+        "question": "How do you say 'I love football'?",
+        "options": ["Me gusta el fútbol", "Odio el fútbol", "Me encanta el fútbol", "No me gusta el fútbol"],
+        "answer": "Me encanta el fútbol"
+      },
+      {
+        "question": "What does 'no me gusta' mean?",
+        "options": ["I love", "I don't like", "I play", "I watch"],
+        "answer": "I don't like"
+      },
+      {
+        "question": "How do you say 'because' in Spanish?",
+        "options": ["Pero", "Porque", "También", "Nunca"],
+        "answer": "Porque"
+      },
+      {
+        "question": "What does 'también' mean?",
+        "options": ["Never", "Always", "Also", "But"],
+        "answer": "Also"
+      },
+      {
+        "question": "How do you say 'I am' using ser?",
+        "options": ["Tengo", "Estoy", "Soy", "Hay"],
+        "answer": "Soy"
+      },
+      {
+        "question": "What does 'eres' mean?",
+        "options": ["I am", "You are", "He is", "We are"],
+        "answer": "You are"
+      },
+      {
+        "question": "How do you say 'I have'?",
+        "options": ["Soy", "Tengo", "Estoy", "Hay"],
+        "answer": "Tengo"
+      },
+      {
+        "question": "What does 'tiene' mean?",
+        "options": ["I have", "You have", "He/she has", "We have"],
+        "answer": "He/she has"
+      },
+      {
+        "question": "How do you say 'Spanish' (nationality)?",
+        "options": ["Francés", "Inglés", "Español", "Italiano"],
+        "answer": "Español"
+      },
+      {
+        "question": "What does 'inglés' mean?",
+        "options": ["Spanish", "English", "French", "Italian"],
+        "answer": "English"
+      },
+      {
+        "question": "How do you say 'French'?",
+        "options": ["Francés", "Italiano", "Alemán", "Español"],
+        "answer": "Francés"
+      },
+      {
+        "question": "What does 'Hola' mean?",
+        "options": ["Goodbye", "Please", "Hello", "Thanks"],
+        "answer": "Hello"
+      },
+      {
+        "question": "How do you say 'Goodbye'?",
+        "options": ["Gracias", "Hola", "Adiós", "Por favor"],
+        "answer": "Adiós"
+      },
+      {
+        "question": "What does 'gracias' mean?",
+        "options": ["Sorry", "Thank you", "Please", "Excuse me"],
+        "answer": "Thank you"
+      },
+      {
+        "question": "How do you say 'please'?",
+        "options": ["Perdón", "Gracias", "Hola", "Por favor"],
+        "answer": "Por favor"
+      },
+      {
+        "question": "What does '¿Qué tal?' mean?",
+        "options": ["How are you?", "What is your name?", "Where are you from?", "How old are you?"],
+        "answer": "How are you?"
+      },
+      {
+        "question": "How do you answer '¿Qué tal?' with 'Very well'?",
+        "options": ["Muy bien", "Muy mal", "Regular", "Así así"],
+        "answer": "Muy bien"
+      },
+      {
+        "question": "What does 'regular' mean in Spanish conversation?",
+        "options": ["Excellent", "Okay", "Terrible", "Funny"],
+        "answer": "Okay"
+      },
+      {
+        "question": "How do you say 'I live in England'?",
+        "options": ["Soy de Inglaterra", "Vivo en Inglaterra", "Tengo Inglaterra", "Estoy Inglaterra"],
+        "answer": "Vivo en Inglaterra"
+      }
+    ]
   }
-]
+}
