@@ -748,6 +748,6 @@ else:
             st.rerun()
 
 st.markdown(
-    '<div class="footer-note">Built for short, focused revision. No panic-cramming goblins were harmed.</div>',
+    '<div class="footer-note">Built by Seb. No goblins were harmed in the making of this app.</div>',
     unsafe_allow_html=True
 )
