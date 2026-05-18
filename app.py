@@ -624,8 +624,6 @@ else:
 
         question = st.session_state.questions[current_index]
 
-        st.markdown('<div class="question-card">', unsafe_allow_html=True)
-
         st.progress(current_index / total_questions)
         st.caption(f"Question {current_index + 1} of {total_questions}")
 
@@ -641,8 +639,6 @@ else:
             f'<div class="question-text">{safe_text(question["question"])}</div>',
             unsafe_allow_html=True
         )
-
-        st.markdown('</div>', unsafe_allow_html=True)
 
         if question.get("question_type") == "multiple_choice" and question.get("shuffled_options"):
             selected_answer = st.radio(
