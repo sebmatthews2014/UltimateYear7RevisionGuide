@@ -811,6 +811,6 @@ else:
             st.rerun()
 
 st.markdown(
-    '<div class="footer-note">Built by Seb. No goblins were harmed in the making of this app.</div>',
+    '<div class="footer-note">Built for revision .</div>',
     unsafe_allow_html=True
 )
