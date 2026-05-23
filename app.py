@@ -81,22 +81,22 @@ st.markdown("""
 
     .question-card {
         background: #ffffff;
-        padding: 1.8rem;
-        border-radius: 24px;
+        padding: 1rem;
+        border-radius: 22px;
         border: 3px solid #111827;
-        box-shadow: 7px 7px 0px #111827;
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
+        box-shadow: 5px 5px 0px #111827;
+        margin-top: 0.5rem;
+        margin-bottom: 0.7rem;
         overflow-wrap: anywhere;
     }
 
     .question-text {
         font-family: 'Patrick Hand', cursive;
-        font-size: 2rem;
+        font-size: 1.85rem;
         color: #111827;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        line-height: 1.2;
+        margin-top: 0.25rem;
+        margin-bottom: 0.45rem;
+        line-height: 1.12;
         overflow-wrap: anywhere;
     }
 
@@ -116,44 +116,50 @@ st.markdown("""
 
     .subject-art-card {
         background: #ffffff;
-        padding: 1rem 1.2rem;
-        border-radius: 22px;
+        padding: 0.65rem 0.9rem;
+        border-radius: 18px;
         border: 3px solid #111827;
-        box-shadow: 5px 5px 0px #111827;
-        margin-bottom: 1rem;
-        font-size: 1.25rem;
+        box-shadow: 4px 4px 0px #111827;
+        margin-bottom: 0.45rem;
+        font-size: 1.1rem;
         font-weight: 900;
     }
 
     .score-box {
         background: #fef3c7;
-        padding: 1rem;
-        border-radius: 18px;
+        padding: 0.55rem;
+        border-radius: 14px;
         border: 2px dashed #92400e;
         font-weight: 900;
         color: #78350f;
         text-align: center;
-        margin-top: 1rem;
+        margin-top: 0.45rem;
     }
 
     .result-good {
         background: #dcfce7;
         color: #14532d;
-        padding: 1rem;
-        border-radius: 18px;
+        padding: 0.6rem 0.7rem;
+        margin-top: 0.35rem;
+        margin-bottom: 0.35rem;
+        border-radius: 14px;
         border: 2px solid #14532d;
-        box-shadow: 4px 4px 0px #14532d;
+        box-shadow: 3px 3px 0px #14532d;
         font-weight: 900;
+        line-height: 1.2;
     }
 
     .result-bad {
         background: #ffe4e6;
         color: #9f1239;
-        padding: 1rem;
-        border-radius: 18px;
+        padding: 0.6rem 0.7rem;
+        margin-top: 0.35rem;
+        margin-bottom: 0.35rem;
+        border-radius: 14px;
         border: 2px solid #9f1239;
-        box-shadow: 4px 4px 0px #9f1239;
+        box-shadow: 3px 3px 0px #9f1239;
         font-weight: 900;
+        line-height: 1.2;
     }
 
     .review-card-bad {
@@ -185,16 +191,23 @@ st.markdown("""
         margin-bottom: 0;
     }
 
+    div.stButton {
+        margin-top: 0.15rem;
+        margin-bottom: 0.15rem;
+    }
+
     div.stButton > button {
-        border-radius: 18px !important;
+        border-radius: 16px !important;
         border: 3px solid #111827 !important;
-        box-shadow: 4px 4px 0px #111827 !important;
+        box-shadow: 3px 3px 0px #111827 !important;
         font-weight: 900 !important;
-        font-size: 1rem !important;
+        font-size: 0.98rem !important;
         transition: all 0.1s ease-in-out !important;
         background: #facc15 !important;
         color: #111827 !important;
-        min-height: 46px;
+        min-height: 40px;
+        padding-top: 0.45rem !important;
+        padding-bottom: 0.45rem !important;
     }
 
     div.stButton > button:hover {
@@ -251,18 +264,19 @@ st.markdown("""
     .answer-grid {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 0.8rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        gap: 0.35rem;
+        margin-top: 0.35rem;
+        margin-bottom: 0.4rem;
     }
 
     .answer-card button {
         width: 100%;
-        min-height: 58px;
+        min-height: 42px;
         text-align: left !important;
         white-space: normal !important;
-        line-height: 1.3 !important;
+        line-height: 1.18 !important;
         background: #ffffff !important;
+        padding: 0.5rem 0.7rem !important;
     }
 
     .footer-note {
@@ -297,26 +311,54 @@ st.markdown("""
         }
 
         .question-card {
-            padding: 1rem;
-            border-radius: 18px;
-            box-shadow: 4px 4px 0px #111827;
+            padding: 0.75rem;
+            border-radius: 16px;
+            box-shadow: 3px 3px 0px #111827;
+            margin-top: 0.35rem;
+            margin-bottom: 0.45rem;
         }
 
         .question-text {
-            font-size: 1.55rem;
-            line-height: 1.15;
+            font-size: 1.42rem;
+            line-height: 1.08;
+            margin-top: 0.15rem;
+            margin-bottom: 0.3rem;
         }
 
         .subject-art-card {
-            padding: 0.85rem 1rem;
-            font-size: 1.05rem;
-            border-radius: 18px;
-            box-shadow: 4px 4px 0px #111827;
+            padding: 0.5rem 0.75rem;
+            font-size: 0.98rem;
+            border-radius: 15px;
+            box-shadow: 3px 3px 0px #111827;
+            margin-bottom: 0.3rem;
         }
 
+        .answer-grid {
+            gap: 0.25rem;
+            margin-top: 0.25rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .answer-card button,
         div.stButton > button {
             width: 100%;
-            min-height: 48px;
+            min-height: 38px;
+            padding-top: 0.38rem !important;
+            padding-bottom: 0.38rem !important;
+        }
+
+        .result-good,
+        .result-bad {
+            padding: 0.5rem 0.6rem;
+            margin-top: 0.25rem;
+            margin-bottom: 0.25rem;
+            border-radius: 12px;
+            box-shadow: 2px 2px 0px currentColor;
+        }
+
+        .score-box {
+            padding: 0.45rem;
+            margin-top: 0.3rem;
         }
 
         .easter-egg-card, .empty-card {
