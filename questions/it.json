@@ -602,7 +602,7 @@
       "Player"
     ],
     "answer": "Sprite",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What is the background area in Scratch called?",
@@ -613,7 +613,7 @@
       "Map"
     ],
     "answer": "Stage",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which button usually starts a Scratch project?",
@@ -624,7 +624,7 @@
       "Yellow star"
     ],
     "answer": "Green flag",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which button stops a Scratch project?",
@@ -635,7 +635,7 @@
       "Yellow button"
     ],
     "answer": "Red stop sign",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which category contains movement blocks?",
@@ -646,7 +646,7 @@
       "Control"
     ],
     "answer": "Motion",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block would move a sprite 10 steps?",
@@ -657,7 +657,7 @@
       "Play sound"
     ],
     "answer": "Move 10 steps",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block can make a sprite turn?",
@@ -668,7 +668,7 @@
       "Switch costume"
     ],
     "answer": "Turn 15 degrees",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which category contains repeat blocks?",
@@ -679,7 +679,7 @@
       "Motion"
     ],
     "answer": "Control",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does a repeat block do?",
@@ -690,7 +690,7 @@
       "Changes colour"
     ],
     "answer": "Repeats instructions",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does a forever block do?",
@@ -701,7 +701,7 @@
       "Stops movement"
     ],
     "answer": "Runs forever",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block pauses a script?",
@@ -712,7 +712,7 @@
       "Hide"
     ],
     "answer": "Wait",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What is a variable used for?",
@@ -723,7 +723,7 @@
       "Changing backgrounds"
     ],
     "answer": "Storing information",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which variable could store a game score?",
@@ -734,7 +734,7 @@
       "Paint"
     ],
     "answer": "Score",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does an if block do?",
@@ -745,7 +745,7 @@
       "Moves sprites"
     ],
     "answer": "Checks a condition",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block category changes how sprites look?",
@@ -756,7 +756,7 @@
       "Events"
     ],
     "answer": "Looks",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does the hide block do?",
@@ -767,7 +767,7 @@
       "Stops the project"
     ],
     "answer": "Makes the sprite invisible",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does the show block do?",
@@ -778,7 +778,7 @@
       "Stops movement"
     ],
     "answer": "Makes the sprite visible",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which category contains sound blocks?",
@@ -789,7 +789,7 @@
       "Motion"
     ],
     "answer": "Sound",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which category starts scripts?",
@@ -800,7 +800,7 @@
       "Variables"
     ],
     "answer": "Events",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which event starts when the green flag is clicked?",
@@ -811,7 +811,7 @@
       "If"
     ],
     "answer": "When green flag clicked",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What is coding?",
@@ -822,7 +822,7 @@
       "Making posters"
     ],
     "answer": "Writing instructions for a computer",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What is a script in Scratch?",
@@ -833,7 +833,7 @@
       "A worksheet"
     ],
     "answer": "A set of code blocks",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does glide do in Scratch?",
@@ -844,7 +844,7 @@
       "Adds sound"
     ],
     "answer": "Moves smoothly",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What is a costume in Scratch?",
@@ -855,7 +855,7 @@
       "A worksheet"
     ],
     "answer": "A different appearance for a sprite",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What can changing costumes do?",
@@ -866,7 +866,7 @@
       "Save files"
     ],
     "answer": "Animate a sprite",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block would make a sprite speak?",
@@ -877,7 +877,7 @@
       "Turn 15 degrees"
     ],
     "answer": "Say Hello",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What is the purpose of the stage in Scratch?",
@@ -888,7 +888,7 @@
       "Where sound is edited"
     ],
     "answer": "Where sprites perform",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What happens when a sprite touches another sprite?",
@@ -899,7 +899,7 @@
       "Nothing useful can happen"
     ],
     "answer": "A condition can be triggered",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which Scratch category contains variables?",
@@ -910,7 +910,7 @@
       "Sound"
     ],
     "answer": "Variables",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block would increase a score?",
@@ -921,7 +921,7 @@
       "Wait"
     ],
     "answer": "Change score by 1",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does the broadcast block do?",
@@ -932,7 +932,7 @@
       "Moves sprites"
     ],
     "answer": "Sends a message",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What can sounds add to a Scratch project?",
@@ -943,7 +943,7 @@
       "Formulas"
     ],
     "answer": "Entertainment",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block changes the sprite size?",
@@ -954,7 +954,7 @@
       "Broadcast"
     ],
     "answer": "Set size",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does the next costume block do?",
@@ -965,7 +965,7 @@
       "Adds music"
     ],
     "answer": "Changes appearance",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What is an event in Scratch?",
@@ -976,7 +976,7 @@
       "A variable"
     ],
     "answer": "Something that starts code",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does clicking the green flag usually do?",
@@ -987,7 +987,7 @@
       "Saves the file"
     ],
     "answer": "Starts the project",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which Scratch block can repeat forever?",
@@ -998,7 +998,7 @@
       "Wait"
     ],
     "answer": "Forever",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block can change the background?",
@@ -1009,7 +1009,7 @@
       "Stop all"
     ],
     "answer": "Switch backdrop",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What is a backdrop in Scratch?",
@@ -1020,7 +1020,7 @@
       "A type of variable"
     ],
     "answer": "The background of the stage",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which category contains the when key pressed block?",
@@ -1031,7 +1031,7 @@
       "Variables"
     ],
     "answer": "Events",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does the when space key pressed block do?",
@@ -1042,7 +1042,7 @@
       "Stops the project"
     ],
     "answer": "Starts code when the space key is pressed",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block could make a sprite jump upwards?",
@@ -1053,7 +1053,7 @@
       "Play sound"
     ],
     "answer": "Change y by 10",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block could move a sprite sideways?",
@@ -1064,7 +1064,7 @@
       "Wait"
     ],
     "answer": "Change x by 10",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does the x position control?",
@@ -1075,7 +1075,7 @@
       "Sprite costume"
     ],
     "answer": "Left and right movement",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does the y position control?",
@@ -1086,7 +1086,7 @@
       "Sprite name"
     ],
     "answer": "Up and down movement",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block can stop all scripts?",
@@ -1097,7 +1097,7 @@
       "Change score"
     ],
     "answer": "Stop all",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does set score to 0 usually do?",
@@ -1108,7 +1108,7 @@
       "Changes the backdrop"
     ],
     "answer": "Resets the score",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block could be used for a countdown?",
@@ -1119,7 +1119,7 @@
       "Switch backdrop"
     ],
     "answer": "Repeat",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "What does the touching colour condition check?",
@@ -1130,7 +1130,7 @@
       "Whether the file is saved"
     ],
     "answer": "Whether a sprite is touching a colour",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block changes the volume?",
@@ -1141,7 +1141,7 @@
       "Switch costume"
     ],
     "answer": "Set volume",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block can play a sound?",
@@ -1152,7 +1152,7 @@
       "Show"
     ],
     "answer": "Start sound",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block can make a sprite appear to talk?",
@@ -1163,7 +1163,7 @@
       "Stop all"
     ],
     "answer": "Say for 2 seconds",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block can make a sprite think a message?",
@@ -1174,7 +1174,7 @@
       "Switch backdrop"
     ],
     "answer": "Think for 2 seconds",
-    "subject": "Computer Science"
+    "subject": "IT"
   },
   {
     "question": "Which block can send a sprite to a chosen position?",
@@ -1185,6 +1185,6 @@
       "Next backdrop"
     ],
     "answer": "Go to x y",
-    "subject": "Computer Science"
+    "subject": "IT"
   }
 ]
