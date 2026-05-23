@@ -322,7 +322,8 @@ SUBJECT_EMOJIS = {
     "IT": "💻",
     "Spanish": "🇪🇸",
     "General": "📘",
-    "All Subjects": "🎯"
+    "All Subjects": "🎯",
+    "Custom": "🧩"
 }
 
 SUBJECT_ART = {
@@ -334,7 +335,8 @@ SUBJECT_ART = {
     "IT": "💻🤖",
     "Spanish": "🇪🇸💃",
     "General": "📘✨",
-    "All Subjects": "🎯📚"
+    "All Subjects": "🎯📚",
+    "Custom": "🧩📚"
 }
 
 def safe_text(value):
@@ -423,12 +425,23 @@ def get_questions(subject):
                     new_question["topic"] = topic_name
                     questions.append(new_question)
     else:
+        if subject not in QUESTION_BANK:
+            return []
+
         for topic_name, topic_questions in QUESTION_BANK[subject].items():
             for question in topic_questions:
                 new_question = question.copy()
                 new_question["subject"] = subject
                 new_question["topic"] = topic_name
                 questions.append(new_question)
+
+    return questions
+
+def get_custom_questions(subjects):
+    questions = []
+
+    for subject in subjects:
+        questions.extend(get_questions(subject))
 
     return questions
 
@@ -445,8 +458,7 @@ def prepare_question(question):
 
     return prepared
 
-def start_quiz(subject, number_of_questions):
-    available_questions = get_questions(subject)
+def start_quiz(available_questions, number_of_questions):
     random.shuffle(available_questions)
 
     selected_questions = available_questions[:number_of_questions]
@@ -565,21 +577,70 @@ if not st.session_state.quiz_started:
 
     st.subheader("Start a new quiz")
 
-    subject_options = ["All Subjects"] + list(QUESTION_BANK.keys())
-    selected_subject = st.selectbox("Choose a subject", subject_options)
+    subject_names = list(QUESTION_BANK.keys())
 
-    available_questions = get_questions(selected_subject)
-    subject_art = SUBJECT_ART.get(selected_subject, "📘✨")
+    quiz_mode = st.radio(
+        "Choose quiz mode",
+        ["All Subjects", "Single Subject", "Custom"],
+        horizontal=True
+    )
 
-    st.markdown(f"""
+    selected_subject = None
+    selected_subjects = []
+
+    if quiz_mode == "All Subjects":
+        selected_subject = "All Subjects"
+        selected_subjects = subject_names
+        available_questions = get_questions("All Subjects")
+        display_name = "All Subjects"
+
+    elif quiz_mode == "Single Subject":
+        selected_subject = st.selectbox("Choose a subject", subject_names)
+        selected_subjects = [selected_subject]
+        available_questions = get_questions(selected_subject)
+        display_name = selected_subject
+
+    else:
+        selected_subjects = st.multiselect(
+            "Choose the subjects you want in your custom quiz",
+            subject_names,
+            default=subject_names[:2] if len(subject_names) >= 2 else subject_names
+        )
+
+        available_questions = get_custom_questions(selected_subjects)
+        display_name = "Custom"
+
+    subject_art = SUBJECT_ART.get(display_name, "📘✨")
+
+    if quiz_mode == "Custom":
+        chosen_text = ", ".join(selected_subjects) if selected_subjects else "No subjects selected yet"
+
+        st.markdown(f"""
 <div class="subject-art-card">
-    {subject_art} {safe_text(selected_subject)} revision
+    {subject_art} Custom revision: {safe_text(chosen_text)}
+</div>
+""", unsafe_allow_html=True)
+    else:
+        st.markdown(f"""
+<div class="subject-art-card">
+    {subject_art} {safe_text(display_name)} revision
 </div>
 """, unsafe_allow_html=True)
 
     st.write(f"Available questions: **{len(available_questions)}**")
 
-    if len(available_questions) == 0:
+    if quiz_mode == "Custom" and len(selected_subjects) == 0:
+        st.markdown("""
+<div class="empty-card">
+    <div class="empty-title">🧩 Pick your subjects...</div>
+    <p>
+        Choose at least one subject for your custom quiz.
+        The goblin cannot revise thin air, despite several confident attempts.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+    elif len(available_questions) == 0:
         st.markdown("""
 <div class="empty-card">
     <div class="empty-title">🛠️ Questions coming soon...</div>
@@ -598,7 +659,7 @@ if not st.session_state.quiz_started:
         st.info("Only 1 question available. The goblins have made a start. Barely.")
 
         if st.button("Start Quiz", type="primary"):
-            start_quiz(selected_subject, number_of_questions)
+            start_quiz(available_questions, number_of_questions)
             st.rerun()
 
     else:
@@ -612,7 +673,7 @@ if not st.session_state.quiz_started:
         st.info("Best move: short quiz, quick review, repeat later. Basically gym reps, but for your brain.")
 
         if st.button("Start Quiz", type="primary"):
-            start_quiz(selected_subject, number_of_questions)
+            start_quiz(available_questions, number_of_questions)
             st.rerun()
 
 else:
