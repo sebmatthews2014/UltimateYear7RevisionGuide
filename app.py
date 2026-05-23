@@ -29,7 +29,7 @@ st.markdown("""
 
     .main .block-container {
         max-width: 920px;
-        padding-top: 1rem;
+        padding-top: 0.75rem;
         padding-left: 1rem;
         padding-right: 1rem;
         overflow-x: hidden;
@@ -37,46 +37,46 @@ st.markdown("""
 
     .hero-card {
         background: #fffaf0;
-        padding: 2rem 2.2rem;
-        border-radius: 26px;
+        padding: 1.4rem 1.6rem;
+        border-radius: 24px;
         border: 3px solid #111827;
-        box-shadow: 8px 8px 0px #111827;
-        margin-bottom: 1.5rem;
+        box-shadow: 6px 6px 0px #111827;
+        margin-bottom: 1rem;
     }
 
     .hero-title {
         font-family: 'Patrick Hand', cursive;
-        font-size: clamp(2.1rem, 7vw, 3.2rem);
+        font-size: clamp(2rem, 7vw, 3rem);
         font-weight: 900;
         color: #1e3a8a;
-        margin-bottom: 0.8rem;
+        margin-bottom: 0.4rem;
         line-height: 1.05;
         overflow-wrap: anywhere;
     }
 
     .hero-subtitle {
-        font-size: 1.08rem;
+        font-size: 1rem;
         color: #374151;
-        line-height: 1.5;
+        line-height: 1.35;
         max-width: 720px;
     }
 
     .easter-egg-card, .empty-card {
         background: #fef3c7;
-        padding: 1.4rem;
-        border-radius: 22px;
+        padding: 1rem;
+        border-radius: 20px;
         border: 3px dashed #111827;
-        box-shadow: 6px 6px 0px #111827;
-        margin-bottom: 1.5rem;
-        font-size: 1.1rem;
+        box-shadow: 4px 4px 0px #111827;
+        margin-bottom: 1rem;
+        font-size: 1rem;
     }
 
     .easter-title, .empty-title {
         font-family: 'Patrick Hand', cursive;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #7c2d12;
         font-weight: 900;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.3rem;
     }
 
     .question-card {
@@ -92,11 +92,11 @@ st.markdown("""
 
     .question-text {
         font-family: 'Patrick Hand', cursive;
-        font-size: 1.85rem;
+        font-size: 1.9rem;
         color: #111827;
         margin-top: 0.25rem;
         margin-bottom: 0.45rem;
-        line-height: 1.12;
+        line-height: 1.1;
         overflow-wrap: anywhere;
     }
 
@@ -104,62 +104,70 @@ st.markdown("""
         display: inline-block;
         background: #bfdbfe;
         color: #1e3a8a;
-        padding: 0.4rem 0.8rem;
+        padding: 0.35rem 0.7rem;
         border-radius: 999px;
         font-weight: 900;
         border: 2px solid #111827;
         box-shadow: 3px 3px 0px #111827;
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         max-width: 100%;
         white-space: normal;
     }
 
     .subject-art-card {
         background: #ffffff;
-        padding: 0.65rem 0.9rem;
-        border-radius: 18px;
+        padding: 0.75rem 1rem;
+        border-radius: 20px;
         border: 3px solid #111827;
         box-shadow: 4px 4px 0px #111827;
-        margin-bottom: 0.45rem;
-        font-size: 1.1rem;
+        margin-bottom: 0.65rem;
+        font-size: 1.15rem;
         font-weight: 900;
     }
 
     .score-box {
         background: #fef3c7;
-        padding: 0.55rem;
-        border-radius: 14px;
+        padding: 0.6rem;
+        border-radius: 16px;
         border: 2px dashed #92400e;
         font-weight: 900;
         color: #78350f;
         text-align: center;
         margin-top: 0.45rem;
+        margin-bottom: 0.35rem;
+    }
+
+    .result-good,
+    .result-bad {
+        padding: 0.65rem 0.75rem;
+        border-radius: 16px;
+        font-weight: 900;
+        margin-top: 0.35rem;
+        margin-bottom: 0.35rem;
+        line-height: 1.2;
     }
 
     .result-good {
         background: #dcfce7;
         color: #14532d;
-        padding: 0.6rem 0.7rem;
-        margin-top: 0.35rem;
-        margin-bottom: 0.35rem;
-        border-radius: 14px;
         border: 2px solid #14532d;
         box-shadow: 3px 3px 0px #14532d;
-        font-weight: 900;
-        line-height: 1.2;
     }
 
     .result-bad {
         background: #ffe4e6;
         color: #9f1239;
-        padding: 0.6rem 0.7rem;
-        margin-top: 0.35rem;
-        margin-bottom: 0.35rem;
-        border-radius: 14px;
         border: 2px solid #9f1239;
         box-shadow: 3px 3px 0px #9f1239;
-        font-weight: 900;
-        line-height: 1.2;
+    }
+
+    .review-card-good {
+        background: #dcfce7;
+        border: 2px solid #14532d;
+        box-shadow: 3px 3px 0px #14532d;
+        border-radius: 14px;
+        padding: 0.7rem 0.85rem;
+        margin-bottom: 0.7rem;
     }
 
     .review-card-bad {
@@ -178,6 +186,7 @@ st.markdown("""
         line-height: 1.2;
     }
 
+    .review-card-good p,
     .review-card-bad p {
         margin: 0.2rem 0;
         font-size: 0.92rem;
@@ -192,8 +201,8 @@ st.markdown("""
     }
 
     div.stButton {
-        margin-top: 0.15rem;
-        margin-bottom: 0.15rem;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
     }
 
     div.stButton > button {
@@ -205,14 +214,13 @@ st.markdown("""
         transition: all 0.1s ease-in-out !important;
         background: #facc15 !important;
         color: #111827 !important;
-        min-height: 40px;
-        padding-top: 0.45rem !important;
-        padding-bottom: 0.45rem !important;
+        min-height: 42px !important;
+        padding: 0.45rem 0.75rem !important;
     }
 
     div.stButton > button:hover {
         transform: translate(2px, 2px);
-        box-shadow: 2px 2px 0px #111827 !important;
+        box-shadow: 1px 1px 0px #111827 !important;
     }
 
     div.stButton > button:not([kind="primary"]) {
@@ -220,10 +228,55 @@ st.markdown("""
         color: #111827 !important;
     }
 
-    /* Keeps the quiz mode radio buttons visible and readable */
+    .answer-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 0.38rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .answer-grid div.stButton > button {
+        width: 100% !important;
+        min-height: 42px !important;
+        padding: 0.42rem 0.65rem !important;
+        border-radius: 16px !important;
+        background: #ffffff !important;
+        font-weight: 700 !important;
+        font-size: 1rem !important;
+        line-height: 1.15 !important;
+        white-space: normal !important;
+        word-break: break-word !important;
+        margin: 0 !important;
+    }
+
+    .answer-grid div[data-testid="stVerticalBlock"] {
+        gap: 0.38rem !important;
+    }
+
+    .answer-selected div.stButton > button {
+        background: #fef08a !important;
+        box-shadow: 2px 2px 0px #111827 !important;
+        transform: translate(1px, 1px);
+    }
+
+    .answer-correct div.stButton > button {
+        background: #dcfce7 !important;
+        color: #14532d !important;
+        border-color: #14532d !important;
+        box-shadow: 2px 2px 0px #14532d !important;
+    }
+
+    .answer-wrong div.stButton > button {
+        background: #ffe4e6 !important;
+        color: #9f1239 !important;
+        border-color: #9f1239 !important;
+        box-shadow: 2px 2px 0px #9f1239 !important;
+    }
+
     .stRadio > div {
         display: flex;
-        gap: 0.5rem;
+        gap: 0.45rem;
         flex-wrap: wrap;
         background: transparent;
         padding: 0;
@@ -234,13 +287,10 @@ st.markdown("""
         background: #ffffff !important;
         border: 3px solid #111827 !important;
         border-radius: 14px !important;
-        padding: 0.6rem 1rem !important;
+        padding: 0.5rem 0.8rem !important;
         box-shadow: 3px 3px 0px #111827 !important;
         cursor: pointer;
         transition: all 0.1s ease-in-out;
-        color: #111827 !important;
-        opacity: 1 !important;
-        visibility: visible !important;
     }
 
     .stRadio label:hover {
@@ -255,96 +305,95 @@ st.markdown("""
     .stRadio [data-testid="stMarkdownContainer"] p {
         color: #111827 !important;
         font-weight: 700 !important;
-        font-size: 1rem !important;
+        font-size: 0.95rem !important;
+        line-height: 1.2 !important;
         opacity: 1 !important;
         visibility: visible !important;
-        line-height: 1.35 !important;
-    }
-
-    .answer-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 0.35rem;
-        margin-top: 0.35rem;
-        margin-bottom: 0.4rem;
-    }
-
-    .answer-card button {
-        width: 100%;
-        min-height: 42px;
-        text-align: left !important;
-        white-space: normal !important;
-        line-height: 1.18 !important;
-        background: #ffffff !important;
-        padding: 0.5rem 0.7rem !important;
     }
 
     .footer-note {
         font-family: 'Patrick Hand', cursive;
         color: #4b5563;
-        font-size: 1.15rem;
+        font-size: 1.05rem;
         text-align: center;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    div[data-testid="stVerticalBlock"] {
+        gap: 0.45rem !important;
     }
 
     @media (max-width: 700px) {
         .main .block-container {
-            padding-left: 0.75rem;
-            padding-right: 0.75rem;
-            padding-top: 0.75rem;
+            padding-left: 0.65rem;
+            padding-right: 0.65rem;
+            padding-top: 0.55rem;
         }
 
         .hero-card {
-            padding: 1.2rem;
-            border-radius: 20px;
-            box-shadow: 5px 5px 0px #111827;
-            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 18px;
+            box-shadow: 4px 4px 0px #111827;
+            margin-bottom: 0.65rem;
         }
 
         .hero-title {
-            font-size: 2rem;
-            line-height: 1.05;
+            font-size: 1.9rem;
+            line-height: 1.02;
         }
 
         .hero-subtitle {
-            font-size: 0.95rem;
+            font-size: 0.9rem;
+            line-height: 1.25;
         }
 
         .question-card {
-            padding: 0.75rem;
+            padding: 0.7rem;
             border-radius: 16px;
             box-shadow: 3px 3px 0px #111827;
-            margin-top: 0.35rem;
-            margin-bottom: 0.45rem;
+            margin-top: 0.25rem;
+            margin-bottom: 0.35rem;
         }
 
         .question-text {
-            font-size: 1.42rem;
-            line-height: 1.08;
-            margin-top: 0.15rem;
-            margin-bottom: 0.3rem;
-        }
-
-        .subject-art-card {
-            padding: 0.5rem 0.75rem;
-            font-size: 0.98rem;
-            border-radius: 15px;
-            box-shadow: 3px 3px 0px #111827;
-            margin-bottom: 0.3rem;
-        }
-
-        .answer-grid {
-            gap: 0.25rem;
-            margin-top: 0.25rem;
+            font-size: 1.45rem;
+            line-height: 1.05;
+            margin-top: 0.1rem;
             margin-bottom: 0.25rem;
         }
 
-        .answer-card button,
+        .subject-art-card {
+            padding: 0.55rem 0.75rem;
+            font-size: 1rem;
+            border-radius: 16px;
+            box-shadow: 3px 3px 0px #111827;
+            margin-bottom: 0.35rem;
+        }
+
+        .answer-grid {
+            gap: 0.28rem;
+            margin-top: 0.15rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .answer-grid div[data-testid="stVerticalBlock"] {
+            gap: 0.28rem !important;
+        }
+
+        .answer-grid div.stButton > button {
+            min-height: 36px !important;
+            padding: 0.32rem 0.55rem !important;
+            border-radius: 14px !important;
+            font-size: 0.95rem !important;
+            line-height: 1.08 !important;
+            border-width: 2px !important;
+            box-shadow: 2px 2px 0px #111827 !important;
+        }
+
         div.stButton > button {
             width: 100%;
-            min-height: 38px;
-            padding-top: 0.38rem !important;
-            padding-bottom: 0.38rem !important;
+            min-height: 40px !important;
+            padding: 0.38rem 0.6rem !important;
         }
 
         .result-good,
@@ -352,24 +401,28 @@ st.markdown("""
             padding: 0.5rem 0.6rem;
             margin-top: 0.25rem;
             margin-bottom: 0.25rem;
-            border-radius: 12px;
+            border-radius: 14px;
             box-shadow: 2px 2px 0px currentColor;
+            font-size: 0.92rem;
         }
 
         .score-box {
             padding: 0.45rem;
-            margin-top: 0.3rem;
+            margin-top: 0.25rem;
+            margin-bottom: 0.2rem;
+            font-size: 0.95rem;
         }
 
         .easter-egg-card, .empty-card {
-            padding: 1rem;
-            font-size: 0.95rem;
-            box-shadow: 4px 4px 0px #111827;
+            padding: 0.8rem;
+            font-size: 0.9rem;
+            box-shadow: 3px 3px 0px #111827;
         }
 
+        .review-card-good,
         .review-card-bad {
-            padding: 0.9rem;
-            box-shadow: 3px 3px 0px #111827;
+            padding: 0.75rem;
+            box-shadow: 2px 2px 0px #111827;
         }
     }
 </style>
@@ -479,10 +532,10 @@ defaults = {
     "current_question": 0,
     "score": 0,
     "answered": False,
-    "selected_answer": "",
     "results": [],
-    "show_easter_egg": False,
-    "review_wrong_answers": False
+    "selected_answer": None,
+    "review_wrong_answers": False,
+    "show_easter_egg": False
 }
 
 for key, value in defaults.items():
@@ -549,8 +602,8 @@ def start_quiz(available_questions, number_of_questions):
     st.session_state.current_question = 0
     st.session_state.score = 0
     st.session_state.answered = False
-    st.session_state.selected_answer = ""
     st.session_state.results = []
+    st.session_state.selected_answer = None
     st.session_state.review_wrong_answers = False
 
 
@@ -620,13 +673,17 @@ def check_answer(question, selected_answer):
     })
 
     st.session_state.answered = True
-    st.session_state.selected_answer = selected_answer
+
+
+def select_answer(answer):
+    if not st.session_state.answered:
+        st.session_state.selected_answer = answer
 
 
 def next_question():
     st.session_state.current_question += 1
     st.session_state.answered = False
-    st.session_state.selected_answer = ""
+    st.session_state.selected_answer = None
 
 
 def toggle_easter_egg():
@@ -791,35 +848,56 @@ else:
 
         if question.get("question_type") == "multiple_choice" and question.get("shuffled_options"):
             st.markdown('<div class="answer-grid">', unsafe_allow_html=True)
+
             for option_index, option in enumerate(question["shuffled_options"]):
-                st.markdown('<div class="answer-card">', unsafe_allow_html=True)
-                if st.button(
+                is_selected = st.session_state.selected_answer == option
+                is_correct_answer = answer_is_correct(question, option)
+
+                wrapper_class = ""
+                if st.session_state.answered:
+                    if is_correct_answer:
+                        wrapper_class = "answer-correct"
+                    elif is_selected:
+                        wrapper_class = "answer-wrong"
+                elif is_selected:
+                    wrapper_class = "answer-selected"
+
+                if wrapper_class:
+                    st.markdown(f'<div class="{wrapper_class}">', unsafe_allow_html=True)
+
+                st.button(
                     option,
                     key=f"answer_{current_index}_{option_index}",
                     disabled=st.session_state.answered,
-                    use_container_width=True
-                ):
-                    check_answer(question, option)
-                    st.rerun()
-                st.markdown('</div>', unsafe_allow_html=True)
+                    on_click=select_answer,
+                    args=(option,)
+                )
+
+                if wrapper_class:
+                    st.markdown('</div>', unsafe_allow_html=True)
+
             st.markdown('</div>', unsafe_allow_html=True)
+
         else:
-            selected_answer = st.text_input(
+            typed_answer = st.text_input(
                 "Type your answer:",
                 key=f"typed_question_{current_index}",
                 disabled=st.session_state.answered,
                 placeholder="Type your answer here"
             )
-
             if not st.session_state.answered:
-                if st.button("Check Answer", type="primary"):
-                    if str(selected_answer).strip() == "":
-                        st.warning("Type an answer first. The goblin refuses to mark invisible maths.")
-                    else:
-                        check_answer(question, selected_answer)
-                        st.rerun()
+                st.session_state.selected_answer = typed_answer
 
-        if st.session_state.answered:
+        if not st.session_state.answered:
+
+            if st.button("Check Answer", type="primary"):
+                if st.session_state.selected_answer is None or str(st.session_state.selected_answer).strip() == "":
+                    st.warning("Choose or type an answer first. The goblin refuses to mark invisible work.")
+                else:
+                    check_answer(question, st.session_state.selected_answer)
+                    st.rerun()
+
+        else:
 
             latest_result = st.session_state.results[-1]
 
@@ -877,13 +955,13 @@ else:
         col1, col2 = st.columns(2)
 
         with col1:
-            if st.button("New Quiz", type="primary", use_container_width=True):
+            if st.button("New Quiz", type="primary"):
                 reset_quiz()
                 st.rerun()
 
         with col2:
-            if st.button("Review Only Wrong Answers", use_container_width=True):
-                st.session_state.review_wrong_answers = True
+            if st.button("Review Only Wrong Answers"):
+                st.session_state.review_wrong_answers = not st.session_state.review_wrong_answers
                 st.rerun()
 
         if st.session_state.review_wrong_answers:
