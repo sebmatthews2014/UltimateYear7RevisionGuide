@@ -201,6 +201,256 @@
           "It makes deserts colder instantly"
         ],
         "answer": "It helps protect species and habitats"
+      },
+      {
+        "question": "Which biome has warm summers, cool winters and trees that lose their leaves?",
+        "options": [
+          "Temperate deciduous forest",
+          "Hot desert",
+          "Tundra",
+          "Tropical rainforest"
+        ],
+        "answer": "Temperate deciduous forest"
+      },
+      {
+        "question": "What does evergreen mean?",
+        "options": [
+          "A plant keeps its leaves all year",
+          "A plant never grows",
+          "A plant only lives in deserts",
+          "A plant has no roots"
+        ],
+        "answer": "A plant keeps its leaves all year"
+      },
+      {
+        "question": "Which biome has a very short growing season because it is so cold?",
+        "options": [
+          "Tundra",
+          "Rainforest",
+          "Savanna",
+          "Temperate forest"
+        ],
+        "answer": "Tundra"
+      },
+      {
+        "question": "What is permafrost?",
+        "options": [
+          "Ground that stays frozen for at least two years",
+          "Rain that falls every day",
+          "A hot desert wind",
+          "A type of tropical tree"
+        ],
+        "answer": "Ground that stays frozen for at least two years"
+      },
+      {
+        "question": "Why do many tundra plants grow close to the ground?",
+        "options": [
+          "To avoid strong winds and conserve heat",
+          "To reach deep sunlight",
+          "To attract camels",
+          "To collect salt water"
+        ],
+        "answer": "To avoid strong winds and conserve heat"
+      },
+      {
+        "question": "Which biome is often found between tropical rainforest and desert?",
+        "options": [
+          "Savanna",
+          "Ice sheet",
+          "Tundra",
+          "Temperate woodland"
+        ],
+        "answer": "Savanna"
+      },
+      {
+        "question": "Why do savanna trees often have long roots?",
+        "options": [
+          "To reach water deep underground",
+          "To float in rivers",
+          "To stop animals breathing",
+          "To make snow melt"
+        ],
+        "answer": "To reach water deep underground"
+      },
+      {
+        "question": "What is a producer in a food chain?",
+        "options": [
+          "An organism that makes its own food, usually a plant",
+          "An animal at the top of a food chain",
+          "A decomposer only",
+          "A weather instrument"
+        ],
+        "answer": "An organism that makes its own food, usually a plant"
+      },
+      {
+        "question": "What is a consumer in an ecosystem?",
+        "options": [
+          "An organism that gets energy by eating other organisms",
+          "A plant making its own food",
+          "A river carrying stones",
+          "A rainfall total"
+        ],
+        "answer": "An organism that gets energy by eating other organisms"
+      },
+      {
+        "question": "What is a decomposer?",
+        "options": [
+          "An organism that breaks down dead material",
+          "A plant that stores water",
+          "A map symbol",
+          "A mountain animal only"
+        ],
+        "answer": "An organism that breaks down dead material"
+      },
+      {
+        "question": "Why is the rainforest floor often dark?",
+        "options": [
+          "The canopy blocks much of the sunlight",
+          "There are no trees above it",
+          "It is covered by snow",
+          "The Sun never rises near the equator"
+        ],
+        "answer": "The canopy blocks much of the sunlight"
+      },
+      {
+        "question": "What is the canopy layer of a rainforest?",
+        "options": [
+          "A dense layer of tree branches and leaves",
+          "The deepest part of the soil",
+          "A layer of desert sand",
+          "A type of climate graph"
+        ],
+        "answer": "A dense layer of tree branches and leaves"
+      },
+      {
+        "question": "Why do rainforest trees often have buttress roots?",
+        "options": [
+          "To support tall trees in shallow soil",
+          "To collect snow",
+          "To help animals migrate",
+          "To stop rain falling"
+        ],
+        "answer": "To support tall trees in shallow soil"
+      },
+      {
+        "question": "What is desertification?",
+        "options": [
+          "Land becoming more desert-like",
+          "Rainforest spreading everywhere",
+          "Cities becoming colder",
+          "Oceans turning into rivers"
+        ],
+        "answer": "Land becoming more desert-like"
+      },
+      {
+        "question": "Which human activity can lead to desertification?",
+        "options": [
+          "Overgrazing",
+          "Careful tree planting",
+          "Using less water",
+          "Protecting soil"
+        ],
+        "answer": "Overgrazing"
+      },
+      {
+        "question": "Why are many desert animals active at night?",
+        "options": [
+          "It is cooler at night",
+          "There is more snow at night",
+          "Plants only exist at night",
+          "The desert disappears in the day"
+        ],
+        "answer": "It is cooler at night"
+      },
+      {
+        "question": "What does biome distribution mean?",
+        "options": [
+          "Where different biomes are found around the world",
+          "How many roads a country has",
+          "The order of rivers on a map",
+          "The height of buildings in cities"
+        ],
+        "answer": "Where different biomes are found around the world"
+      },
+      {
+        "question": "Which factor can affect the type of biome found in a place?",
+        "options": [
+          "Altitude",
+          "Passport colour",
+          "School holidays",
+          "Road names"
+        ],
+        "answer": "Altitude"
+      },
+      {
+        "question": "Why does altitude affect biomes?",
+        "options": [
+          "Higher places are usually cooler",
+          "Higher places are always wetter deserts",
+          "Higher places are closer to oceans",
+          "Higher places have no sunlight"
+        ],
+        "answer": "Higher places are usually cooler"
+      },
+      {
+        "question": "What is habitat loss?",
+        "options": [
+          "The destruction or reduction of places where organisms live",
+          "A rise in animal shelters",
+          "A type of rainfall",
+          "A new forest growing"
+        ],
+        "answer": "The destruction or reduction of places where organisms live"
+      },
+      {
+        "question": "Why can habitat loss reduce biodiversity?",
+        "options": [
+          "Fewer species can survive when habitats are damaged",
+          "It creates unlimited food",
+          "It makes all animals stronger",
+          "It causes every plant to grow faster"
+        ],
+        "answer": "Fewer species can survive when habitats are damaged"
+      },
+      {
+        "question": "What is selective logging?",
+        "options": [
+          "Cutting down chosen trees rather than clearing all trees",
+          "Burning an entire forest",
+          "Planting only flowers",
+          "Removing all animals"
+        ],
+        "answer": "Cutting down chosen trees rather than clearing all trees"
+      },
+      {
+        "question": "Why can protected areas help biomes?",
+        "options": [
+          "They limit damaging human activity",
+          "They remove all plants",
+          "They stop the seasons",
+          "They make rainfall illegal"
+        ],
+        "answer": "They limit damaging human activity"
+      },
+      {
+        "question": "Which biome is dominated by mosses, lichens and small shrubs?",
+        "options": [
+          "Tundra",
+          "Tropical rainforest",
+          "Savanna",
+          "Hot desert"
+        ],
+        "answer": "Tundra"
+      },
+      {
+        "question": "What is an example of a rainforest animal adaptation?",
+        "options": [
+          "A toucan has a large beak to reach fruit",
+          "A camel has a hump for polar ice",
+          "A cactus has feathers",
+          "A penguin grows in trees"
+        ],
+        "answer": "A toucan has a large beak to reach fruit"
       }
     ],
     "Natural Resources": [
@@ -403,6 +653,256 @@
           "Drawing coastlines"
         ],
         "answer": "Using goods, energy or resources"
+      },
+      {
+        "question": "Which of these is a fossil fuel?",
+        "options": [
+          "Natural gas",
+          "Wind",
+          "Sunlight",
+          "Tidal energy"
+        ],
+        "answer": "Natural gas"
+      },
+      {
+        "question": "Why are fossil fuels called non-renewable?",
+        "options": [
+          "They take millions of years to form",
+          "They are made every day",
+          "They grow on trees",
+          "They are made from wind"
+        ],
+        "answer": "They take millions of years to form"
+      },
+      {
+        "question": "Which renewable energy source uses moving air?",
+        "options": [
+          "Wind power",
+          "Coal power",
+          "Oil power",
+          "Gas power"
+        ],
+        "answer": "Wind power"
+      },
+      {
+        "question": "Which renewable energy source uses sunlight?",
+        "options": [
+          "Solar power",
+          "Coal power",
+          "Peat burning",
+          "Natural gas"
+        ],
+        "answer": "Solar power"
+      },
+      {
+        "question": "Which renewable energy source uses moving water in rivers?",
+        "options": [
+          "Hydroelectric power",
+          "Oil drilling",
+          "Coal mining",
+          "Fracking only"
+        ],
+        "answer": "Hydroelectric power"
+      },
+      {
+        "question": "What is tidal energy?",
+        "options": [
+          "Energy generated from the movement of tides",
+          "Energy from burning plastic",
+          "Energy from tree roots",
+          "Energy from earthquakes only"
+        ],
+        "answer": "Energy generated from the movement of tides"
+      },
+      {
+        "question": "What is one disadvantage of wind turbines?",
+        "options": [
+          "They do not generate electricity when there is no wind",
+          "They use coal directly",
+          "They always produce smoke",
+          "They cannot be built on land"
+        ],
+        "answer": "They do not generate electricity when there is no wind"
+      },
+      {
+        "question": "What is one benefit of solar panels?",
+        "options": [
+          "They produce electricity without direct air pollution",
+          "They work only by burning oil",
+          "They increase coal use",
+          "They remove all clouds"
+        ],
+        "answer": "They produce electricity without direct air pollution"
+      },
+      {
+        "question": "What does energy mix mean?",
+        "options": [
+          "The different energy sources a place uses",
+          "A recipe for food",
+          "A weather chart only",
+          "A population pyramid"
+        ],
+        "answer": "The different energy sources a place uses"
+      },
+      {
+        "question": "Why is food a natural resource issue?",
+        "options": [
+          "People need land, water and energy to produce it",
+          "Food is never grown in nature",
+          "Food does not need water",
+          "Food only comes from factories"
+        ],
+        "answer": "People need land, water and energy to produce it"
+      },
+      {
+        "question": "What is food security?",
+        "options": [
+          "Having reliable access to enough safe and nutritious food",
+          "Having no farms at all",
+          "Only eating imported food",
+          "Using all soil at once"
+        ],
+        "answer": "Having reliable access to enough safe and nutritious food"
+      },
+      {
+        "question": "What can threaten food security?",
+        "options": [
+          "Drought",
+          "Reliable rainfall",
+          "Healthy soil",
+          "Good transport links"
+        ],
+        "answer": "Drought"
+      },
+      {
+        "question": "What is irrigation?",
+        "options": [
+          "Supplying water to crops",
+          "Removing all water from fields",
+          "Turning soil into metal",
+          "Counting fish in oceans"
+        ],
+        "answer": "Supplying water to crops"
+      },
+      {
+        "question": "Why can irrigation be useful?",
+        "options": [
+          "It helps crops grow where rainfall is low",
+          "It stops plants needing sunlight",
+          "It makes deserts colder instantly",
+          "It removes all soil"
+        ],
+        "answer": "It helps crops grow where rainfall is low"
+      },
+      {
+        "question": "What is groundwater?",
+        "options": [
+          "Water stored beneath the Earth's surface",
+          "Clouds above mountains",
+          "Water only in oceans",
+          "Rain on rooftops only"
+        ],
+        "answer": "Water stored beneath the Earth's surface"
+      },
+      {
+        "question": "Why can using too much groundwater be a problem?",
+        "options": [
+          "Aquifers can run low or dry up",
+          "It makes oceans disappear overnight",
+          "It creates more mountains",
+          "It makes all rivers cleaner"
+        ],
+        "answer": "Aquifers can run low or dry up"
+      },
+      {
+        "question": "What is landfill?",
+        "options": [
+          "A place where waste is buried",
+          "A forest protected by law",
+          "A type of renewable energy",
+          "A cloud that stores rain"
+        ],
+        "answer": "A place where waste is buried"
+      },
+      {
+        "question": "Why is reducing waste important?",
+        "options": [
+          "It saves resources and reduces pollution",
+          "It creates more landfill",
+          "It wastes more energy",
+          "It removes recycling"
+        ],
+        "answer": "It saves resources and reduces pollution"
+      },
+      {
+        "question": "Which action is best for conserving resources?",
+        "options": [
+          "Reuse items where possible",
+          "Throw everything away after one use",
+          "Leave lights on all day",
+          "Waste clean water"
+        ],
+        "answer": "Reuse items where possible"
+      },
+      {
+        "question": "What is a raw material?",
+        "options": [
+          "A basic material used to make products",
+          "A finished phone only",
+          "A weather condition",
+          "A city service"
+        ],
+        "answer": "A basic material used to make products"
+      },
+      {
+        "question": "Which raw material is used to make glass?",
+        "options": [
+          "Sand",
+          "Clouds",
+          "Wind",
+          "Rainbows"
+        ],
+        "answer": "Sand"
+      },
+      {
+        "question": "Why is metal recycling useful?",
+        "options": [
+          "It reduces the need for new mining",
+          "It increases landfill only",
+          "It destroys all resources",
+          "It stops electricity use forever"
+        ],
+        "answer": "It reduces the need for new mining"
+      },
+      {
+        "question": "What is sustainable fishing?",
+        "options": [
+          "Catching fish at a rate that allows stocks to recover",
+          "Catching every fish possible",
+          "Fishing only in forests",
+          "Polluting oceans to catch fish"
+        ],
+        "answer": "Catching fish at a rate that allows stocks to recover"
+      },
+      {
+        "question": "Why can mining damage the environment?",
+        "options": [
+          "It can destroy habitats and pollute land or water",
+          "It creates instant forests",
+          "It removes all pollution",
+          "It stops soil erosion"
+        ],
+        "answer": "It can destroy habitats and pollute land or water"
+      },
+      {
+        "question": "What is one way people can reduce energy consumption?",
+        "options": [
+          "Switch off lights when not needed",
+          "Leave appliances on all night",
+          "Use heating with windows open",
+          "Waste hot water"
+        ],
+        "answer": "Switch off lights when not needed"
       }
     ],
     "Weather and Climate": [
@@ -605,6 +1105,256 @@
           "Neon only"
         ],
         "answer": "Carbon dioxide"
+      },
+      {
+        "question": "What is temperature?",
+        "options": [
+          "How hot or cold the air is",
+          "How heavy rainfall is",
+          "How fast rivers flow",
+          "How many people live somewhere"
+        ],
+        "answer": "How hot or cold the air is"
+      },
+      {
+        "question": "What unit is temperature usually measured in for UK weather?",
+        "options": [
+          "Degrees Celsius",
+          "Kilometres",
+          "Litres per second",
+          "Square metres"
+        ],
+        "answer": "Degrees Celsius"
+      },
+      {
+        "question": "What is rainfall usually measured in?",
+        "options": [
+          "Millimetres",
+          "Degrees Celsius",
+          "Kilograms",
+          "People per square kilometre"
+        ],
+        "answer": "Millimetres"
+      },
+      {
+        "question": "What does an anemometer measure?",
+        "options": [
+          "Wind speed",
+          "Wind direction",
+          "Temperature",
+          "Rainfall"
+        ],
+        "answer": "Wind speed"
+      },
+      {
+        "question": "What does a wind vane show?",
+        "options": [
+          "Wind direction",
+          "Wind speed",
+          "Air temperature",
+          "Cloud height"
+        ],
+        "answer": "Wind direction"
+      },
+      {
+        "question": "What is air pressure?",
+        "options": [
+          "The weight of air pressing down on the Earth's surface",
+          "The amount of soil in a field",
+          "The speed of a river",
+          "The height of a tree"
+        ],
+        "answer": "The weight of air pressing down on the Earth's surface"
+      },
+      {
+        "question": "What weather is often linked with high pressure?",
+        "options": [
+          "Dry and settled weather",
+          "Constant thunderstorms",
+          "Heavy snow everywhere",
+          "No sunlight ever"
+        ],
+        "answer": "Dry and settled weather"
+      },
+      {
+        "question": "What weather is often linked with low pressure?",
+        "options": [
+          "Cloudy, wet or unsettled weather",
+          "Always hot desert weather",
+          "No wind at all",
+          "Permanent drought"
+        ],
+        "answer": "Cloudy, wet or unsettled weather"
+      },
+      {
+        "question": "What is condensation?",
+        "options": [
+          "Water vapour cooling and turning into liquid water",
+          "Rain turning into rock",
+          "Wind becoming sunlight",
+          "Clouds turning into soil"
+        ],
+        "answer": "Water vapour cooling and turning into liquid water"
+      },
+      {
+        "question": "What is evaporation?",
+        "options": [
+          "Liquid water changing into water vapour",
+          "Ice changing into rock",
+          "Wind changing direction",
+          "Rain falling from clouds"
+        ],
+        "answer": "Liquid water changing into water vapour"
+      },
+      {
+        "question": "What is the water cycle?",
+        "options": [
+          "The continuous movement of water around the Earth",
+          "A bicycle used in rain",
+          "A type of population graph",
+          "A way to measure earthquakes"
+        ],
+        "answer": "The continuous movement of water around the Earth"
+      },
+      {
+        "question": "What is surface runoff?",
+        "options": [
+          "Water flowing over the ground into rivers or drains",
+          "Water stored in clouds only",
+          "Wind blowing across deserts",
+          "Snow changing into rocks"
+        ],
+        "answer": "Water flowing over the ground into rivers or drains"
+      },
+      {
+        "question": "What is infiltration?",
+        "options": [
+          "Water soaking into the ground",
+          "Water leaving the Earth",
+          "Wind measuring rainfall",
+          "Clouds becoming darker"
+        ],
+        "answer": "Water soaking into the ground"
+      },
+      {
+        "question": "What is a forecast?",
+        "options": [
+          "A prediction of future weather",
+          "A record of population",
+          "A map of resources only",
+          "A type of biome"
+        ],
+        "answer": "A prediction of future weather"
+      },
+      {
+        "question": "Why do meteorologists collect weather data?",
+        "options": [
+          "To understand and predict weather conditions",
+          "To stop the seasons",
+          "To make mountains higher",
+          "To change country borders"
+        ],
+        "answer": "To understand and predict weather conditions"
+      },
+      {
+        "question": "What is a heatwave?",
+        "options": [
+          "A period of unusually hot weather",
+          "A period of heavy snow",
+          "A long rainy season only",
+          "A type of wind instrument"
+        ],
+        "answer": "A period of unusually hot weather"
+      },
+      {
+        "question": "What is a storm?",
+        "options": [
+          "Severe weather with strong winds and often rain or thunder",
+          "A calm sunny day",
+          "A population movement",
+          "A type of desert plant"
+        ],
+        "answer": "Severe weather with strong winds and often rain or thunder"
+      },
+      {
+        "question": "What is a thunderstorm?",
+        "options": [
+          "A storm with thunder and lightning",
+          "A drought with no clouds",
+          "A cold ocean current",
+          "A mountain range"
+        ],
+        "answer": "A storm with thunder and lightning"
+      },
+      {
+        "question": "What is snow?",
+        "options": [
+          "Frozen precipitation made of ice crystals",
+          "Liquid sunshine",
+          "Warm rain only",
+          "Wind that falls down"
+        ],
+        "answer": "Frozen precipitation made of ice crystals"
+      },
+      {
+        "question": "Why can heavy rainfall cause flooding?",
+        "options": [
+          "Rivers and drains may not hold all the water",
+          "Water disappears instantly",
+          "The land becomes higher",
+          "Clouds absorb rivers"
+        ],
+        "answer": "Rivers and drains may not hold all the water"
+      },
+      {
+        "question": "What is a weather hazard?",
+        "options": [
+          "Weather that can cause danger or damage",
+          "A normal school timetable",
+          "A harmless map symbol",
+          "A type of settlement"
+        ],
+        "answer": "Weather that can cause danger or damage"
+      },
+      {
+        "question": "What is mitigation in climate change?",
+        "options": [
+          "Reducing the causes of climate change",
+          "Ignoring greenhouse gases",
+          "Making every place hotter",
+          "Increasing fossil fuel use only"
+        ],
+        "answer": "Reducing the causes of climate change"
+      },
+      {
+        "question": "What is adaptation in climate change?",
+        "options": [
+          "Changing to cope with the impacts of climate change",
+          "Stopping all weather",
+          "Moving the equator",
+          "Removing the atmosphere"
+        ],
+        "answer": "Changing to cope with the impacts of climate change"
+      },
+      {
+        "question": "Which human activity releases carbon dioxide?",
+        "options": [
+          "Burning fossil fuels",
+          "Planting trees only",
+          "Using wind power",
+          "Walking to school"
+        ],
+        "answer": "Burning fossil fuels"
+      },
+      {
+        "question": "Why can planting trees help with climate change?",
+        "options": [
+          "Trees absorb carbon dioxide",
+          "Trees create more coal instantly",
+          "Trees remove all rain",
+          "Trees stop Earth spinning"
+        ],
+        "answer": "Trees absorb carbon dioxide"
       }
     ],
     "Population": [
@@ -807,6 +1557,256 @@
           "The process of making rivers"
         ],
         "answer": "An increasing proportion of people living in towns and cities"
+      },
+      {
+        "question": "What is a settlement?",
+        "options": [
+          "A place where people live",
+          "A type of rainfall",
+          "A river bend",
+          "A weather instrument"
+        ],
+        "answer": "A place where people live"
+      },
+      {
+        "question": "What is a rural area?",
+        "options": [
+          "Countryside with smaller settlements",
+          "A large city centre",
+          "A desert with no people only",
+          "A shopping centre"
+        ],
+        "answer": "Countryside with smaller settlements"
+      },
+      {
+        "question": "What is an urban area?",
+        "options": [
+          "A town or city",
+          "A farm only",
+          "A forest with no roads",
+          "A mountain peak"
+        ],
+        "answer": "A town or city"
+      },
+      {
+        "question": "What is a megacity?",
+        "options": [
+          "A city with more than 10 million people",
+          "A village with 100 people",
+          "A single house",
+          "A country with no cities"
+        ],
+        "answer": "A city with more than 10 million people"
+      },
+      {
+        "question": "Which service can attract people to cities?",
+        "options": [
+          "Hospitals",
+          "No clean water",
+          "No transport",
+          "No jobs"
+        ],
+        "answer": "Hospitals"
+      },
+      {
+        "question": "Which factor can make a place sparsely populated?",
+        "options": [
+          "Steep mountains",
+          "Flat fertile land",
+          "Good services",
+          "Many jobs"
+        ],
+        "answer": "Steep mountains"
+      },
+      {
+        "question": "What is a physical factor affecting population distribution?",
+        "options": [
+          "Relief or height of land",
+          "Language only",
+          "Currency colour",
+          "School uniform"
+        ],
+        "answer": "Relief or height of land"
+      },
+      {
+        "question": "What is a human factor affecting population distribution?",
+        "options": [
+          "Job opportunities",
+          "Latitude only",
+          "Rock type only",
+          "Rainfall only"
+        ],
+        "answer": "Job opportunities"
+      },
+      {
+        "question": "What does population distribution mean?",
+        "options": [
+          "How people are spread across an area",
+          "The age of one person",
+          "The amount of rainfall",
+          "The size of a river"
+        ],
+        "answer": "How people are spread across an area"
+      },
+      {
+        "question": "What is an ageing population?",
+        "options": [
+          "A population with a growing proportion of older people",
+          "A population with no adults",
+          "A population made only of babies",
+          "A population that never changes"
+        ],
+        "answer": "A population with a growing proportion of older people"
+      },
+      {
+        "question": "What can cause an ageing population?",
+        "options": [
+          "People living longer",
+          "A rise in earthquakes",
+          "Less healthcare",
+          "No clean water"
+        ],
+        "answer": "People living longer"
+      },
+      {
+        "question": "What is one challenge of an ageing population?",
+        "options": [
+          "More demand for healthcare",
+          "No need for pensions",
+          "Fewer hospitals needed",
+          "No older people to support"
+        ],
+        "answer": "More demand for healthcare"
+      },
+      {
+        "question": "What does infant mortality mean?",
+        "options": [
+          "The number of babies who die before their first birthday",
+          "The number of people moving cities",
+          "The number of adults in a country",
+          "The total number of schools"
+        ],
+        "answer": "The number of babies who die before their first birthday"
+      },
+      {
+        "question": "Why might death rates fall over time?",
+        "options": [
+          "Better healthcare and sanitation",
+          "More disease",
+          "Less clean water",
+          "Fewer doctors"
+        ],
+        "answer": "Better healthcare and sanitation"
+      },
+      {
+        "question": "Why might birth rates fall as countries develop?",
+        "options": [
+          "Better education and access to family planning",
+          "More child labour",
+          "No healthcare",
+          "Higher infant mortality"
+        ],
+        "answer": "Better education and access to family planning"
+      },
+      {
+        "question": "What is a refugee?",
+        "options": [
+          "Someone forced to leave their home because of danger",
+          "Someone on holiday",
+          "Someone moving for a shopping trip",
+          "Someone measuring rainfall"
+        ],
+        "answer": "Someone forced to leave their home because of danger"
+      },
+      {
+        "question": "What is economic migration?",
+        "options": [
+          "Moving mainly to find work or better income",
+          "Moving because of rainfall only",
+          "A river changing course",
+          "A type of birth rate"
+        ],
+        "answer": "Moving mainly to find work or better income"
+      },
+      {
+        "question": "Which is a social pull factor?",
+        "options": [
+          "Better education",
+          "War",
+          "Drought",
+          "Poor healthcare"
+        ],
+        "answer": "Better education"
+      },
+      {
+        "question": "Which is an environmental push factor?",
+        "options": [
+          "Flooding",
+          "Good schools",
+          "High wages",
+          "Safe housing"
+        ],
+        "answer": "Flooding"
+      },
+      {
+        "question": "What is internal migration?",
+        "options": [
+          "Moving within the same country",
+          "Moving to another planet",
+          "Moving into a different country only",
+          "Counting births"
+        ],
+        "answer": "Moving within the same country"
+      },
+      {
+        "question": "What is international migration?",
+        "options": [
+          "Moving from one country to another",
+          "Moving rooms in a house",
+          "Water moving in a river",
+          "A road being built"
+        ],
+        "answer": "Moving from one country to another"
+      },
+      {
+        "question": "Why can rapid urbanisation cause problems?",
+        "options": [
+          "Housing and services may not keep up with population growth",
+          "Cities instantly become empty",
+          "No one needs transport",
+          "Pollution disappears"
+        ],
+        "answer": "Housing and services may not keep up with population growth"
+      },
+      {
+        "question": "What is a shanty town?",
+        "options": [
+          "An informal settlement often built with poor-quality materials",
+          "A wealthy suburb only",
+          "A national park",
+          "A type of climate graph"
+        ],
+        "answer": "An informal settlement often built with poor-quality materials"
+      },
+      {
+        "question": "What can improve quality of life in cities?",
+        "options": [
+          "Access to clean water, healthcare and education",
+          "No sanitation",
+          "Crowded unsafe housing",
+          "Lack of jobs"
+        ],
+        "answer": "Access to clean water, healthcare and education"
+      },
+      {
+        "question": "Why do governments use census data?",
+        "options": [
+          "To plan services such as schools, hospitals and transport",
+          "To predict every storm exactly",
+          "To stop migration completely",
+          "To create new biomes"
+        ],
+        "answer": "To plan services such as schools, hospitals and transport"
       }
     ]
   }
