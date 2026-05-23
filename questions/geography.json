@@ -223,16 +223,6 @@
         "answer": "A plant keeps its leaves all year"
       },
       {
-        "question": "Which biome has a very short growing season because it is so cold?",
-        "options": [
-          "Tundra",
-          "Rainforest",
-          "Savanna",
-          "Temperate forest"
-        ],
-        "answer": "Tundra"
-      },
-      {
         "question": "What is permafrost?",
         "options": [
           "Ground that stays frozen for at least two years",
@@ -333,26 +323,6 @@
         "answer": "To support tall trees in shallow soil"
       },
       {
-        "question": "What is desertification?",
-        "options": [
-          "Land becoming more desert-like",
-          "Rainforest spreading everywhere",
-          "Cities becoming colder",
-          "Oceans turning into rivers"
-        ],
-        "answer": "Land becoming more desert-like"
-      },
-      {
-        "question": "Which human activity can lead to desertification?",
-        "options": [
-          "Overgrazing",
-          "Careful tree planting",
-          "Using less water",
-          "Protecting soil"
-        ],
-        "answer": "Overgrazing"
-      },
-      {
         "question": "Why are many desert animals active at night?",
         "options": [
           "It is cooler at night",
@@ -411,16 +381,6 @@
           "It causes every plant to grow faster"
         ],
         "answer": "Fewer species can survive when habitats are damaged"
-      },
-      {
-        "question": "What is selective logging?",
-        "options": [
-          "Cutting down chosen trees rather than clearing all trees",
-          "Burning an entire forest",
-          "Planting only flowers",
-          "Removing all animals"
-        ],
-        "answer": "Cutting down chosen trees rather than clearing all trees"
       },
       {
         "question": "Why can protected areas help biomes?",
@@ -553,16 +513,6 @@
           "Resources have no value"
         ],
         "answer": "Resources can be unevenly distributed"
-      },
-      {
-        "question": "What is water scarcity?",
-        "options": [
-          "Not having enough safe water to meet demand",
-          "Having too much water everywhere",
-          "A type of rainfall graph",
-          "A mountain range"
-        ],
-        "answer": "Not having enough safe water to meet demand"
       },
       {
         "question": "What can help reduce water waste?",
@@ -763,16 +713,6 @@
           "Using all soil at once"
         ],
         "answer": "Having reliable access to enough safe and nutritious food"
-      },
-      {
-        "question": "What can threaten food security?",
-        "options": [
-          "Drought",
-          "Reliable rainfall",
-          "Healthy soil",
-          "Good transport links"
-        ],
-        "answer": "Drought"
       },
       {
         "question": "What is irrigation?",
