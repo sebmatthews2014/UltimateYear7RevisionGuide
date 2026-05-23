@@ -216,27 +216,29 @@ st.markdown("""
         color: #111827 !important;
     }
 
-    .stRadio > div {
-        background: #ffffff;
-        padding: 1rem;
-        border-radius: 18px;
-        border: 2px dashed #94a3b8;
-        width: 100%;
+    .answer-instruction {
+        font-weight: 900;
+        color: #374151;
+        margin: 0.4rem 0 0.6rem 0;
     }
 
-    .stRadio label,
-    .stRadio label span,
-    .stRadio label div,
-    .stRadio [data-testid="stMarkdownContainer"] p {
-        color: #111827 !important;
-        opacity: 1 !important;
-        visibility: visible !important;
-        font-size: 1rem !important;
-        line-height: 1.35 !important;
+    .answer-card-note {
+        background: #eff6ff;
+        border: 2px dashed #1e3a8a;
+        border-radius: 16px;
+        padding: 0.75rem 1rem;
+        margin-bottom: 0.8rem;
+        color: #1e3a8a;
+        font-weight: 800;
     }
 
-    .stRadio label {
-        padding: 0.45rem 0 !important;
+    div[data-testid="stVerticalBlock"] div.stButton > button {
+        min-height: 46px;
+    }
+
+    div.stButton > button {
+        white-space: normal !important;
+        text-align: center !important;
     }
 
     .footer-note {
@@ -288,11 +290,6 @@ st.markdown("""
             box-shadow: 4px 4px 0px #111827;
         }
 
-        .stRadio > div {
-            padding: 0.75rem;
-            background: #ffffff !important;
-        }
-
         div.stButton > button {
             width: 100%;
             min-height: 48px;
@@ -342,19 +339,8 @@ SUBJECT_ART = {
 def safe_text(value):
     return html.escape(str(value))
 
-def normalise_subject_name(subject):
-    subject = str(subject or "General").strip()
-
-    # Treat Scratch / Computer Science questions as part of IT so the app
-    # shows the full IT question bank together instead of splitting it into
-    # two separate subjects.
-    if subject.lower() in ["computer science", "computing", "scratch"]:
-        return "IT"
-
-    return subject
-
 def add_question_to_bank(question_bank, question):
-    subject = normalise_subject_name(question.get("subject", "General"))
+    subject = question.get("subject", "General")
     topic = question.get("topic") or question.get("unit") or "General"
 
     cleaned_question = question.copy()
@@ -385,7 +371,7 @@ def load_question_bank():
                     data = json.load(file)
 
                 if isinstance(data, dict):
-                    subject = normalise_subject_name(data.get("subject"))
+                    subject = data.get("subject")
                     topics = data.get("topics", {})
 
                     if subject and isinstance(topics, dict):
@@ -417,7 +403,8 @@ defaults = {
     "score": 0,
     "answered": False,
     "results": [],
-    "show_easter_egg": False
+    "show_easter_egg": False,
+    "review_wrong_answers": False
 }
 
 for key, value in defaults.items():
@@ -481,6 +468,7 @@ def start_quiz(available_questions, number_of_questions):
     st.session_state.score = 0
     st.session_state.answered = False
     st.session_state.results = []
+    st.session_state.review_wrong_answers = False
 
 def reset_quiz():
     keep_easter_egg = st.session_state.show_easter_egg
@@ -488,6 +476,7 @@ def reset_quiz():
     for key, value in defaults.items():
         st.session_state[key] = value
 
+    st.session_state.review_wrong_answers = False
     st.session_state.show_easter_egg = keep_easter_egg
 
 def normalise_text(value):
@@ -711,12 +700,28 @@ else:
         )
 
         if question.get("question_type") == "multiple_choice" and question.get("shuffled_options"):
-            selected_answer = st.radio(
-                "Choose your answer:",
-                question["shuffled_options"],
-                key=f"question_{current_index}",
-                disabled=st.session_state.answered
+            st.markdown(
+                '<div class="answer-instruction">Choose your answer:</div>',
+                unsafe_allow_html=True
             )
+
+            if not st.session_state.answered:
+                st.markdown(
+                    '<div class="answer-card-note">Tap an answer card to check it.</div>',
+                    unsafe_allow_html=True
+                )
+
+                for option_index, option in enumerate(question["shuffled_options"]):
+                    if st.button(
+                        option,
+                        key=f"answer_card_{current_index}_{option_index}",
+                        use_container_width=True
+                    ):
+                        check_answer(question, option)
+                        st.rerun()
+
+            selected_answer = ""
+
         else:
             selected_answer = st.text_input(
                 "Type your answer:",
@@ -725,16 +730,16 @@ else:
                 placeholder="Type your answer here"
             )
 
-        if not st.session_state.answered:
+            if not st.session_state.answered:
 
-            if st.button("Check Answer", type="primary"):
-                if str(selected_answer).strip() == "":
-                    st.warning("Type an answer first. The goblin refuses to mark invisible maths.")
-                else:
-                    check_answer(question, selected_answer)
-                    st.rerun()
+                if st.button("Check Answer", type="primary"):
+                    if str(selected_answer).strip() == "":
+                        st.warning("Type an answer first. The goblin refuses to mark invisible maths.")
+                    else:
+                        check_answer(question, selected_answer)
+                        st.rerun()
 
-        else:
+        if st.session_state.answered:
 
             latest_result = st.session_state.results[-1]
 
@@ -789,37 +794,47 @@ else:
 
         st.markdown('</div>', unsafe_allow_html=True)
 
-        st.subheader("Review your answers")
+        col1, col2 = st.columns(2)
 
-        for i, result in enumerate(st.session_state.results, start=1):
+        with col1:
+            if st.button("New Quiz", type="primary", use_container_width=True):
+                reset_quiz()
+                st.rerun()
 
-            card_class = "review-card-good" if result["was_correct"] else "review-card-bad"
-            icon = "✅" if result["was_correct"] else "❌"
-            subject_art = SUBJECT_ART.get(result["subject"], "📘✨")
+        with col2:
+            if st.button("Review Only Wrong Answers", use_container_width=True):
+                st.session_state.review_wrong_answers = True
+                st.rerun()
 
-            correct_line = ""
-            if not result["was_correct"]:
-                correct_line = f"<p><strong>Correct answer:</strong> {safe_text(result['correct_answer'])}</p>"
+        if st.session_state.review_wrong_answers:
+            wrong_answers = [
+                result for result in st.session_state.results
+                if not result["was_correct"]
+            ]
 
-            working_line = ""
-            if result.get("working"):
-                working_line = f"<p><strong>Working:</strong> {safe_text(result['working'])}</p>"
+            if len(wrong_answers) == 0:
+                st.success("You got everything correct. The goblin is furious.")
+            else:
+                st.subheader("Questions to revise")
 
-            card_html = f"""
-<div class="{card_class}">
-<div class="review-question">{icon} {i}. {safe_text(result['question'])}</div>
+                for i, result in enumerate(wrong_answers, start=1):
+                    subject_art = SUBJECT_ART.get(result["subject"], "📘✨")
+
+                    working_line = ""
+                    if result.get("working"):
+                        working_line = f"<p><strong>Working:</strong> {safe_text(result['working'])}</p>"
+
+                    card_html = f"""
+<div class="review-card-bad">
+<div class="review-question">❌ {i}. {safe_text(result['question'])}</div>
 <p><strong>Your answer:</strong> {safe_text(result['selected'])}</p>
-{correct_line}
+<p><strong>Correct answer:</strong> {safe_text(result['correct_answer'])}</p>
 {working_line}
 <p class="review-meta">{subject_art} {safe_text(result['subject'])} | {safe_text(result['topic'])}</p>
 </div>
 """
 
-            st.markdown(card_html, unsafe_allow_html=True)
-
-        if st.button("Take another quiz", type="primary"):
-            reset_quiz()
-            st.rerun()
+                    st.markdown(card_html, unsafe_allow_html=True)
 
 st.markdown(
     '<div class="footer-note">Built for revision .</div>',
