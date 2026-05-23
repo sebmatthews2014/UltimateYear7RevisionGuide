@@ -342,8 +342,19 @@ SUBJECT_ART = {
 def safe_text(value):
     return html.escape(str(value))
 
+def normalise_subject_name(subject):
+    subject = str(subject or "General").strip()
+
+    # Treat Scratch / Computer Science questions as part of IT so the app
+    # shows the full IT question bank together instead of splitting it into
+    # two separate subjects.
+    if subject.lower() in ["computer science", "computing", "scratch"]:
+        return "IT"
+
+    return subject
+
 def add_question_to_bank(question_bank, question):
-    subject = question.get("subject", "General")
+    subject = normalise_subject_name(question.get("subject", "General"))
     topic = question.get("topic") or question.get("unit") or "General"
 
     cleaned_question = question.copy()
@@ -374,7 +385,7 @@ def load_question_bank():
                     data = json.load(file)
 
                 if isinstance(data, dict):
-                    subject = data.get("subject")
+                    subject = normalise_subject_name(data.get("subject"))
                     topics = data.get("topics", {})
 
                     if subject and isinstance(topics, dict):
