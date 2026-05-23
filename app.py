@@ -156,15 +156,6 @@ st.markdown("""
         font-weight: 900;
     }
 
-    .review-card-good {
-        background: #dcfce7;
-        border: 2px solid #14532d;
-        box-shadow: 3px 3px 0px #14532d;
-        border-radius: 14px;
-        padding: 0.7rem 0.85rem;
-        margin-bottom: 0.7rem;
-    }
-
     .review-card-bad {
         background: #ffe4e6;
         border: 2px solid #9f1239;
@@ -181,7 +172,6 @@ st.markdown("""
         line-height: 1.2;
     }
 
-    .review-card-good p,
     .review-card-bad p {
         margin: 0.2rem 0;
         font-size: 0.92rem;
@@ -204,6 +194,7 @@ st.markdown("""
         transition: all 0.1s ease-in-out !important;
         background: #facc15 !important;
         color: #111827 !important;
+        min-height: 46px;
     }
 
     div.stButton > button:hover {
@@ -216,29 +207,62 @@ st.markdown("""
         color: #111827 !important;
     }
 
-    .answer-instruction {
-        font-weight: 900;
-        color: #374151;
-        margin: 0.4rem 0 0.6rem 0;
+    /* Keeps the quiz mode radio buttons visible and readable */
+    .stRadio > div {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        background: transparent;
+        padding: 0;
+        border: none;
     }
 
-    .answer-card-note {
-        background: #eff6ff;
-        border: 2px dashed #1e3a8a;
-        border-radius: 16px;
-        padding: 0.75rem 1rem;
-        margin-bottom: 0.8rem;
-        color: #1e3a8a;
-        font-weight: 800;
+    .stRadio label {
+        background: #ffffff !important;
+        border: 3px solid #111827 !important;
+        border-radius: 14px !important;
+        padding: 0.6rem 1rem !important;
+        box-shadow: 3px 3px 0px #111827 !important;
+        cursor: pointer;
+        transition: all 0.1s ease-in-out;
+        color: #111827 !important;
+        opacity: 1 !important;
+        visibility: visible !important;
     }
 
-    div[data-testid="stVerticalBlock"] div.stButton > button {
-        min-height: 46px;
+    .stRadio label:hover {
+        transform: translate(2px, 2px);
+        box-shadow: 1px 1px 0px #111827 !important;
+        background: #fef3c7 !important;
     }
 
-    div.stButton > button {
+    .stRadio label p,
+    .stRadio label span,
+    .stRadio label div,
+    .stRadio [data-testid="stMarkdownContainer"] p {
+        color: #111827 !important;
+        font-weight: 700 !important;
+        font-size: 1rem !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        line-height: 1.35 !important;
+    }
+
+    .answer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .answer-card button {
+        width: 100%;
+        min-height: 58px;
+        text-align: left !important;
         white-space: normal !important;
-        text-align: center !important;
+        line-height: 1.3 !important;
+        background: #ffffff !important;
     }
 
     .footer-note {
@@ -301,7 +325,6 @@ st.markdown("""
             box-shadow: 4px 4px 0px #111827;
         }
 
-        .review-card-good,
         .review-card-bad {
             padding: 0.9rem;
             box-shadow: 3px 3px 0px #111827;
@@ -317,6 +340,7 @@ SUBJECT_EMOJIS = {
     "History": "🏰",
     "Geography": "🌍",
     "IT": "💻",
+    "Computer Science": "💻",
     "Spanish": "🇪🇸",
     "General": "📘",
     "All Subjects": "🎯",
@@ -330,17 +354,26 @@ SUBJECT_ART = {
     "History": "🏰📜",
     "Geography": "🌍🧭",
     "IT": "💻🤖",
+    "Computer Science": "💻🤖",
     "Spanish": "🇪🇸💃",
     "General": "📘✨",
     "All Subjects": "🎯📚",
     "Custom": "🧩📚"
 }
 
+
 def safe_text(value):
     return html.escape(str(value))
 
+
+def normalise_subject(subject):
+    if subject == "Computer Science":
+        return "IT"
+    return subject or "General"
+
+
 def add_question_to_bank(question_bank, question):
-    subject = question.get("subject", "General")
+    subject = normalise_subject(question.get("subject", "General"))
     topic = question.get("topic") or question.get("unit") or "General"
 
     cleaned_question = question.copy()
@@ -354,6 +387,7 @@ def add_question_to_bank(question_bank, question):
         question_bank[subject][topic] = []
 
     question_bank[subject][topic].append(cleaned_question)
+
 
 def load_question_bank():
     question_bank = {}
@@ -371,7 +405,7 @@ def load_question_bank():
                     data = json.load(file)
 
                 if isinstance(data, dict):
-                    subject = data.get("subject")
+                    subject = normalise_subject(data.get("subject"))
                     topics = data.get("topics", {})
 
                     if subject and isinstance(topics, dict):
@@ -394,6 +428,7 @@ def load_question_bank():
 
     return question_bank
 
+
 QUESTION_BANK = load_question_bank()
 
 defaults = {
@@ -402,6 +437,7 @@ defaults = {
     "current_question": 0,
     "score": 0,
     "answered": False,
+    "selected_answer": "",
     "results": [],
     "show_easter_egg": False,
     "review_wrong_answers": False
@@ -410,6 +446,7 @@ defaults = {
 for key, value in defaults.items():
     if key not in st.session_state:
         st.session_state[key] = value
+
 
 def get_questions(subject):
     questions = []
@@ -435,6 +472,7 @@ def get_questions(subject):
 
     return questions
 
+
 def get_custom_questions(subjects):
     questions = []
 
@@ -442,6 +480,7 @@ def get_custom_questions(subjects):
         questions.extend(get_questions(subject))
 
     return questions
+
 
 def prepare_question(question):
     prepared = question.copy()
@@ -456,6 +495,7 @@ def prepare_question(question):
 
     return prepared
 
+
 def start_quiz(available_questions, number_of_questions):
     random.shuffle(available_questions)
 
@@ -467,8 +507,10 @@ def start_quiz(available_questions, number_of_questions):
     st.session_state.current_question = 0
     st.session_state.score = 0
     st.session_state.answered = False
+    st.session_state.selected_answer = ""
     st.session_state.results = []
     st.session_state.review_wrong_answers = False
+
 
 def reset_quiz():
     keep_easter_egg = st.session_state.show_easter_egg
@@ -476,8 +518,8 @@ def reset_quiz():
     for key, value in defaults.items():
         st.session_state[key] = value
 
-    st.session_state.review_wrong_answers = False
     st.session_state.show_easter_egg = keep_easter_egg
+
 
 def normalise_text(value):
     value = str(value).strip().lower()
@@ -486,6 +528,7 @@ def normalise_text(value):
     value = value.replace(",", "")
     value = re.sub(r"\s+", "", value)
     return value
+
 
 def as_number(value):
     value = normalise_text(value)
@@ -496,6 +539,7 @@ def as_number(value):
         return float(value)
     except Exception:
         return None
+
 
 def answer_is_correct(question, selected_answer):
     possible_answers = [question.get("answer", "")]
@@ -516,6 +560,7 @@ def answer_is_correct(question, selected_answer):
 
     return False
 
+
 def check_answer(question, selected_answer):
     correct = answer_is_correct(question, selected_answer)
 
@@ -533,13 +578,18 @@ def check_answer(question, selected_answer):
     })
 
     st.session_state.answered = True
+    st.session_state.selected_answer = selected_answer
+
 
 def next_question():
     st.session_state.current_question += 1
     st.session_state.answered = False
+    st.session_state.selected_answer = ""
+
 
 def toggle_easter_egg():
     st.session_state.show_easter_egg = not st.session_state.show_easter_egg
+
 
 st.button("✏️", key="secret_pencil", on_click=toggle_easter_egg)
 
@@ -560,9 +610,7 @@ if st.session_state.show_easter_egg:
 <div class="easter-egg-card">
     <div class="easter-title">✨ Secret unlocked ✨</div>
     <p>This app was built by <strong>Seb Matthews</strong>.</p>
-    <p>
-        Peak coder energy.<br>
-    </p>
+    <p>Peak coder energy.</p>
     <p>The revision goblin got cooked.</p>
 </div>
 """, unsafe_allow_html=True)
@@ -700,28 +748,19 @@ else:
         )
 
         if question.get("question_type") == "multiple_choice" and question.get("shuffled_options"):
-            st.markdown(
-                '<div class="answer-instruction">Choose your answer:</div>',
-                unsafe_allow_html=True
-            )
-
-            if not st.session_state.answered:
-                st.markdown(
-                    '<div class="answer-card-note">Tap an answer card to check it.</div>',
-                    unsafe_allow_html=True
-                )
-
-                for option_index, option in enumerate(question["shuffled_options"]):
-                    if st.button(
-                        option,
-                        key=f"answer_card_{current_index}_{option_index}",
-                        use_container_width=True
-                    ):
-                        check_answer(question, option)
-                        st.rerun()
-
-            selected_answer = ""
-
+            st.markdown('<div class="answer-grid">', unsafe_allow_html=True)
+            for option_index, option in enumerate(question["shuffled_options"]):
+                st.markdown('<div class="answer-card">', unsafe_allow_html=True)
+                if st.button(
+                    option,
+                    key=f"answer_{current_index}_{option_index}",
+                    disabled=st.session_state.answered,
+                    use_container_width=True
+                ):
+                    check_answer(question, option)
+                    st.rerun()
+                st.markdown('</div>', unsafe_allow_html=True)
+            st.markdown('</div>', unsafe_allow_html=True)
         else:
             selected_answer = st.text_input(
                 "Type your answer:",
@@ -731,7 +770,6 @@ else:
             )
 
             if not st.session_state.answered:
-
                 if st.button("Check Answer", type="primary"):
                     if str(selected_answer).strip() == "":
                         st.warning("Type an answer first. The goblin refuses to mark invisible maths.")
@@ -837,6 +875,6 @@ else:
                     st.markdown(card_html, unsafe_allow_html=True)
 
 st.markdown(
-    '<div class="footer-note">Built for revision .</div>',
+    '<div class="footer-note">Built for revision.</div>',
     unsafe_allow_html=True
 )
