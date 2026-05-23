@@ -37,10 +37,10 @@ st.markdown("""
 
     .hero-card {
         background: #fffaf0;
-        padding: 1.4rem 1.6rem;
+        padding: 1.6rem 1.8rem;
         border-radius: 24px;
         border: 3px solid #111827;
-        box-shadow: 6px 6px 0px #111827;
+        box-shadow: 7px 7px 0px #111827;
         margin-bottom: 1rem;
     }
 
@@ -49,7 +49,7 @@ st.markdown("""
         font-size: clamp(2rem, 7vw, 3rem);
         font-weight: 900;
         color: #1e3a8a;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.5rem;
         line-height: 1.05;
         overflow-wrap: anywhere;
     }
@@ -57,16 +57,16 @@ st.markdown("""
     .hero-subtitle {
         font-size: 1rem;
         color: #374151;
-        line-height: 1.35;
+        line-height: 1.4;
         max-width: 720px;
     }
 
     .easter-egg-card, .empty-card {
         background: #fef3c7;
-        padding: 1rem;
+        padding: 1.1rem;
         border-radius: 20px;
         border: 3px dashed #111827;
-        box-shadow: 4px 4px 0px #111827;
+        box-shadow: 5px 5px 0px #111827;
         margin-bottom: 1rem;
         font-size: 1rem;
     }
@@ -82,7 +82,7 @@ st.markdown("""
     .question-card {
         background: #ffffff;
         padding: 1rem;
-        border-radius: 22px;
+        border-radius: 20px;
         border: 3px solid #111827;
         box-shadow: 5px 5px 0px #111827;
         margin-top: 0.5rem;
@@ -90,13 +90,31 @@ st.markdown("""
         overflow-wrap: anywhere;
     }
 
+    .question-focus-card {
+        background: #fef3c7;
+        border: 3px solid #111827;
+        border-radius: 22px;
+        box-shadow: 5px 5px 0px #111827;
+        padding: 0.85rem 1rem;
+        margin: 0.45rem 0 0.55rem 0;
+    }
+
+    .question-label {
+        font-size: 0.78rem;
+        font-weight: 900;
+        color: #92400e;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
+        margin-bottom: 0.15rem;
+    }
+
     .question-text {
         font-family: 'Patrick Hand', cursive;
-        font-size: 1.9rem;
+        font-size: clamp(1.9rem, 6vw, 2.45rem);
+        font-weight: 900;
         color: #111827;
-        margin-top: 0.25rem;
-        margin-bottom: 0.45rem;
-        line-height: 1.1;
+        margin: 0;
+        line-height: 1.08;
         overflow-wrap: anywhere;
     }
 
@@ -116,7 +134,7 @@ st.markdown("""
 
     .subject-art-card {
         background: #ffffff;
-        padding: 0.75rem 1rem;
+        padding: 0.8rem 1rem;
         border-radius: 20px;
         border: 3px solid #111827;
         box-shadow: 4px 4px 0px #111827;
@@ -127,23 +145,22 @@ st.markdown("""
 
     .score-box {
         background: #fef3c7;
-        padding: 0.6rem;
+        padding: 0.65rem;
         border-radius: 16px;
         border: 2px dashed #92400e;
         font-weight: 900;
         color: #78350f;
         text-align: center;
-        margin-top: 0.45rem;
+        margin-top: 0.55rem;
         margin-bottom: 0.35rem;
     }
 
-    .result-good,
-    .result-bad {
-        padding: 0.65rem 0.75rem;
+    .result-good, .result-bad {
+        padding: 0.65rem;
         border-radius: 16px;
         font-weight: 900;
-        margin-top: 0.35rem;
-        margin-bottom: 0.35rem;
+        margin-top: 0.45rem;
+        margin-bottom: 0.45rem;
         line-height: 1.2;
     }
 
@@ -159,6 +176,56 @@ st.markdown("""
         color: #9f1239;
         border: 2px solid #9f1239;
         box-shadow: 3px 3px 0px #9f1239;
+    }
+
+    .answer-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.28rem;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .answer-card-static {
+        background: #ffffff;
+        border: 3px solid #111827;
+        border-radius: 18px;
+        box-shadow: 3px 3px 0px #111827;
+        padding: 0.58rem 0.85rem;
+        text-align: center;
+        font-size: 1.05rem;
+        font-weight: 800;
+        line-height: 1.2;
+        color: #111827;
+        overflow-wrap: anywhere;
+    }
+
+    .answer-card-selected {
+        background: #fef08a;
+        border-color: #854d0e;
+        box-shadow: 3px 3px 0px #854d0e;
+        color: #713f12;
+    }
+
+    .answer-card-correct {
+        background: #dcfce7;
+        border-color: #14532d;
+        box-shadow: 3px 3px 0px #14532d;
+        color: #14532d;
+    }
+
+    .answer-card-wrong {
+        background: #ffe4e6;
+        border-color: #9f1239;
+        box-shadow: 3px 3px 0px #9f1239;
+        color: #9f1239;
+    }
+
+    .answer-feedback-tag {
+        display: block;
+        font-size: 0.78rem;
+        font-weight: 900;
+        margin-top: 0.2rem;
     }
 
     .review-card-good {
@@ -201,93 +268,49 @@ st.markdown("""
     }
 
     div.stButton {
-        margin-top: 0 !important;
-        margin-bottom: 0 !important;
+        margin-top: 0.08rem !important;
+        margin-bottom: 0.08rem !important;
     }
 
     div.stButton > button {
-        border-radius: 16px !important;
+        border-radius: 18px !important;
         border: 3px solid #111827 !important;
         box-shadow: 3px 3px 0px #111827 !important;
         font-weight: 900 !important;
-        font-size: 0.98rem !important;
+        font-size: 1.02rem !important;
         transition: all 0.1s ease-in-out !important;
-        background: #facc15 !important;
+        background: #ffffff !important;
         color: #111827 !important;
-        min-height: 42px !important;
-        padding: 0.45rem 0.75rem !important;
+        width: 100%;
+        min-height: 42px;
+        padding: 0.45rem 0.7rem !important;
+        margin: 0 !important;
+        line-height: 1.15 !important;
     }
 
     div.stButton > button:hover {
         transform: translate(2px, 2px);
         box-shadow: 1px 1px 0px #111827 !important;
+        background: #fef3c7 !important;
     }
 
-    div.stButton > button:not([kind="primary"]) {
-        background: #ffffff !important;
+    div.stButton > button[kind="primary"] {
+        background: #facc15 !important;
         color: #111827 !important;
     }
 
-    .answer-grid {
-        display: flex;
-        flex-direction: column;
-        gap: 0.38rem;
-        margin-top: 0.25rem;
-        margin-bottom: 0.3rem;
-    }
-
-    .answer-grid div.stButton > button {
-        width: 100% !important;
-        min-height: 42px !important;
-        padding: 0.42rem 0.65rem !important;
-        border-radius: 16px !important;
-        background: #ffffff !important;
-        font-weight: 700 !important;
-        font-size: 1rem !important;
-        line-height: 1.15 !important;
-        white-space: normal !important;
-        word-break: break-word !important;
-        margin: 0 !important;
-    }
-
-    .answer-grid div[data-testid="stVerticalBlock"] {
-        gap: 0.38rem !important;
-    }
-
-    .answer-selected div.stButton > button {
-        background: #fef08a !important;
-        box-shadow: 2px 2px 0px #111827 !important;
-        transform: translate(1px, 1px);
-    }
-
-    .answer-correct div.stButton > button {
-        background: #dcfce7 !important;
-        color: #14532d !important;
-        border-color: #14532d !important;
-        box-shadow: 2px 2px 0px #14532d !important;
-    }
-
-    .answer-wrong div.stButton > button {
-        background: #ffe4e6 !important;
-        color: #9f1239 !important;
-        border-color: #9f1239 !important;
-        box-shadow: 2px 2px 0px #9f1239 !important;
-    }
-
+    /* Keep quiz mode radios readable */
     .stRadio > div {
         display: flex;
-        gap: 0.45rem;
+        gap: 0.5rem;
         flex-wrap: wrap;
-        background: transparent;
-        padding: 0;
-        border: none;
     }
 
     .stRadio label {
         background: #ffffff !important;
         border: 3px solid #111827 !important;
         border-radius: 14px !important;
-        padding: 0.5rem 0.8rem !important;
+        padding: 0.55rem 0.85rem !important;
         box-shadow: 3px 3px 0px #111827 !important;
         cursor: pointer;
         transition: all 0.1s ease-in-out;
@@ -304,29 +327,26 @@ st.markdown("""
     .stRadio label div,
     .stRadio [data-testid="stMarkdownContainer"] p {
         color: #111827 !important;
-        font-weight: 700 !important;
-        font-size: 0.95rem !important;
-        line-height: 1.2 !important;
         opacity: 1 !important;
         visibility: visible !important;
+        font-weight: 800 !important;
+        font-size: 0.95rem !important;
+        line-height: 1.2 !important;
+        margin: 0 !important;
     }
 
     .footer-note {
         font-family: 'Patrick Hand', cursive;
         color: #4b5563;
-        font-size: 1.05rem;
+        font-size: 1rem;
         text-align: center;
         margin-top: 1rem;
     }
 
-    div[data-testid="stVerticalBlock"] {
-        gap: 0.45rem !important;
-    }
-
     @media (max-width: 700px) {
         .main .block-container {
-            padding-left: 0.65rem;
-            padding-right: 0.65rem;
+            padding-left: 0.55rem;
+            padding-right: 0.55rem;
             padding-top: 0.55rem;
         }
 
@@ -334,17 +354,16 @@ st.markdown("""
             padding: 1rem;
             border-radius: 18px;
             box-shadow: 4px 4px 0px #111827;
-            margin-bottom: 0.65rem;
+            margin-bottom: 0.7rem;
         }
 
         .hero-title {
-            font-size: 1.9rem;
-            line-height: 1.02;
+            font-size: 1.85rem;
+            line-height: 1.05;
         }
 
         .hero-subtitle {
             font-size: 0.9rem;
-            line-height: 1.25;
         }
 
         .question-card {
@@ -352,64 +371,74 @@ st.markdown("""
             border-radius: 16px;
             box-shadow: 3px 3px 0px #111827;
             margin-top: 0.25rem;
-            margin-bottom: 0.35rem;
+            margin-bottom: 0.45rem;
+        }
+
+        .question-focus-card {
+            padding: 0.65rem 0.75rem;
+            border-radius: 17px;
+            box-shadow: 3px 3px 0px #111827;
+            margin-top: 0.25rem;
+            margin-bottom: 0.38rem;
+        }
+
+        .question-label {
+            font-size: 0.7rem;
         }
 
         .question-text {
-            font-size: 1.45rem;
-            line-height: 1.05;
-            margin-top: 0.1rem;
-            margin-bottom: 0.25rem;
+            font-size: 1.7rem;
+            line-height: 1.02;
         }
 
         .subject-art-card {
-            padding: 0.55rem 0.75rem;
+            padding: 0.65rem 0.8rem;
             font-size: 1rem;
             border-radius: 16px;
             box-shadow: 3px 3px 0px #111827;
-            margin-bottom: 0.35rem;
+            margin-bottom: 0.45rem;
         }
 
-        .answer-grid {
-            gap: 0.28rem;
+        .answer-list {
+            gap: 0.18rem;
             margin-top: 0.15rem;
-            margin-bottom: 0.2rem;
+            margin-bottom: 0.15rem;
         }
 
-        .answer-grid div[data-testid="stVerticalBlock"] {
-            gap: 0.28rem !important;
+        .answer-card-static {
+            padding: 0.48rem 0.65rem;
+            font-size: 0.98rem;
+            border-radius: 15px;
+            box-shadow: 2px 2px 0px #111827;
         }
 
-        .answer-grid div.stButton > button {
-            min-height: 36px !important;
-            padding: 0.32rem 0.55rem !important;
-            border-radius: 14px !important;
-            font-size: 0.95rem !important;
-            line-height: 1.08 !important;
-            border-width: 2px !important;
-            box-shadow: 2px 2px 0px #111827 !important;
+        div.stButton {
+            margin-top: 0.04rem !important;
+            margin-bottom: 0.04rem !important;
         }
 
         div.stButton > button {
-            width: 100%;
-            min-height: 40px !important;
-            padding: 0.38rem 0.6rem !important;
+            min-height: 38px;
+            padding: 0.38rem 0.55rem !important;
+            font-size: 0.96rem !important;
+            border-radius: 15px !important;
+            box-shadow: 2px 2px 0px #111827 !important;
         }
 
         .result-good,
         .result-bad {
-            padding: 0.5rem 0.6rem;
-            margin-top: 0.25rem;
-            margin-bottom: 0.25rem;
+            padding: 0.5rem;
+            margin-top: 0.3rem;
+            margin-bottom: 0.3rem;
             border-radius: 14px;
             box-shadow: 2px 2px 0px currentColor;
-            font-size: 0.92rem;
+            font-size: 0.93rem;
         }
 
         .score-box {
-            padding: 0.45rem;
-            margin-top: 0.25rem;
-            margin-bottom: 0.2rem;
+            padding: 0.48rem;
+            margin-top: 0.35rem;
+            margin-bottom: 0.25rem;
             font-size: 0.95rem;
         }
 
@@ -456,19 +485,18 @@ SUBJECT_ART = {
     "Custom": "🧩📚"
 }
 
+SUBJECT_ALIASES = {
+    "Computer Science": "IT"
+}
+
+def normalise_subject_name(subject):
+    return SUBJECT_ALIASES.get(subject, subject)
 
 def safe_text(value):
     return html.escape(str(value))
 
-
-def normalise_subject(subject):
-    if subject == "Computer Science":
-        return "IT"
-    return subject or "General"
-
-
 def add_question_to_bank(question_bank, question):
-    subject = normalise_subject(question.get("subject", "General"))
+    subject = normalise_subject_name(question.get("subject", "General"))
     topic = question.get("topic") or question.get("unit") or "General"
 
     cleaned_question = question.copy()
@@ -482,7 +510,6 @@ def add_question_to_bank(question_bank, question):
         question_bank[subject][topic] = []
 
     question_bank[subject][topic].append(cleaned_question)
-
 
 def load_question_bank():
     question_bank = {}
@@ -500,7 +527,7 @@ def load_question_bank():
                     data = json.load(file)
 
                 if isinstance(data, dict):
-                    subject = normalise_subject(data.get("subject"))
+                    subject = normalise_subject_name(data.get("subject", "General"))
                     topics = data.get("topics", {})
 
                     if subject and isinstance(topics, dict):
@@ -523,7 +550,6 @@ def load_question_bank():
 
     return question_bank
 
-
 QUESTION_BANK = load_question_bank()
 
 defaults = {
@@ -533,15 +559,13 @@ defaults = {
     "score": 0,
     "answered": False,
     "results": [],
-    "selected_answer": None,
-    "review_wrong_answers": False,
-    "show_easter_egg": False
+    "show_easter_egg": False,
+    "review_wrong_answers": False
 }
 
 for key, value in defaults.items():
     if key not in st.session_state:
         st.session_state[key] = value
-
 
 def get_questions(subject):
     questions = []
@@ -555,6 +579,7 @@ def get_questions(subject):
                     new_question["topic"] = topic_name
                     questions.append(new_question)
     else:
+        subject = normalise_subject_name(subject)
         if subject not in QUESTION_BANK:
             return []
 
@@ -567,7 +592,6 @@ def get_questions(subject):
 
     return questions
 
-
 def get_custom_questions(subjects):
     questions = []
 
@@ -575,7 +599,6 @@ def get_custom_questions(subjects):
         questions.extend(get_questions(subject))
 
     return questions
-
 
 def prepare_question(question):
     prepared = question.copy()
@@ -590,7 +613,6 @@ def prepare_question(question):
 
     return prepared
 
-
 def start_quiz(available_questions, number_of_questions):
     random.shuffle(available_questions)
 
@@ -603,9 +625,7 @@ def start_quiz(available_questions, number_of_questions):
     st.session_state.score = 0
     st.session_state.answered = False
     st.session_state.results = []
-    st.session_state.selected_answer = None
     st.session_state.review_wrong_answers = False
-
 
 def reset_quiz():
     keep_easter_egg = st.session_state.show_easter_egg
@@ -614,7 +634,7 @@ def reset_quiz():
         st.session_state[key] = value
 
     st.session_state.show_easter_egg = keep_easter_egg
-
+    st.session_state.review_wrong_answers = False
 
 def normalise_text(value):
     value = str(value).strip().lower()
@@ -623,7 +643,6 @@ def normalise_text(value):
     value = value.replace(",", "")
     value = re.sub(r"\s+", "", value)
     return value
-
 
 def as_number(value):
     value = normalise_text(value)
@@ -634,7 +653,6 @@ def as_number(value):
         return float(value)
     except Exception:
         return None
-
 
 def answer_is_correct(question, selected_answer):
     possible_answers = [question.get("answer", "")]
@@ -655,8 +673,10 @@ def answer_is_correct(question, selected_answer):
 
     return False
 
-
 def check_answer(question, selected_answer):
+    if st.session_state.answered:
+        return
+
     correct = answer_is_correct(question, selected_answer)
 
     if correct:
@@ -674,21 +694,47 @@ def check_answer(question, selected_answer):
 
     st.session_state.answered = True
 
-
-def select_answer(answer):
-    if not st.session_state.answered:
-        st.session_state.selected_answer = answer
-
-
 def next_question():
     st.session_state.current_question += 1
     st.session_state.answered = False
-    st.session_state.selected_answer = None
-
 
 def toggle_easter_egg():
     st.session_state.show_easter_egg = not st.session_state.show_easter_egg
 
+def render_answer_cards_after_answer(question, selected_answer):
+    correct_answer = question.get("answer", "")
+    html_cards = ['<div class="answer-list">']
+
+    for option in question.get("shuffled_options", []):
+        option_is_selected = normalise_text(option) == normalise_text(selected_answer)
+        option_is_correct = answer_is_correct(question, option)
+
+        classes = "answer-card-static"
+        tag = ""
+
+        if option_is_correct:
+            classes += " answer-card-correct"
+            tag = '<span class="answer-feedback-tag">✅ Correct answer</span>'
+        elif option_is_selected:
+            classes += " answer-card-wrong"
+            tag = '<span class="answer-feedback-tag">❌ Your answer</span>'
+
+        if option_is_selected and option_is_correct:
+            tag = '<span class="answer-feedback-tag">✅ Your answer</span>'
+
+        html_cards.append(f'<div class="{classes}">{safe_text(option)}{tag}</div>')
+
+    html_cards.append('</div>')
+    st.markdown("".join(html_cards), unsafe_allow_html=True)
+
+def render_short_answer_after_answer(question, selected_answer):
+    correct = answer_is_correct(question, selected_answer)
+    card_class = "answer-card-static answer-card-correct" if correct else "answer-card-static answer-card-wrong"
+    tag = "✅ Your answer" if correct else "❌ Your answer"
+    st.markdown(
+        f'<div class="answer-list"><div class="{card_class}">{safe_text(selected_answer)}<span class="answer-feedback-tag">{tag}</span></div></div>',
+        unsafe_allow_html=True
+    )
 
 st.button("✏️", key="secret_pencil", on_click=toggle_easter_egg)
 
@@ -709,7 +755,9 @@ if st.session_state.show_easter_egg:
 <div class="easter-egg-card">
     <div class="easter-title">✨ Secret unlocked ✨</div>
     <p>This app was built by <strong>Seb Matthews</strong>.</p>
-    <p>Peak coder energy.</p>
+    <p>
+        Peak coder energy.<br>
+    </p>
     <p>The revision goblin got cooked.</p>
 </div>
 """, unsafe_allow_html=True)
@@ -842,62 +890,43 @@ else:
 """, unsafe_allow_html=True)
 
         st.markdown(
-            f'<div class="question-text">{safe_text(question["question"])}</div>',
+            f"""
+<div class="question-focus-card">
+    <div class="question-label">Question</div>
+    <div class="question-text">{safe_text(question['question'])}</div>
+</div>
+""",
             unsafe_allow_html=True
         )
 
         if question.get("question_type") == "multiple_choice" and question.get("shuffled_options"):
-            st.markdown('<div class="answer-grid">', unsafe_allow_html=True)
-
-            for option_index, option in enumerate(question["shuffled_options"]):
-                is_selected = st.session_state.selected_answer == option
-                is_correct_answer = answer_is_correct(question, option)
-
-                wrapper_class = ""
-                if st.session_state.answered:
-                    if is_correct_answer:
-                        wrapper_class = "answer-correct"
-                    elif is_selected:
-                        wrapper_class = "answer-wrong"
-                elif is_selected:
-                    wrapper_class = "answer-selected"
-
-                if wrapper_class:
-                    st.markdown(f'<div class="{wrapper_class}">', unsafe_allow_html=True)
-
-                st.button(
-                    option,
-                    key=f"answer_{current_index}_{option_index}",
-                    disabled=st.session_state.answered,
-                    on_click=select_answer,
-                    args=(option,)
+            if st.session_state.answered:
+                latest_result = st.session_state.results[-1]
+                render_answer_cards_after_answer(question, latest_result["selected"])
+            else:
+                for option_index, option in enumerate(question["shuffled_options"]):
+                    if st.button(option, key=f"answer_{current_index}_{option_index}"):
+                        check_answer(question, option)
+                        st.rerun()
+        else:
+            if st.session_state.answered:
+                latest_result = st.session_state.results[-1]
+                render_short_answer_after_answer(question, latest_result["selected"])
+            else:
+                selected_answer = st.text_input(
+                    "Type your answer:",
+                    key=f"typed_question_{current_index}",
+                    placeholder="Type your answer here"
                 )
 
-                if wrapper_class:
-                    st.markdown('</div>', unsafe_allow_html=True)
+                if st.button("Check Answer", type="primary"):
+                    if str(selected_answer).strip() == "":
+                        st.warning("Type an answer first. The goblin refuses to mark invisible maths.")
+                    else:
+                        check_answer(question, selected_answer)
+                        st.rerun()
 
-            st.markdown('</div>', unsafe_allow_html=True)
-
-        else:
-            typed_answer = st.text_input(
-                "Type your answer:",
-                key=f"typed_question_{current_index}",
-                disabled=st.session_state.answered,
-                placeholder="Type your answer here"
-            )
-            if not st.session_state.answered:
-                st.session_state.selected_answer = typed_answer
-
-        if not st.session_state.answered:
-
-            if st.button("Check Answer", type="primary"):
-                if st.session_state.selected_answer is None or str(st.session_state.selected_answer).strip() == "":
-                    st.warning("Choose or type an answer first. The goblin refuses to mark invisible work.")
-                else:
-                    check_answer(question, st.session_state.selected_answer)
-                    st.rerun()
-
-        else:
+        if st.session_state.answered:
 
             latest_result = st.session_state.results[-1]
 
@@ -915,7 +944,7 @@ else:
             if question.get("working"):
                 st.info(f"Working: {question['working']}")
 
-            if st.button("Next Question"):
+            if st.button("Next Question", type="primary"):
                 next_question()
                 st.rerun()
 
@@ -965,6 +994,7 @@ else:
                 st.rerun()
 
         if st.session_state.review_wrong_answers:
+
             wrong_answers = [
                 result for result in st.session_state.results
                 if not result["was_correct"]
@@ -972,10 +1002,13 @@ else:
 
             if len(wrong_answers) == 0:
                 st.success("You got everything correct. The goblin is furious.")
+
             else:
+
                 st.subheader("Questions to revise")
 
                 for i, result in enumerate(wrong_answers, start=1):
+
                     subject_art = SUBJECT_ART.get(result["subject"], "📘✨")
 
                     working_line = ""
