@@ -668,7 +668,7 @@ if not st.session_state.quiz_started:
             value=min(10, len(available_questions))
         )
 
-        st.info("Best move: short quiz, quick review, repeat later. Basically gym reps, but for your brain.")
+        st.info("Choose as many questions as you want. If you want anything added, let me know!")
 
         if st.button("Start Quiz", type="primary"):
             start_quiz(available_questions, number_of_questions)
