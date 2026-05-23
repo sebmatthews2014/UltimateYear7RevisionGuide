@@ -60,7 +60,7 @@
       "AVERAGE",
       "MAX",
       "SUM",
-      "MIN"
+      "COUNT"
     ],
     "answer": "SUM",
     "subject": "IT"
@@ -168,15 +168,15 @@
     "question": "What is the formula bar used for?",
     "options": [
       "Playing games",
-      "Entering or viewing formulas",
+      "Entering formulas",
       "Drawing pictures",
-      "Printing pages"
+      "Printing"
     ],
-    "answer": "Entering or viewing formulas",
+    "answer": "Entering formulas",
     "subject": "IT"
   },
   {
-    "question": "What does the letter in cell reference C4 represent?",
+    "question": "What does the letter in a cell reference represent?",
     "options": [
       "Row",
       "Column",
@@ -187,7 +187,7 @@
     "subject": "IT"
   },
   {
-    "question": "What does the number in cell reference C4 represent?",
+    "question": "What does the number in a cell reference represent?",
     "options": [
       "Column",
       "Row",
@@ -244,12 +244,12 @@
   {
     "question": "What does bold text do?",
     "options": [
-      "Makes text darker and thicker",
+      "Makes text darker",
       "Deletes text",
       "Moves text",
       "Hides text"
     ],
-    "answer": "Makes text darker and thicker",
+    "answer": "Makes text darker",
     "subject": "IT"
   },
   {
@@ -264,7 +264,7 @@
     "subject": "IT"
   },
   {
-    "question": "Which key can move you to the next cell?",
+    "question": "Which key is often used to move to the next cell?",
     "options": [
       "Shift",
       "Ctrl",
@@ -286,12 +286,12 @@
     "subject": "IT"
   },
   {
-    "question": "What happens when you press Enter after typing in a cell?",
+    "question": "What happens when you press Enter in Excel?",
     "options": [
-      "The computer shuts down",
       "The data is entered",
       "The file deletes",
-      "A chart appears"
+      "A chart appears",
+      "The screen turns off"
     ],
     "answer": "The data is entered",
     "subject": "IT"
@@ -319,282 +319,282 @@
     "subject": "IT"
   },
   {
-    "question": "What is a cell reference?",
-    "options": [
-      "The name of a cell location",
-      "A type of chart",
-      "A deleted row",
-      "A password"
-    ],
-    "answer": "The name of a cell location",
-    "subject": "IT"
-  },
-  {
-    "question": "Which is a correct cell reference?",
-    "options": [
-      "A3",
-      "3A",
-      "RowA",
-      "Column3"
-    ],
-    "answer": "A3",
-    "subject": "IT"
-  },
-  {
-    "question": "In Excel, what does the active cell mean?",
-    "options": [
-      "The selected cell",
-      "A hidden cell",
-      "A deleted cell",
-      "A printed cell"
-    ],
-    "answer": "The selected cell",
-    "subject": "IT"
-  },
-  {
     "question": "What does the fill colour tool change?",
     "options": [
-      "Cell background colour",
-      "Formula result",
-      "Row number",
-      "Worksheet name"
+      "The cell background colour",
+      "The file name",
+      "The formula",
+      "The worksheet size"
     ],
-    "answer": "Cell background colour",
+    "answer": "The cell background colour",
     "subject": "IT"
   },
   {
-    "question": "What does the border tool add to cells?",
+    "question": "What is the name of the bar that shows the contents of the selected cell?",
     "options": [
-      "Lines around cells",
-      "Sounds",
-      "New worksheets",
-      "Pictures"
+      "Formula bar",
+      "Task bar",
+      "Address bar",
+      "Scroll bar"
     ],
-    "answer": "Lines around cells",
+    "answer": "Formula bar",
     "subject": "IT"
   },
   {
-    "question": "What is the purpose of merging cells?",
+    "question": "Which symbol is used for multiplication in Excel formulas?",
     "options": [
-      "Joining selected cells into one larger cell",
-      "Deleting a worksheet",
-      "Changing a formula",
-      "Closing Excel"
+      "x",
+      "*",
+      "×",
+      "#"
     ],
-    "answer": "Joining selected cells into one larger cell",
+    "answer": "*",
     "subject": "IT"
   },
   {
-    "question": "Which formula correctly adds 2 and 3?",
+    "question": "Which symbol is used for division in Excel formulas?",
     "options": [
-      "=2+3",
-      "2+3=",
-      "ADD 2 3",
-      "2 plus 3"
+      "÷",
+      "/",
+      "\\",
+      "|"
     ],
-    "answer": "=2+3",
+    "answer": "/",
     "subject": "IT"
   },
   {
-    "question": "Which formula correctly subtracts 4 from 9?",
+    "question": "What would =20/5 equal?",
     "options": [
-      "=9-4",
-      "9-4=",
-      "SUBTRACT(9,4)",
-      "9 take 4"
+      "4",
+      "5",
+      "10",
+      "25"
     ],
-    "answer": "=9-4",
+    "answer": "4",
     "subject": "IT"
   },
   {
-    "question": "Which formula correctly multiplies 6 by 5?",
+    "question": "What would =7+8 equal?",
     "options": [
-      "=6*5",
-      "=6x5",
-      "6 times 5",
-      "6*5="
+      "15",
+      "78",
+      "1",
+      "14"
     ],
-    "answer": "=6*5",
+    "answer": "15",
     "subject": "IT"
   },
   {
-    "question": "Which formula correctly divides 20 by 4?",
+    "question": "What would =9-4 equal?",
     "options": [
-      "=20/4",
-      "20 divided 4",
-      "=20\\4",
-      "20/4="
+      "13",
+      "5",
+      "36",
+      "4"
     ],
-    "answer": "=20/4",
+    "answer": "5",
     "subject": "IT"
   },
   {
-    "question": "What does =SUM(A1:A3) do?",
+    "question": "What would =3*6 equal?",
     "options": [
-      "Adds cells A1 to A3",
-      "Finds the biggest value only",
-      "Changes text colour",
-      "Creates a chart"
+      "9",
+      "18",
+      "36",
+      "6"
     ],
-    "answer": "Adds cells A1 to A3",
+    "answer": "18",
     "subject": "IT"
   },
   {
-    "question": "What does =AVERAGE(B1:B4) do?",
+    "question": "Which formula correctly adds A1 and A2?",
     "options": [
-      "Finds the mean of B1 to B4",
-      "Adds a border",
-      "Makes text bold",
-      "Deletes blank cells"
+      "=A1+A2",
+      "A1+A2",
+      "=A1xA2",
+      "SUM A1 A2"
     ],
-    "answer": "Finds the mean of B1 to B4",
+    "answer": "=A1+A2",
     "subject": "IT"
   },
   {
-    "question": "What does =MAX(C1:C5) find?",
+    "question": "Which formula correctly subtracts B2 from B5?",
     "options": [
-      "The largest value",
-      "The smallest value",
-      "The total value",
-      "The cell colour"
+      "=B5-B2",
+      "B5-B2",
+      "=B2-B5",
+      "=B5/B2"
     ],
-    "answer": "The largest value",
+    "answer": "=B5-B2",
     "subject": "IT"
   },
   {
-    "question": "What does =MIN(C1:C5) find?",
+    "question": "Which formula correctly multiplies C1 by C2?",
     "options": [
-      "The smallest value",
-      "The largest value",
-      "The average value",
-      "The text style"
+      "=C1*C2",
+      "=C1+C2",
+      "C1*C2",
+      "=C1/C2"
     ],
-    "answer": "The smallest value",
+    "answer": "=C1*C2",
     "subject": "IT"
   },
   {
-    "question": "Which punctuation mark is used in A1:A5 to show a range?",
+    "question": "Which formula correctly divides D4 by D2?",
     "options": [
-      "Colon",
-      "Comma",
-      "Full stop",
-      "Question mark"
+      "=D4/D2",
+      "=D4*D2",
+      "D4/D2",
+      "=D2-D4"
     ],
-    "answer": "Colon",
+    "answer": "=D4/D2",
     "subject": "IT"
   },
   {
-    "question": "What does the Undo button do?",
+    "question": "What does the cell reference C3 mean?",
     "options": [
-      "Reverses the last action",
-      "Deletes the whole file",
-      "Saves the file",
-      "Prints the sheet"
+      "Column C, row 3",
+      "Row C, column 3",
+      "Cell 3C",
+      "Chart 3"
     ],
-    "answer": "Reverses the last action",
+    "answer": "Column C, row 3",
     "subject": "IT"
   },
   {
-    "question": "What does the Save button do?",
+    "question": "Which cell is in column F and row 10?",
     "options": [
-      "Stores your work",
-      "Deletes your work",
-      "Makes a chart",
-      "Opens Scratch"
+      "10F",
+      "F10",
+      "FF10",
+      "F1"
     ],
-    "answer": "Stores your work",
+    "answer": "F10",
     "subject": "IT"
   },
   {
-    "question": "What does AutoFit help with?",
+    "question": "What is a range of cells?",
     "options": [
-      "Adjusting column width to fit content",
-      "Creating a variable",
-      "Playing a sound",
-      "Changing a sprite"
+      "A group of selected cells",
+      "A deleted worksheet",
+      "A chart title",
+      "A font style"
     ],
-    "answer": "Adjusting column width to fit content",
+    "answer": "A group of selected cells",
     "subject": "IT"
   },
   {
-    "question": "What does wrapping text in a cell do?",
+    "question": "Which range means cells A1 to A5?",
+    "options": [
+      "A1:A5",
+      "A1-A5",
+      "A1+A5",
+      "A1/A5"
+    ],
+    "answer": "A1:A5",
+    "subject": "IT"
+  },
+  {
+    "question": "Which function would add cells A1 to A5?",
+    "options": [
+      "=SUM(A1:A5)",
+      "=ADD(A1:A5)",
+      "=TOTAL A1:A5",
+      "=AVERAGE(A1:A5)"
+    ],
+    "answer": "=SUM(A1:A5)",
+    "subject": "IT"
+  },
+  {
+    "question": "Which function would find the average of B1 to B4?",
+    "options": [
+      "=AVERAGE(B1:B4)",
+      "=SUM(B1:B4)",
+      "=MAX(B1:B4)",
+      "=MIN(B1:B4)"
+    ],
+    "answer": "=AVERAGE(B1:B4)",
+    "subject": "IT"
+  },
+  {
+    "question": "Which function would find the biggest value in C1 to C6?",
+    "options": [
+      "=MAX(C1:C6)",
+      "=MIN(C1:C6)",
+      "=SUM(C1:C6)",
+      "=BIG(C1:C6)"
+    ],
+    "answer": "=MAX(C1:C6)",
+    "subject": "IT"
+  },
+  {
+    "question": "Which function would find the smallest value in D1 to D6?",
+    "options": [
+      "=MIN(D1:D6)",
+      "=MAX(D1:D6)",
+      "=LOW(D1:D6)",
+      "=SUM(D1:D6)"
+    ],
+    "answer": "=MIN(D1:D6)",
+    "subject": "IT"
+  },
+  {
+    "question": "What does wrapping text do in a cell?",
     "options": [
       "Shows long text on more than one line",
       "Deletes long text",
       "Turns text into a number",
-      "Makes a pie chart"
+      "Creates a chart"
     ],
     "answer": "Shows long text on more than one line",
     "subject": "IT"
   },
   {
-    "question": "What is a pie chart usually shaped like?",
+    "question": "What does merging cells do?",
     "options": [
-      "Circle",
-      "Square",
-      "Triangle",
-      "Line"
+      "Joins selected cells into one larger cell",
+      "Deletes selected cells",
+      "Changes text into a formula",
+      "Creates a new workbook"
     ],
-    "answer": "Circle",
+    "answer": "Joins selected cells into one larger cell",
     "subject": "IT"
   },
   {
-    "question": "What does a bar chart use to show values?",
-    "options": [
-      "Bars",
-      "Slices",
-      "Sprites",
-      "Cells only"
-    ],
-    "answer": "Bars",
-    "subject": "IT"
-  },
-  {
-    "question": "Which Excel feature lets you copy a formula into nearby cells quickly?",
-    "options": [
-      "Fill handle",
-      "Stop sign",
-      "Green flag",
-      "Costume tab"
-    ],
-    "answer": "Fill handle",
-    "subject": "IT"
-  },
-  {
-    "question": "Where is the fill handle found?",
-    "options": [
-      "At the corner of a selected cell",
-      "Inside the formula bar only",
-      "On the keyboard",
-      "In the recycle bin"
-    ],
-    "answer": "At the corner of a selected cell",
-    "subject": "IT"
-  },
-  {
-    "question": "What does formatting mean in Excel?",
+    "question": "What is cell formatting?",
     "options": [
       "Changing how data looks",
-      "Deleting all data",
-      "Writing code blocks",
-      "Opening the internet"
+      "Deleting data",
+      "Writing a formula",
+      "Opening a file"
     ],
     "answer": "Changing how data looks",
     "subject": "IT"
   },
   {
-    "question": "Which option would make a number show as money?",
+    "question": "Which option would make numbers show as money?",
     "options": [
       "Currency format",
       "Bold",
-      "Merge cells",
-      "Hide sheet"
+      "Italic",
+      "Underline"
     ],
     "answer": "Currency format",
     "subject": "IT"
   },
   {
-    "question": "What is the main character or object in Scratch called?",
+    "question": "Which option can make a heading stand out?",
+    "options": [
+      "Bold",
+      "Delete",
+      "Divide",
+      "Hide"
+    ],
+    "answer": "Bold",
+    "subject": "IT"
+  },
+  {
+    "question": "What is the main character in Scratch called?",
     "options": [
       "Sprite",
       "Robot",
@@ -649,7 +649,7 @@
     "subject": "Computer Science"
   },
   {
-    "question": "Which block would move a sprite forward?",
+    "question": "Which block would move a sprite 10 steps?",
     "options": [
       "Move 10 steps",
       "Say Hello",
@@ -696,11 +696,11 @@
     "question": "What does a forever block do?",
     "options": [
       "Runs once",
-      "Keeps running",
+      "Runs forever",
       "Deletes sprites",
       "Stops movement"
     ],
-    "answer": "Keeps running",
+    "answer": "Runs forever",
     "subject": "Computer Science"
   },
   {
@@ -726,7 +726,7 @@
     "subject": "Computer Science"
   },
   {
-    "question": "Which variable name would suit a game score?",
+    "question": "Which variable could store a game score?",
     "options": [
       "Score",
       "Turn",
@@ -792,7 +792,7 @@
     "subject": "Computer Science"
   },
   {
-    "question": "Which category contains blocks that start scripts?",
+    "question": "Which category starts scripts?",
     "options": [
       "Events",
       "Motion",
@@ -803,7 +803,7 @@
     "subject": "Computer Science"
   },
   {
-    "question": "Which event starts code when the green flag is clicked?",
+    "question": "Which event starts when the green flag is clicked?",
     "options": [
       "When green flag clicked",
       "Forever",
@@ -827,12 +827,12 @@
   {
     "question": "What is a script in Scratch?",
     "options": [
-      "A set of code blocks joined together",
+      "A set of code blocks",
       "A picture",
       "A sound file",
       "A worksheet"
     ],
-    "answer": "A set of code blocks joined together",
+    "answer": "A set of code blocks",
     "subject": "Computer Science"
   },
   {
@@ -858,18 +858,18 @@
     "subject": "Computer Science"
   },
   {
-    "question": "What can changing costumes help create?",
+    "question": "What can changing costumes do?",
     "options": [
-      "Animation",
-      "Deleted code",
-      "Silent sound",
-      "Saved files"
+      "Animate a sprite",
+      "Delete code",
+      "Turn off sound",
+      "Save files"
     ],
-    "answer": "Animation",
+    "answer": "Animate a sprite",
     "subject": "Computer Science"
   },
   {
-    "question": "Which block would make a sprite speak on screen?",
+    "question": "Which block would make a sprite speak?",
     "options": [
       "Say Hello",
       "Move 10 steps",
@@ -880,7 +880,7 @@
     "subject": "Computer Science"
   },
   {
-    "question": "What is the purpose of the stage?",
+    "question": "What is the purpose of the stage in Scratch?",
     "options": [
       "Where sprites perform",
       "Where files are saved",
@@ -891,18 +891,18 @@
     "subject": "Computer Science"
   },
   {
-    "question": "What can happen when one sprite touches another sprite?",
+    "question": "What happens when a sprite touches another sprite?",
     "options": [
-      "A condition can be used",
-      "The computer must crash",
-      "The project always deletes",
-      "Nothing can ever happen"
+      "A condition can be triggered",
+      "The computer crashes",
+      "The project deletes",
+      "Nothing useful can happen"
     ],
-    "answer": "A condition can be used",
+    "answer": "A condition can be triggered",
     "subject": "Computer Science"
   },
   {
-    "question": "Which Scratch category contains variable blocks?",
+    "question": "Which Scratch category contains variables?",
     "options": [
       "Motion",
       "Variables",
@@ -926,27 +926,27 @@
   {
     "question": "What does the broadcast block do?",
     "options": [
-      "Sends a message to trigger other code",
+      "Sends a message",
       "Deletes code",
-      "Changes colour only",
-      "Moves sprites only"
+      "Changes colour",
+      "Moves sprites"
     ],
-    "answer": "Sends a message to trigger other code",
+    "answer": "Sends a message",
     "subject": "Computer Science"
   },
   {
     "question": "What can sounds add to a Scratch project?",
     "options": [
-      "Effects and atmosphere",
+      "Entertainment",
       "Rows",
       "Columns",
       "Formulas"
     ],
-    "answer": "Effects and atmosphere",
+    "answer": "Entertainment",
     "subject": "Computer Science"
   },
   {
-    "question": "Which block changes a sprite's size?",
+    "question": "Which block changes the sprite size?",
     "options": [
       "Set size",
       "Move",
@@ -959,10 +959,10 @@
   {
     "question": "What does the next costume block do?",
     "options": [
+      "Deletes the sprite",
       "Changes appearance",
       "Stops the project",
-      "Adds music",
-      "Deletes the sprite"
+      "Adds music"
     ],
     "answer": "Changes appearance",
     "subject": "Computer Science"
@@ -973,7 +973,7 @@
       "Something that starts code",
       "A chart",
       "A worksheet",
-      "A formula"
+      "A variable"
     ],
     "answer": "Something that starts code",
     "subject": "Computer Science"
@@ -990,7 +990,7 @@
     "subject": "Computer Science"
   },
   {
-    "question": "Which Scratch block can keep repeating instructions?",
+    "question": "Which Scratch block can repeat forever?",
     "options": [
       "Forever",
       "Say",
@@ -1001,190 +1001,190 @@
     "subject": "Computer Science"
   },
   {
-    "question": "Which block can make a sprite say text for 2 seconds?",
+    "question": "Which block can change the background?",
     "options": [
-      "Say Hello for 2 seconds",
-      "Move 10 steps",
-      "Set score to 0",
-      "Play sound until done"
+      "Switch backdrop",
+      "Move steps",
+      "Set variable",
+      "Stop all"
     ],
-    "answer": "Say Hello for 2 seconds",
-    "subject": "Computer Science"
-  },
-  {
-    "question": "What does the wait 1 second block do?",
-    "options": [
-      "Pauses for 1 second",
-      "Moves 1 step",
-      "Changes costume once",
-      "Deletes 1 sprite"
-    ],
-    "answer": "Pauses for 1 second",
-    "subject": "Computer Science"
-  },
-  {
-    "question": "Which block could start code when a key is pressed?",
-    "options": [
-      "When space key pressed",
-      "Repeat 10",
-      "Set size to 100%",
-      "Change colour effect"
-    ],
-    "answer": "When space key pressed",
+    "answer": "Switch backdrop",
     "subject": "Computer Science"
   },
   {
     "question": "What is a backdrop in Scratch?",
     "options": [
-      "The background image on the stage",
-      "A variable",
-      "A sound block",
-      "A spreadsheet cell"
+      "The background of the stage",
+      "A sound effect",
+      "A formula",
+      "A type of variable"
     ],
-    "answer": "The background image on the stage",
+    "answer": "The background of the stage",
     "subject": "Computer Science"
   },
   {
-    "question": "What does the play sound block do?",
+    "question": "Which category contains the when key pressed block?",
     "options": [
-      "Plays an audio clip",
-      "Changes a costume",
-      "Creates a chart",
-      "Adds two numbers"
-    ],
-    "answer": "Plays an audio clip",
-    "subject": "Computer Science"
-  },
-  {
-    "question": "Which category contains the say block?",
-    "options": [
+      "Events",
       "Looks",
-      "Motion",
-      "Events",
-      "Variables"
-    ],
-    "answer": "Looks",
-    "subject": "Computer Science"
-  },
-  {
-    "question": "Which category contains the when green flag clicked block?",
-    "options": [
-      "Events",
       "Sound",
-      "Looks",
-      "Motion"
+      "Variables"
     ],
     "answer": "Events",
     "subject": "Computer Science"
   },
   {
-    "question": "What does set score to 0 do?",
+    "question": "What does the when space key pressed block do?",
     "options": [
-      "Resets the score",
-      "Moves the sprite",
-      "Changes the backdrop",
-      "Stops all code"
+      "Starts code when the space key is pressed",
+      "Deletes a sprite",
+      "Changes the file name",
+      "Stops the project"
     ],
-    "answer": "Resets the score",
+    "answer": "Starts code when the space key is pressed",
     "subject": "Computer Science"
   },
   {
-    "question": "What does change score by 1 do?",
+    "question": "Which block could make a sprite jump upwards?",
     "options": [
-      "Adds 1 to the score",
-      "Sets the score to zero",
-      "Hides the score",
-      "Deletes the variable"
-    ],
-    "answer": "Adds 1 to the score",
-    "subject": "Computer Science"
-  },
-  {
-    "question": "Which block could be used to make a sprite bounce off the edge?",
-    "options": [
-      "If on edge, bounce",
-      "Say Hello",
-      "Set size to 50%",
+      "Change y by 10",
+      "Change x by 10",
+      "Say jump",
       "Play sound"
     ],
-    "answer": "If on edge, bounce",
+    "answer": "Change y by 10",
     "subject": "Computer Science"
   },
   {
-    "question": "What does point in direction 90 mean in Scratch?",
+    "question": "Which block could move a sprite sideways?",
     "options": [
-      "Face right",
-      "Face left",
-      "Face up",
-      "Face down"
+      "Change x by 10",
+      "Change y by 10",
+      "Next costume",
+      "Wait"
     ],
-    "answer": "Face right",
-    "subject": "Computer Science"
-  },
-  {
-    "question": "What does point in direction -90 mean in Scratch?",
-    "options": [
-      "Face left",
-      "Face right",
-      "Face up",
-      "Face down"
-    ],
-    "answer": "Face left",
-    "subject": "Computer Science"
-  },
-  {
-    "question": "What does the go to x: 0 y: 0 block do?",
-    "options": [
-      "Moves the sprite to the centre",
-      "Starts a sound",
-      "Deletes a costume",
-      "Creates a variable"
-    ],
-    "answer": "Moves the sprite to the centre",
+    "answer": "Change x by 10",
     "subject": "Computer Science"
   },
   {
     "question": "What does the x position control?",
     "options": [
-      "Left and right position",
-      "Up and down position",
+      "Left and right movement",
+      "Up and down movement",
       "Sound volume",
-      "Costume number"
+      "Sprite costume"
     ],
-    "answer": "Left and right position",
+    "answer": "Left and right movement",
     "subject": "Computer Science"
   },
   {
     "question": "What does the y position control?",
     "options": [
-      "Up and down position",
-      "Left and right position",
+      "Up and down movement",
+      "Left and right movement",
       "Sound volume",
-      "Variable name"
+      "Sprite name"
     ],
-    "answer": "Up and down position",
+    "answer": "Up and down movement",
     "subject": "Computer Science"
   },
   {
-    "question": "Which category contains blocks for x and y movement?",
+    "question": "Which block can stop all scripts?",
     "options": [
-      "Motion",
-      "Looks",
-      "Sound",
-      "Events"
+      "Stop all",
+      "Forever",
+      "Say Hello",
+      "Change score"
     ],
-    "answer": "Motion",
+    "answer": "Stop all",
     "subject": "Computer Science"
   },
   {
-    "question": "What does stop all do?",
+    "question": "What does set score to 0 usually do?",
     "options": [
-      "Stops the whole project",
-      "Starts the whole project",
-      "Changes the sprite colour",
-      "Creates a new sprite"
+      "Resets the score",
+      "Deletes the sprite",
+      "Starts the music",
+      "Changes the backdrop"
     ],
-    "answer": "Stops the whole project",
+    "answer": "Resets the score",
+    "subject": "Computer Science"
+  },
+  {
+    "question": "Which block could be used for a countdown?",
+    "options": [
+      "Repeat",
+      "Next costume",
+      "Hide",
+      "Switch backdrop"
+    ],
+    "answer": "Repeat",
+    "subject": "Computer Science"
+  },
+  {
+    "question": "What does the touching colour condition check?",
+    "options": [
+      "Whether a sprite is touching a colour",
+      "Whether sound is playing",
+      "Whether a cell has colour",
+      "Whether the file is saved"
+    ],
+    "answer": "Whether a sprite is touching a colour",
+    "subject": "Computer Science"
+  },
+  {
+    "question": "Which block changes the volume?",
+    "options": [
+      "Set volume",
+      "Move steps",
+      "If then",
+      "Switch costume"
+    ],
+    "answer": "Set volume",
+    "subject": "Computer Science"
+  },
+  {
+    "question": "Which block can play a sound?",
+    "options": [
+      "Start sound",
+      "Move steps",
+      "Change x",
+      "Show"
+    ],
+    "answer": "Start sound",
+    "subject": "Computer Science"
+  },
+  {
+    "question": "Which block can make a sprite appear to talk?",
+    "options": [
+      "Say for 2 seconds",
+      "Move 10 steps",
+      "Change y by 10",
+      "Stop all"
+    ],
+    "answer": "Say for 2 seconds",
+    "subject": "Computer Science"
+  },
+  {
+    "question": "Which block can make a sprite think a message?",
+    "options": [
+      "Think for 2 seconds",
+      "Forever",
+      "Change score",
+      "Switch backdrop"
+    ],
+    "answer": "Think for 2 seconds",
+    "subject": "Computer Science"
+  },
+  {
+    "question": "Which block can send a sprite to a chosen position?",
+    "options": [
+      "Go to x y",
+      "Play sound",
+      "Set score",
+      "Next backdrop"
+    ],
+    "answer": "Go to x y",
     "subject": "Computer Science"
   }
 ]
