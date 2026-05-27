@@ -99,28 +99,6 @@
     "subject": "IT"
   },
   {
-    "question": "What would =5+5 equal?",
-    "options": [
-      "10",
-      "55",
-      "25",
-      "0"
-    ],
-    "answer": "10",
-    "subject": "IT"
-  },
-  {
-    "question": "What would =10-3 equal?",
-    "options": [
-      "13",
-      "7",
-      "30",
-      "3"
-    ],
-    "answer": "7",
-    "subject": "IT"
-  },
-  {
     "question": "What would =4*2 equal?",
     "options": [
       "6",
@@ -129,17 +107,6 @@
       "2"
     ],
     "answer": "8",
-    "subject": "IT"
-  },
-  {
-    "question": "What would =12/3 equal?",
-    "options": [
-      "36",
-      "9",
-      "4",
-      "3"
-    ],
-    "answer": "4",
     "subject": "IT"
   },
   {
@@ -360,50 +327,6 @@
       "|"
     ],
     "answer": "/",
-    "subject": "IT"
-  },
-  {
-    "question": "What would =20/5 equal?",
-    "options": [
-      "4",
-      "5",
-      "10",
-      "25"
-    ],
-    "answer": "4",
-    "subject": "IT"
-  },
-  {
-    "question": "What would =7+8 equal?",
-    "options": [
-      "15",
-      "78",
-      "1",
-      "14"
-    ],
-    "answer": "15",
-    "subject": "IT"
-  },
-  {
-    "question": "What would =9-4 equal?",
-    "options": [
-      "13",
-      "5",
-      "36",
-      "4"
-    ],
-    "answer": "5",
-    "subject": "IT"
-  },
-  {
-    "question": "What would =3*6 equal?",
-    "options": [
-      "9",
-      "18",
-      "36",
-      "6"
-    ],
-    "answer": "18",
     "subject": "IT"
   },
   {
