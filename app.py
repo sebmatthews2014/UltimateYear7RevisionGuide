@@ -755,8 +755,6 @@ if st.session_state.show_easter_egg:
     <div class="easter-title">✨ Secret unlocked ✨</div>
     <p>This app was built by <strong>Seb Matthews</strong>.</p>
     <p>
-         <br>
-    </p>
     <p>The revision goblin got cooked.</p>
 </div>
 """, unsafe_allow_html=True)
