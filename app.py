@@ -745,7 +745,6 @@ st.markdown("""
     </div>
     <div class="hero-subtitle">
         Pick a subject, answer quick questions, and slowly defeat the revision goblin.
-        Hand-drawn vibes. Serious learning. Minimal panic.
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -756,7 +755,7 @@ if st.session_state.show_easter_egg:
     <div class="easter-title">✨ Secret unlocked ✨</div>
     <p>This app was built by <strong>Seb Matthews</strong>.</p>
     <p>
-        Peak coder energy.<br>
+         <br>
     </p>
     <p>The revision goblin got cooked.</p>
 </div>
